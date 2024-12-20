@@ -5,29 +5,29 @@
 	(uuid "9327cffc-7a3b-415d-89e5-7d37bd09d58e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x04_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x05_Top_Bottom"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 5.08 0)
+			(property "Reference" "J1"
+				(at 1.27 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x04_Counter_Clockwise"
-				(at 1.27 -7.62 0)
+			(property "Value" "Conn_02x05_Top_Bottom"
+				(at 1.27 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "stigma:DF40GB-10DP-0.4V-plug"
 				(at 0 0 0)
 				(effects
 					(font
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +72,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x04_Counter_Clockwise_1_1"
+			(symbol "Conn_02x05_Top_Bottom_1_1"
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -118,7 +118,18 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
 					(end 3.81 -6.35)
 					(stroke
 						(width 0.254)
@@ -172,8 +183,19 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -191,7 +213,25 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -209,7 +249,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -227,7 +267,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -245,7 +285,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -263,7 +303,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -281,7 +321,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -299,7 +339,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -309,6 +349,42 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -10.16 90)
+					(length 3.81)
+					(name "shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "s"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -747,6 +823,108 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1197,6 +1375,195 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:NCP115AMX120TCG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U2"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NCP115AMX120TCG"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP115-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "300mA Low-Dropout Linear Regulators, 1.2V output voltage, LDO with low noise and enable pin, XDFN-4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single Output LDO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "OnSemi*XDFN4*1EP*1.0x1.0mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NCP115AMX120TCG_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NCP115AMX120TCG_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -1511,12 +1878,6 @@
 		)
 	)
 	(junction
-		(at 29.21 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00afd5cb-3970-442f-a90b-916b20368c7a")
-	)
-	(junction
 		(at 73.66 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1535,7 +1896,7 @@
 		(uuid "5d6509a3-7b5a-4c00-add4-218fafb5ba61")
 	)
 	(junction
-		(at 29.21 29.21)
+		(at 43.18 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5eae4a4b-9d7b-4a89-b566-1717a3f2f45e")
@@ -1547,16 +1908,16 @@
 		(uuid "5f3e40b2-ed8b-4fc7-9432-49b0c42b22b1")
 	)
 	(junction
-		(at 60.96 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "668758bc-3b8b-4bf9-91ab-f846a2bc46ed")
-	)
-	(junction
 		(at 80.01 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69ba18fb-ff4e-47ff-9c6e-135aabab9066")
+	)
+	(junction
+		(at 67.31 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7439f3ec-dc2c-459b-b7c8-b4986cda86fd")
 	)
 	(junction
 		(at 35.56 69.85)
@@ -1565,10 +1926,28 @@
 		(uuid "78b25b99-54c5-4d5b-9d00-5b56182f5691")
 	)
 	(junction
-		(at 67.31 31.75)
+		(at 60.96 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b188e7f-2e61-4b2f-a483-4099e3ee1c8a")
+		(uuid "7a9d9a12-8e90-4c54-ab5b-326828988f99")
+	)
+	(junction
+		(at 143.51 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dab9379-eb14-4075-baf5-2ec551fa1a17")
+	)
+	(junction
+		(at 80.01 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "866b053c-d518-425b-88f2-744bdfb86fd5")
+	)
+	(junction
+		(at 179.07 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb1c4f42-d1a9-4c2e-995b-adf6c482a918")
 	)
 	(junction
 		(at 73.66 46.99)
@@ -1576,21 +1955,13 @@
 		(color 0 0 0 0)
 		(uuid "f89a84ab-b486-41c1-aa44-1cc993ca1ed6")
 	)
-	(junction
-		(at 43.18 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f92ac49e-c327-4e68-aa29-6bf046f468c6")
-	)
-	(junction
-		(at 82.55 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe87f751-fee4-4ab2-9e3f-27d460cb4a49")
+	(no_connect
+		(at 46.99 39.37)
+		(uuid "1bc7a075-7169-4541-bd5a-eee0a02f9884")
 	)
 	(no_connect
-		(at 85.09 71.12)
-		(uuid "2f92ea3c-87a2-4930-be8f-80ab8fe1a357")
+		(at 59.69 39.37)
+		(uuid "5fb776d3-3d36-4985-85fa-914de61ebc02")
 	)
 	(no_connect
 		(at 69.85 83.82)
@@ -1607,6 +1978,14 @@
 	(no_connect
 		(at 69.85 81.28)
 		(uuid "d231252b-7511-4a22-a28c-a5a2738c6f58")
+	)
+	(no_connect
+		(at 152.4 35.56)
+		(uuid "eefeb52c-f84e-46f4-ad6f-a4f564524d88")
+	)
+	(no_connect
+		(at 85.09 71.12)
+		(uuid "f0a05839-e11d-48b5-aaf0-95807d8489ea")
 	)
 	(wire
 		(pts
@@ -1627,6 +2006,16 @@
 			(type default)
 		)
 		(uuid "029b43d4-a64a-40fa-8a4d-69839cadf014")
+	)
+	(wire
+		(pts
+			(xy 43.18 29.21) (xy 46.99 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04286169-976e-4850-b3ad-bb5c8e57a9a3")
 	)
 	(wire
 		(pts
@@ -1690,6 +2079,26 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 69.85) (xy 82.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0dd89e-a518-4107-8262-ded8adc9c9be")
+	)
+	(wire
+		(pts
+			(xy 179.07 30.48) (xy 179.07 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee72095-a055-496b-ade5-c18ed2d33b0a")
+	)
+	(wire
+		(pts
 			(xy 35.56 78.74) (xy 35.56 77.47)
 		)
 		(stroke
@@ -1720,6 +2129,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 30.48) (xy 143.51 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2f453a-6e57-4ab7-8eac-93bcbe392a03")
+	)
+	(wire
+		(pts
 			(xy 96.52 78.74) (xy 96.52 76.2)
 		)
 		(stroke
@@ -1730,33 +2149,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 31.75) (xy 86.36 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "402fba00-73c6-4c2f-8622-697d374bf98b")
-	)
-	(wire
-		(pts
-			(xy 29.21 36.83) (xy 29.21 39.37)
+			(xy 43.18 36.83) (xy 43.18 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "44850085-a4ad-42f1-84c1-b860b26a6b35")
-	)
-	(wire
-		(pts
-			(xy 67.31 31.75) (xy 67.31 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4639f51c-a9f5-4acf-950f-24241935b31c")
 	)
 	(wire
 		(pts
@@ -1790,13 +2189,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 29.21) (xy 60.96 39.37)
+			(xy 143.51 30.48) (xy 152.4 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b99f0bd-2869-402c-aba4-217da5bd7ecc")
+		(uuid "5e760fde-33c1-4b6f-ac13-3b3c5b1580bb")
 	)
 	(wire
 		(pts
@@ -1830,13 +2229,33 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 27.94) (xy 29.21 29.21)
+			(xy 43.18 27.94) (xy 43.18 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "72458591-0324-471f-aaae-13acaaf6cc7c")
+	)
+	(wire
+		(pts
+			(xy 143.51 36.83) (xy 143.51 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74bb184d-8d96-4469-8782-7ec63486ad56")
+	)
+	(wire
+		(pts
+			(xy 67.31 29.21) (xy 86.36 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c19728-6298-45b8-a867-ac655048086a")
 	)
 	(wire
 		(pts
@@ -1850,13 +2269,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 29.21) (xy 46.99 29.21)
+			(xy 143.51 30.48) (xy 143.51 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "819b0cfc-c87b-49d0-bf49-2dd2054e4c6a")
+		(uuid "82467688-3d29-4205-b3a1-9e39f73fb421")
 	)
 	(wire
 		(pts
@@ -1870,7 +2289,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 68.58) (xy 82.55 69.85)
+			(xy 80.01 68.58) (xy 80.01 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1880,7 +2299,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 29.21) (xy 86.36 29.21)
+			(xy 179.07 36.83) (xy 179.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d8a5f5-17d5-4828-b9e1-1323291391a0")
+	)
+	(wire
+		(pts
+			(xy 59.69 29.21) (xy 67.31 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1890,13 +2319,23 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 36.83) (xy 43.18 36.83)
+			(xy 41.91 36.83) (xy 43.18 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8dbb5804-762e-483e-828f-b165aec68ee9")
+	)
+	(wire
+		(pts
+			(xy 40.64 29.21) (xy 43.18 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f62b11d-6f46-436d-a879-a6cee231b000")
 	)
 	(wire
 		(pts
@@ -1907,16 +2346,6 @@
 			(type default)
 		)
 		(uuid "9306728a-ee79-4f58-8f6b-2c052be1414e")
-	)
-	(wire
-		(pts
-			(xy 29.21 29.21) (xy 43.18 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "960e18d6-c00e-4c75-a902-7b5c4bfbd734")
 	)
 	(wire
 		(pts
@@ -1960,23 +2389,23 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 29.21) (xy 60.96 29.21)
+			(xy 179.07 30.48) (xy 172.72 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a375ae59-644b-4438-bb35-0390a8ed7432")
+		(uuid "a6a66f1c-12b0-4742-881f-6f7023fac3c0")
 	)
 	(wire
 		(pts
-			(xy 82.55 69.85) (xy 80.01 69.85)
+			(xy 179.07 29.21) (xy 179.07 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4862ca8-d87f-44b0-85fa-127cb14533f6")
+		(uuid "a879ff18-53a9-4ed4-afb4-8ff6dbbb9dac")
 	)
 	(wire
 		(pts
@@ -1990,6 +2419,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 31.75) (xy 86.36 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b03a91e2-8b61-4775-8e1c-c33cfff85282")
+	)
+	(wire
+		(pts
 			(xy 82.55 69.85) (xy 82.55 71.12)
 		)
 		(stroke
@@ -2000,13 +2439,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 36.83) (xy 46.99 36.83)
+			(xy 46.99 36.83) (xy 43.18 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bac552ab-7f74-4d42-87bd-d459562c4fb1")
+		(uuid "ba74e446-06ba-4464-be1d-755a5a8f6463")
 	)
 	(wire
 		(pts
@@ -2050,13 +2489,23 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 31.75) (xy 67.31 31.75)
+			(xy 59.69 31.75) (xy 60.96 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d80bed2e-ea2a-4ee8-a5f5-17bc375cdc0d")
+	)
+	(wire
+		(pts
+			(xy 67.31 29.21) (xy 67.31 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df27d9c8-df9f-4c17-82d7-7388e4bb2cb2")
 	)
 	(wire
 		(pts
@@ -2077,6 +2526,16 @@
 			(type default)
 		)
 		(uuid "e37d0f46-ddd5-44c4-9f4e-194df4f4cd3b")
+	)
+	(wire
+		(pts
+			(xy 60.96 31.75) (xy 60.96 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4505c02-88bd-4f9f-a193-370dd17416b7")
 	)
 	(wire
 		(pts
@@ -2159,6 +2618,42 @@
 		(uuid "fae397a5-122b-4224-9986-2a6a8de1ed1d")
 	)
 	(rectangle
+		(start 128.27 59.69)
+		(end 189.23 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 03868f2a-6e24-496c-9659-f3c1cc1d2cd2)
+	)
+	(rectangle
+		(start 128.27 17.78)
+		(end 189.23 53.34)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 52a97454-0f96-476c-a56a-b70ef7039c36)
+	)
+	(rectangle
+		(start 128.27 99.06)
+		(end 189.23 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f614c98-e628-42c7-a55d-23ed3e9a6562)
+	)
+	(rectangle
 		(start 19.05 59.69)
 		(end 124.46 104.14)
 		(stroke
@@ -2181,6 +2676,16 @@
 			(type none)
 		)
 		(uuid b84457b7-b5a5-410b-8744-dd25efeda42b)
+	)
+	(text "13mA should be the max. \nneeded current"
+		(exclude_from_sim no)
+		(at 110.998 101.092 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "097cd060-6fcd-4626-a020-2a1120c809f0")
 	)
 	(text "recomended chip setup"
 		(exclude_from_sim no)
@@ -2213,6 +2718,17 @@
 		)
 		(uuid "24f5595d-e6e1-443d-bd20-4097ddac6ee9")
 	)
+	(text "power supply\n"
+		(exclude_from_sim no)
+		(at 128.016 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3809b5b8-736f-41cd-bcce-b47b9ae5c51b")
+	)
 	(text "todo: add footprint for connector (copy from stigma?)\n"
 		(exclude_from_sim no)
 		(at 47.244 55.372 0)
@@ -2222,6 +2738,26 @@
 			)
 		)
 		(uuid "5db552f0-acdf-48a4-aa23-589e0bd3c6e8")
+	)
+	(text "mounting hole m2"
+		(exclude_from_sim no)
+		(at 136.906 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "64bff489-a69a-4dd1-ac8f-920c35ed4f99")
+	)
+	(text "mounting hole m4"
+		(exclude_from_sim no)
+		(at 136.906 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67fd2b66-ca5c-48fc-965d-1dfe9219fda2")
 	)
 	(global_label "GPS_RESET"
 		(shape input)
@@ -2245,6 +2781,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 135.89 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33190460-b144-456f-8def-47f7703c12e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.6067 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART2_TX"
 		(shape input)
 		(at 86.36 34.29 0)
@@ -2255,31 +2813,9 @@
 			)
 			(justify left)
 		)
-		(uuid "8eccdf03-9eff-4f3e-931b-29a798b6760c")
+		(uuid "8190f15d-12eb-48a9-8bf8-a646144d9e99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.7841 34.2106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART2_RX"
-		(shape input)
-		(at 86.36 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9774420b-5cff-4ae4-9a45-19e78bd21354")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.0864 36.7506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2324,6 +2860,28 @@
 		(uuid "a63df313-0681-45d9-b7c4-7539e96ee4de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 53.1645 88.8206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 40.64 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca7526ed-5894-4f67-96fd-a44438f2aac6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.3567 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,6 +2937,28 @@
 	)
 	(global_label "UART2_RX"
 		(shape input)
+		(at 86.36 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d53fc6a3-96dc-45b1-810d-44f7a3947671")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.0864 36.7506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART2_RX"
+		(shape input)
 		(at 105.41 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2400,6 +2980,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 137.16 82.55 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0457b228-ab33-41a4-a7fc-fd853e49a609")
+		(property "Reference" "H2"
+			(at 139.7 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 139.7 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cde28652-9fa8-4cf5-a94e-d7e2c5a734f1")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d0e3593-4465-40a4-be5a-e475937184b0")
+		(property "Reference" "#PWR014"
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7eb73b04-3107-4525-af39-4fb4e855e374")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:ESD5Zxx")
 		(at 80.01 43.18 270)
 		(unit 1)
@@ -2408,7 +3121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17a4d035-4ace-4a34-a4ba-fcaa3b0831a7")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 81.788 40.894 90)
 			(effects
 				(font
@@ -2463,24 +3176,24 @@
 		(instances
 			(project "stigma_gps_board"
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 29.21 36.83 90)
+		(lib_id "power:GND")
+		(at 53.34 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "250957b5-7101-4328-be80-4be0f56b28c2")
-		(property "Reference" "#FLG02"
-			(at 27.305 36.83 0)
+		(uuid "18dd7e8e-888a-44bb-98e8-439f17c1c836")
+		(property "Reference" "#PWR06"
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,17 +3201,149 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 24.13 36.83 0)
+		(property "Value" "GND"
+			(at 53.34 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 36.83 0)
+			(at 53.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "650fbb11-e06f-4354-88cb-2b9a798c652c")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 163.83 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19a360de-915b-4a09-871b-7b74e678be97")
+		(property "Reference" "#PWR019"
+			(at 163.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f628cc2f-4aa3-4863-bd12-e281cd8eb559")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 179.07 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c0a6ceb-dea2-448c-94b9-1fc7f54050d5")
+		(property "Reference" "C2"
+			(at 181.61 33.0135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 181.61 35.5535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 179.07 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,7 +3352,104 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 36.83 0)
+			(at 179.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C1591"
+			(at 179.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 179.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "CL10B104KB8NNNC"
+			(at 179.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "968eb1c1-a69e-44f3-bae3-ba98398de032")
+		)
+		(pin "2"
+			(uuid "e083b19f-7e2a-4bc5-9773-ff6015cb59a0")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 41.91 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "250957b5-7101-4328-be80-4be0f56b28c2")
+		(property "Reference" "#FLG02"
+			(at 40.005 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 36.83 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +3458,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 29.21 36.83 0)
+			(at 41.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,6 +3473,140 @@
 			(project "stigma_gps_board"
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 163.83 104.14 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "296aea0f-f04c-4cbd-8489-684e0c826bb8")
+		(property "Reference" "H7"
+			(at 166.37 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 166.37 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
+			(at 163.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 163.83 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfdd7f6d-f29a-4da6-bd17-4ea536cf0fb0")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 163.83 119.38 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fd27f3e-dbfa-449c-aff8-c2110a3de013")
+		(property "Reference" "H8"
+			(at 166.37 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 166.37 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
+			(at 163.83 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 163.83 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00542c10-3454-4d50-ac9d-ad7124181e88")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -2641,7 +3717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3356b0a4-8ce7-4a25-ad19-4fb81344ed08")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 35.56 72.39 0)
 			(effects
 				(font
@@ -2691,7 +3767,7 @@
 		(instances
 			(project "stigma_gps_board"
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2707,7 +3783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b9d21d6-3cdf-4419-91b0-1242d7087253")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 48.0441 72.8189 0)
 			(effects
 				(font
@@ -2788,7 +3864,7 @@
 		(instances
 			(project "stigma_gps_board"
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -2804,7 +3880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49899294-4a67-49dd-9eea-04409eb4c32d")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 82.55 102.87 0)
 			(effects
 				(font
@@ -2854,7 +3930,139 @@
 		(instances
 			(project "stigma_gps_board"
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "#PWR07")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c62257e-7207-4977-a602-eeee2bcee2b8")
+		(property "Reference" "#PWR013"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad053cc3-db9a-4539-b4d5-27e6db731364")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51e8969b-525f-409c-8f27-e0b329e7c418")
+		(property "Reference" "#PWR017"
+			(at 137.16 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74587a7e-113f-425d-ae81-2e2516d4c3cf")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2956,7 +4164,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 82.55 68.58 0)
+		(at 80.01 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2964,8 +4172,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "695cea69-0cd6-4b15-9bb9-966ee6781334")
-		(property "Reference" "#PWR05"
-			(at 82.55 72.39 0)
+		(property "Reference" "#PWR09"
+			(at 80.01 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +4182,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 82.55 63.5 0)
+			(at 80.01 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +4190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 68.58 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +4199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 68.58 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +4208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 82.55 68.58 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,77 +4222,7 @@
 		(instances
 			(project "stigma_gps_board"
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD5Zxx")
-		(at 29.21 33.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c3295b4-290e-412a-84fa-94901600f579")
-		(property "Reference" "D1"
-			(at 31.75 31.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD5Zxx"
-			(at 31.75 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 24.765 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 29.21 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 29.21 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f37f394b-bbe2-4ec0-96de-16aa44e20df5")
-		)
-		(pin "1"
-			(uuid "9e676691-847c-49da-a919-a7d9e5635821")
-		)
-		(instances
-			(project ""
-				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "D1")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3099,7 +4237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c7cb9eb-aa17-481b-9de3-0a6fc489d535")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 69.088 40.894 90)
 			(effects
 				(font
@@ -3154,24 +4292,24 @@
 		(instances
 			(project "stigma_gps_board"
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 29.21 27.94 0)
+		(lib_id "power:GND")
+		(at 163.83 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "763cc1ae-bd2f-41f8-8b68-3f80284e14cb")
-		(property "Reference" "#PWR01"
-			(at 29.21 31.75 0)
+		(uuid "84c34756-e4ad-4151-b51d-90ddfd76b18e")
+		(property "Reference" "#PWR018"
+			(at 163.83 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,8 +4317,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 29.21 22.86 0)
+		(property "Value" "GND"
+			(at 163.83 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +4326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 27.94 0)
+			(at 163.83 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +4335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 27.94 0)
+			(at 163.83 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,8 +4343,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 29.21 27.94 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,12 +4353,172 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d696bc3-3f0e-4c63-aaaf-3f062bf4986a")
+			(uuid "5d4407a4-5032-4776-b70d-147ccad50768")
 		)
 		(instances
-			(project ""
+			(project "stigma_gps_board"
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "#PWR01")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x05_Top_Bottom")
+		(at 52.07 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "869fa60e-87ed-4eb2-887c-864bdcaef3dd")
+		(property "Reference" "J1"
+			(at 53.594 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x05_Top_Bottom"
+			(at 53.594 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "stigma:DF40GB-10DP-0.4V-plug"
+			(at 52.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 52.07 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "20e41a38-03a6-47a2-9f40-7c1f2ce51b92")
+		)
+		(pin "9"
+			(uuid "4660e716-0a21-4ac3-8bda-a8b0f9a2c7e6")
+		)
+		(pin "5"
+			(uuid "8ecad37d-0a33-40e1-b84c-5b06a69081c2")
+		)
+		(pin "7"
+			(uuid "a0a364b9-703d-47aa-a2a2-c83d14e95932")
+		)
+		(pin "2"
+			(uuid "fc975fa3-b0d9-4c03-a062-3958e9340735")
+		)
+		(pin "1"
+			(uuid "36760935-5349-4081-b780-c3589b941cc6")
+		)
+		(pin "3"
+			(uuid "70a99c88-95d2-4714-bee0-0b310ff62cd3")
+		)
+		(pin "10"
+			(uuid "3fd5d843-edb8-49dc-b173-c3786ee6a4a6")
+		)
+		(pin "6"
+			(uuid "e014fc50-6b69-4dbc-899e-7474ee67c582")
+		)
+		(pin "4"
+			(uuid "6a5d467e-6cf8-4f17-825e-aa5be3e43c00")
+		)
+		(pin "s"
+			(uuid "f80e323f-792d-41ad-b760-3e74a0383431")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b8dd38e-041f-4335-b58e-05cfcbe0071a")
+		(property "Reference" "#PWR012"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bc62bc6-eb18-4ed7-bcb6-5f37afb03123")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3236,7 +4534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bc5658c-4479-4bd1-904d-41b5b3ac9a50")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 35.56 83.82 0)
 			(effects
 				(font
@@ -3286,7 +4584,205 @@
 		(instances
 			(project ""
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "#PWR06")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8caf4c1b-af66-423a-910a-b22fef5a8e8c")
+		(property "Reference" "#PWR04"
+			(at 179.07 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08d24540-81a8-45cc-9bed-4d0a1b65b30c")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 179.07 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9244416f-e6d8-402a-8313-f27b86a0a71c")
+		(property "Reference" "#PWR01"
+			(at 179.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 179.07 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 179.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bed88ca-4774-45cc-a9fe-130904a442ef")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "937bae30-fab1-4d3e-8a7d-518d3e7705ea")
+		(property "Reference" "#PWR05"
+			(at 162.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ce3a527-c608-4b4e-8ae8-688fde7bd9cd")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3301,7 +4797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9536ca09-e28e-46c0-bdcb-1dc1709cf63b")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 62.738 40.894 90)
 			(effects
 				(font
@@ -3356,7 +4852,87 @@
 		(instances
 			(project "stigma_gps_board"
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "D2")
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:NCP115AMX120TCG")
+		(at 162.56 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "982a17fc-c709-4848-915a-d38235d4c97a")
+		(property "Reference" "U1"
+			(at 162.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCP115AMX120TCG"
+			(at 162.56 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm"
+			(at 162.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.mouser.de/datasheet/2/308/1/NCP115_D-3366525.pdf"
+			(at 162.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300mA Low-Dropout Linear Regulators, 1.2V output voltage, LDO with low noise and enable pin, XDFN-4"
+			(at 162.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "27eb6469-dc61-4a1f-8335-19567ef14c50")
+		)
+		(pin "2"
+			(uuid "44be3e27-a2a7-43d0-b230-25e2c5afacb3")
+		)
+		(pin "1"
+			(uuid "3f33d024-b0f1-4bde-a68b-9a86ef8d0fb8")
+		)
+		(pin "3"
+			(uuid "f3ce8681-ea10-4699-9e9e-f825e2c20d93")
+		)
+		(pin "4"
+			(uuid "dea240c8-639f-4189-ae71-1b1f77112385")
+		)
+		(pin "5"
+			(uuid "57fc5868-ef56-4c7f-8e09-9c538300e882")
+		)
+		(instances
+			(project ""
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3371,7 +4947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "992b27b9-2382-442e-ab4e-6fbd7d771865")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 75.438 40.894 90)
 			(effects
 				(font
@@ -3426,42 +5002,42 @@
 		(instances
 			(project "stigma_gps_board"
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 29.21 29.21 90)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 163.83 69.85 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9fceab40-ffa7-4bd6-a8af-305fb27ab15c")
-		(property "Reference" "#FLG01"
-			(at 27.305 29.21 0)
+		(uuid "acaf0428-dcb8-4bf0-a4f7-7e5991e3f4e9")
+		(property "Reference" "H3"
+			(at 166.37 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 24.13 29.21 0)
+		(property "Value" "MountingHole_Pad"
+			(at 166.37 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 29.21 29.21 0)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 163.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +5046,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 29.21 0)
+			(at 163.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3478,8 +5054,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 29.21 29.21 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 163.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3488,12 +5064,279 @@
 			)
 		)
 		(pin "1"
-			(uuid "9cf12713-49ab-4fb7-b522-848dd2537fb7")
+			(uuid "7af1382f-220a-49d0-ad35-2f9de76dcb41")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 137.16 69.85 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b289acb1-cfbd-4d67-b001-8b6e05d69824")
+		(property "Reference" "H1"
+			(at 139.7 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 139.7 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6eed9bbc-e624-4646-98d0-31ad622d093a")
 		)
 		(instances
 			(project ""
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "#FLG01")
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 163.83 83.82 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b92e364f-dea3-4cef-952c-ecaa2f814ad7")
+		(property "Reference" "H4"
+			(at 166.37 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 166.37 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 163.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26274ccf-028f-4921-9a08-9b07979d5549")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 137.16 104.14 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc3a524d-7ef3-48d1-8278-9dc01f96e4d6")
+		(property "Reference" "H5"
+			(at 139.7 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 139.7 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2833c948-9796-44ff-b0b2-f60ea0a4505a")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdc42191-3bac-402f-8aa7-3d72b5985b8c")
+		(property "Reference" "#PWR016"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5f9c088-7f82-4571-a898-c4ded4d0e1b7")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3509,7 +5352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2f08090-707f-465e-9dc4-2fcd8f04fbf1")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 27.7241 72.8189 0)
 			(effects
 				(font
@@ -3590,7 +5433,74 @@
 		(instances
 			(project "stigma_gps_board"
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "C1")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 137.16 119.38 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8f47083-2d65-4b7d-87b9-80f4bf18b674")
+		(property "Reference" "H6"
+			(at 139.7 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 139.7 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 137.16 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17d6a3df-5750-43fa-a5cd-d6f425e69d5e")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -3606,7 +5516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5555141-2c26-415b-a29f-365e34b47639")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 73.66 53.34 0)
 			(effects
 				(font
@@ -3656,7 +5566,7 @@
 		(instances
 			(project "stigma_gps_board"
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3664,7 +5574,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 39.37 0)
+		(at 43.18 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3673,7 +5583,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5a00af0-4b46-4b56-84cf-c0d46f53d833")
 		(property "Reference" "#PWR02"
-			(at 29.21 45.72 0)
+			(at 43.18 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3682,7 +5592,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 44.45 0)
+			(at 43.18 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,7 +5600,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 39.37 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +5609,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 39.37 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +5618,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 39.37 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,6 +5639,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 163.83 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d666f07f-ef6c-4ddc-8e15-99104ef681ce")
+		(property "Reference" "#PWR015"
+			(at 163.83 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4879c706-71b7-40d7-876d-5dc88d6ca0e5")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 143.51 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dce0db49-f594-4f6f-ba36-59ac2e9812aa")
+		(property "Reference" "#PWR03"
+			(at 143.51 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0fdb0d6-946d-476c-8fcf-02ec21820a7a")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 35.56 73.66 180)
 		(unit 1)
@@ -3738,7 +5780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deda1626-5e45-40cf-8fa8-2a15491021d5")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 37.8841 72.8189 0)
 			(effects
 				(font
@@ -3819,7 +5861,7 @@
 		(instances
 			(project "stigma_gps_board"
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3834,7 +5876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e255109a-4e7d-4469-a116-01eb5cba1d41")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 87.63 68.58 0)
 			(effects
 				(font
@@ -3852,7 +5894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_GPS:ublox_SAM-M8Q"
+		(property "Footprint" "RF_GPS:ublox_SAM-M8Q_HandSolder"
 			(at 95.25 95.25 0)
 			(effects
 				(font
@@ -3969,40 +6011,42 @@
 		(instances
 			(project "stigma_gps_board"
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 52.07 31.75 0)
+		(lib_id "power:PWR_FLAG")
+		(at 43.18 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f3afe49a-5b31-4d23-8b13-baa4220a916b")
-		(property "Reference" "J1"
-			(at 53.34 22.86 0)
+		(uuid "f15009a0-bf23-4616-ad2b-840b1dd74fbe")
+		(property "Reference" "#FLG01"
+			(at 43.18 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 53.34 25.4 0)
+		(property "Value" "PWR_FLAG"
+			(at 43.18 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 31.75 0)
+			(at 43.18 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +6055,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 31.75 0)
+			(at 43.18 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,43 +6063,119 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 52.07 31.75 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 43.18 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "5"
-			(uuid "2494d0cd-8a74-4637-bc23-4c65740f3892")
-		)
-		(pin "4"
-			(uuid "227315b9-45cf-4fce-8c6e-dcade4bf2bee")
-		)
-		(pin "3"
-			(uuid "f1bb2f53-6b01-4ca9-8bfc-142807b0bf5a")
-		)
-		(pin "2"
-			(uuid "ab72e131-51d1-4ff7-b552-1133c00856e9")
 		)
 		(pin "1"
-			(uuid "86ea2aef-cc8f-4548-8bed-b4ecb55a07e3")
-		)
-		(pin "7"
-			(uuid "abb5e74d-799f-4fcb-a0a9-114bb97e4008")
-		)
-		(pin "6"
-			(uuid "33ad8cbb-9f5d-481a-92d1-4a3008d23e9a")
-		)
-		(pin "8"
-			(uuid "7c14c382-90be-4df2-837b-0217116b1e5e")
+			(uuid "cbf1d851-4d53-4c01-b896-7b0973f1b26d")
 		)
 		(instances
-			(project ""
+			(project "stigma_gps_board"
 				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
-					(reference "J1")
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 143.51 34.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb8b5fa4-6112-4bb1-abee-cf5a30024553")
+		(property "Reference" "C1"
+			(at 146.05 33.0135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 146.05 35.5535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 143.51 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C1591"
+			(at 143.51 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 143.51 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "CL10B104KB8NNNC"
+			(at 143.51 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "792f9756-2ee4-4a90-b45d-0d7cc043d1b3")
+		)
+		(pin "2"
+			(uuid "9a57f9c0-9675-43a7-a6ba-bfe7b5601f7f")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "C1")
 					(unit 1)
 				)
 			)

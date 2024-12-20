@@ -1,4 +1,4 @@
-(footprint "DF40GB-48DP-0.4V"
+(footprint "DF40GB-48DP-0.4V-plug"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "DF40GB-48DP-0.4V"
+	(property "Value" "DF40GB-48DP-0.4V-plug"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
