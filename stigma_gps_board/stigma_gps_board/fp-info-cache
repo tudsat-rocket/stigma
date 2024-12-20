@@ -1,4 +1,4 @@
-24192778040465030
+24194517570735290
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97965,21 +97965,28 @@ Varistor VF
 2
 2
 stigma
-DF17(4.0)-40DS-0.5V
+DF17(4.0)-40DS-0.5V-plug
 
 
 0
 42
 41
 stigma
-DF40GB-48DP-0.4V
+DF40GB-10DP-0.4V-plug
+
+
+0
+14
+11
+stigma
+DF40GB-48DP-0.4V-plug
 
 
 0
 48
 48
 stigma
-DF40GB-70DP-0.4V
+DF40GB-70DP-0.4V-plug
 
 
 0

@@ -1,4 +1,4 @@
-(footprint "DF17(4.0)-40DS-0.5V"
+(footprint "DF17(4.0)-40DS-0.5V-plug"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "DF17(4.0)-40DS-0.5V"
-		(at 0 3.35 0)
+	(property "Value" "DF17(4.0)-40DS-0.5V-plug"
+		(at 0 4.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "badd99ef-1f8d-4028-8818-a9e00e785984")
