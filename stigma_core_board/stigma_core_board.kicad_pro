@@ -218,6 +218,14 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
+        },
+        {
           "diameter": 1.0,
           "drill": 0.5
         }
@@ -642,7 +650,7 @@
   "sheets": [
     [
       "7c42dbb8-4eb9-4f37-a778-cc2604c65a15",
-      "Stammblatt"
+      "Root"
     ]
   ],
   "text_variables": {}
