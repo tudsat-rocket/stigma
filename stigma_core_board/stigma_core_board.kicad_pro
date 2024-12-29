@@ -592,8 +592,8 @@
         },
         {
           "group_by": false,
-          "label": "LCSC#",
-          "name": "LCSC#",
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
         },
         {
