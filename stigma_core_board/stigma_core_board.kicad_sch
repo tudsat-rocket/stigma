@@ -8995,126 +8995,6 @@
 				)
 			)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -14016,16 +13896,6 @@
 		)
 		(uuid "40cc6156-4e1e-42eb-b0e8-cb3b301730ae")
 	)
-	(text "TODO: ESD protection"
-		(exclude_from_sim no)
-		(at 94.996 202.438 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "653a091e-11dd-44b8-9824-98ceb7edfd3a")
-	)
 	(text "TODO: replace with BMP585, ICP 20100? Another LGA-10 footprint?"
 		(exclude_from_sim no)
 		(at 291.084 90.17 90)
@@ -15564,7 +15434,7 @@
 	)
 	(global_label "NRST"
 		(shape input)
-		(at 187.96 264.16 180)
+		(at 187.96 269.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15574,7 +15444,7 @@
 		)
 		(uuid "6b3d337f-3e18-4aef-8fe9-72db934fb38a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.1972 264.16 0)
+			(at 180.1972 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16774,7 +16644,7 @@
 	)
 	(global_label "BOOT"
 		(shape input)
-		(at 187.96 269.24 180)
+		(at 187.96 264.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16784,7 +16654,7 @@
 		)
 		(uuid "c3f44c8b-81e4-4597-8339-513433c5e550")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.0762 269.24 0)
+			(at 180.0762 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17763,6 +17633,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 158.75 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "015be4de-df63-4a32-be5b-27ba453ffd0b")
+		(property "Reference" "#PWR039"
+			(at 158.75 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 158.75 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 158.75 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75efc692-439c-4b6a-9db0-c0ea2ac469da")
+		)
+		(instances
+			(project "stigma_core_board"
+				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 151.13 49.53 270)
 		(unit 1)
@@ -17823,6 +17759,72 @@
 			(project "stigma_core_board"
 				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 273.05 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06e68443-b8e1-4cfe-9619-5c953a1f2e12")
+		(property "Reference" "#PWR093"
+			(at 273.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 273.05 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 273.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4f9c4ac-c73c-451a-bde0-b3e25f48b605")
+		)
+		(instances
+			(project "stigma_core_board"
+				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -17961,71 +17963,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 246.38 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c330cbd-605a-4bcb-9755-88327e2c981f")
-		(property "Reference" "#PWR089"
-			(at 246.38 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 246.38 169.1442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a475489-39ee-4491-b9b8-f9e49c1d865a")
-		)
-		(instances
-			(project "stigma_core_board"
-				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 107.95 252.73 270)
 		(unit 1)
@@ -18154,71 +18091,6 @@
 			(project "stigma_core_board"
 				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 161.29 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "102e2440-4e71-449c-b886-65cae8894a00")
-		(property "Reference" "#PWR068"
-			(at 161.29 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 161.29 111.9942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf7d34c0-b594-42f9-9505-fc03b97a38b3")
-		)
-		(instances
-			(project "stigma_core_board"
-				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -18520,6 +18392,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 166.37 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14dd1ed1-22c4-4db5-958b-16b9499a3eb2")
+		(property "Reference" "#PWR073"
+			(at 166.37 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 166.37 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 166.37 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a76fbe13-ddfc-4eee-8a2f-fe0e9f13ba65")
+		)
+		(instances
+			(project "stigma_core_board"
+				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 34.29 231.14 90)
 		(unit 1)
@@ -18781,6 +18719,72 @@
 			(project "stigma_core_board"
 				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 246.38 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "174eec44-879a-40b7-8738-8f190c605d36")
+		(property "Reference" "#PWR085"
+			(at 246.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 246.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 246.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c65e2569-f13c-42d1-b25f-ba0fdd2b8c6e")
+		)
+		(instances
+			(project "stigma_core_board"
+				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -19276,71 +19280,6 @@
 			(project "stigma_core_board"
 				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
 					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 185.42 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "230fe892-27fc-46ef-99bf-b0597ea3ce60")
-		(property "Reference" "#PWR061"
-			(at 185.42 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 185.42 85.3242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c886d9e-1166-4198-95d8-89d2b4692917")
-		)
-		(instances
-			(project "stigma_core_board"
-				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -19939,16 +19878,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 184.15 123.19 0)
+		(lib_id "power:+3.3V")
+		(at 273.05 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "293b20d3-33cf-4a54-ad90-cfa4fe592ae0")
-		(property "Reference" "#PWR065"
-			(at 184.15 127 0)
+		(fields_autoplaced yes)
+		(uuid "29207f8b-ff7c-4b5f-930a-6e6b84e1b04b")
+		(property "Reference" "#PWR046"
+			(at 273.05 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19956,8 +19896,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 184.15 119.6142 0)
+		(property "Value" "+3.3V"
+			(at 273.05 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19965,7 +19905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 123.19 0)
+			(at 273.05 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19974,7 +19914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 123.19 0)
+			(at 273.05 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19982,8 +19922,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 184.15 123.19 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 273.05 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19992,12 +19932,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b262d7c-9f28-411f-9dd4-40b59a2c8d19")
+			(uuid "d55e5785-85f3-4c17-abfe-d4026a29307d")
 		)
 		(instances
 			(project "stigma_core_board"
 				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR065")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -20521,6 +20461,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 273.05 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3227de5c-a96d-4889-9d05-3302ae2ab1da")
+		(property "Reference" "#PWR091"
+			(at 273.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 273.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 273.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a91b2a1-6af6-4332-8f2b-33462d473ae3")
+		)
+		(instances
+			(project "stigma_core_board"
+				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 146.05 262.89 0)
 		(unit 1)
@@ -20736,7 +20742,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "1k"
 			(at 34.29 254 90)
 			(effects
 				(font
@@ -21748,7 +21754,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "1k"
 			(at 34.29 262.89 90)
 			(effects
 				(font
@@ -22821,6 +22827,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 165.1 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "543290c4-b74e-4b71-b712-29ab64934c32")
+		(property "Reference" "#PWR068"
+			(at 165.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 165.1 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 165.1 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d6fb912-32f7-4313-9462-9253a0758555")
+		)
+		(instances
+			(project "stigma_core_board"
+				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 250.19 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56a65413-414b-4fa5-83bd-a6f410ff4c6d")
+		(property "Reference" "#PWR079"
+			(at 250.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 250.19 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 250.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8a8f20b-3abc-4fa1-bb75-a8c4d277128f")
+		)
+		(instances
+			(project "stigma_core_board"
+				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 351.79 78.74 270)
 		(unit 1)
@@ -23251,6 +23389,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 189.23 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "605cc6d6-a4d4-4411-b2a5-c69d82d917f8")
+		(property "Reference" "#PWR051"
+			(at 189.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 189.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 189.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adee1135-da38-4b59-9bc7-1a5c7363ed33")
+		)
+		(instances
+			(project "stigma_core_board"
+				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 102.87 218.44 270)
 		(unit 1)
@@ -23414,16 +23618,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 158.75 250.19 0)
+		(lib_id "power:+3.3V")
+		(at 246.38 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6229c7c5-3822-44fb-b6c4-71371e7a3567")
-		(property "Reference" "#PWR046"
-			(at 158.75 254 0)
+		(fields_autoplaced yes)
+		(uuid "636de25f-7d78-424b-b94f-248d2aeffec8")
+		(property "Reference" "#PWR083"
+			(at 246.38 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23431,8 +23636,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 158.75 246.6142 0)
+		(property "Value" "+3.3V"
+			(at 246.38 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23440,7 +23645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 250.19 0)
+			(at 246.38 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23449,7 +23654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 250.19 0)
+			(at 246.38 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23457,8 +23662,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 158.75 250.19 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 246.38 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23467,12 +23672,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "84ceecd6-6ff0-4fd5-af8c-bca77ac747b1")
+			(uuid "c5a24896-b993-4dcd-a0d8-0bd801d8413c")
 		)
 		(instances
 			(project "stigma_core_board"
 				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR046")
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 191.77 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "637c3fe3-c26c-4968-a7cd-3c9e7b5cbb44")
+		(property "Reference" "#PWR070"
+			(at 191.77 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 191.77 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 191.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abaa13c9-6852-46f0-a222-ffd0e25492e6")
+		)
+		(instances
+			(project "stigma_core_board"
+				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -24281,6 +24552,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 184.15 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72927153-7864-4ed9-95b2-249d5229f3cb")
+		(property "Reference" "#PWR065"
+			(at 184.15 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 184.15 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 184.15 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e12ae062-6477-43ee-8a44-cdd112e1a683")
+		)
+		(instances
+			(project "stigma_core_board"
+				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 250.19 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76aab4f0-dcec-4df9-a023-38e086dc3553")
+		(property "Reference" "#PWR076"
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 250.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 250.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7981b60d-d563-4769-b4e7-6cb3ba47aa87")
+		)
+		(instances
+			(project "stigma_core_board"
+				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 151.13 120.65 270)
 		(unit 1)
@@ -24510,71 +24913,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 250.19 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79a3634a-2d07-4e91-a32b-75634228aecd")
-		(property "Reference" "#PWR093"
-			(at 250.19 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 250.19 75.1642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34e95a64-5f89-45d4-9799-f6778757e50b")
-		)
-		(instances
-			(project "stigma_core_board"
-				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 132.08 214.63 180)
 		(unit 1)
@@ -24762,71 +25100,6 @@
 			(project "stigma_core_board"
 				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 273.05 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8006f547-09e4-4463-81b6-6d98bee61634")
-		(property "Reference" "#PWR096"
-			(at 273.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 273.05 71.3542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 273.05 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c26f9c9-8ca1-41a1-816f-5b760cd37810")
-		)
-		(instances
-			(project "stigma_core_board"
-				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -25157,71 +25430,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 273.05 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8347eead-1e24-4073-8b8a-362110a5e057")
-		(property "Reference" "#PWR079"
-			(at 273.05 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 273.05 24.3642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 273.05 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9163a7b-a46a-41ca-8e5b-bf4521abe295")
-		)
-		(instances
-			(project "stigma_core_board"
-				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 265.43 49.53 90)
 		(unit 1)
@@ -25513,6 +25721,72 @@
 			(project "stigma_core_board"
 				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 274.32 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86355bf8-00fe-4b18-902f-eeb84c07d6f6")
+		(property "Reference" "#PWR089"
+			(at 274.32 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 274.32 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 274.32 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3501e96c-9494-4016-81c8-30d8a1557bd1")
+		)
+		(instances
+			(project "stigma_core_board"
+				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -26587,71 +26861,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 273.05 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94d821ef-6385-4c88-b023-f3b267f5834d")
-		(property "Reference" "#PWR091"
-			(at 273.05 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 273.05 181.8442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 273.05 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8c36883-0a91-453b-92be-45d6f5c11ba8")
-		)
-		(instances
-			(project "stigma_core_board"
-				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 273.05 195.58 0)
 		(unit 1)
@@ -26882,16 +27091,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 246.38 124.46 0)
+		(lib_id "power:+3.3V")
+		(at 161.29 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "994bdb7e-25bd-485f-b2d1-291edaf5bb38")
-		(property "Reference" "#PWR083"
-			(at 246.38 128.27 0)
+		(fields_autoplaced yes)
+		(uuid "9838fbe2-a352-48a6-9a73-aac5d042ff12")
+		(property "Reference" "#PWR063"
+			(at 161.29 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26899,8 +27109,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 246.38 120.8842 0)
+		(property "Value" "+3.3V"
+			(at 161.29 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26908,7 +27118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 124.46 0)
+			(at 161.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26917,7 +27127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 124.46 0)
+			(at 161.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26925,73 +27135,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f212d49e-58cb-4802-82c5-442b889e3bca")
-		)
-		(instances
-			(project "stigma_core_board"
-				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 189.23 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99972daf-fc4a-442c-b839-51918dc3ed6d")
-		(property "Reference" "#PWR051"
-			(at 189.23 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 189.23 43.4142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 46.99 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 161.29 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27000,12 +27145,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "10343761-9197-42cf-ae23-5faec533ab55")
+			(uuid "6bb6700e-14ac-4720-a77e-578514c5e391")
 		)
 		(instances
 			(project "stigma_core_board"
 				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR051")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -27932,6 +28077,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 185.42 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a25c3cb4-cc55-4088-b0a7-1bc5ef9250de")
+		(property "Reference" "#PWR061"
+			(at 185.42 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 185.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 185.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae5fbacc-00ef-4889-b34d-eebffc55fb81")
+		)
+		(instances
+			(project "stigma_core_board"
+				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky_Small")
 		(at 219.71 226.06 0)
 		(mirror x)
@@ -28529,71 +28740,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 167.64 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aa5705c4-f5fe-468f-9431-62eea4fce8ce")
-		(property "Reference" "#PWR059"
-			(at 167.64 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 167.64 30.7142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d139a98-3119-49f0-a80f-4cb7d7a9b817")
-		)
-		(instances
-			(project "stigma_core_board"
-				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Magnetic:LIS3MDL")
 		(at 163.83 163.83 0)
 		(unit 1)
@@ -28986,7 +29132,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Small"
+		(property "Value" "green"
 			(at 39.3065 270.51 0)
 			(effects
 				(font
@@ -29123,7 +29269,7 @@
 				)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "1k"
 			(at 34.29 271.78 90)
 			(effects
 				(font
@@ -29635,71 +29781,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 250.19 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9b5331e-129c-4a5a-9c3a-ef8f782d2cf0")
-		(property "Reference" "#PWR076"
-			(at 250.19 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 250.19 28.1742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 250.19 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aba3799b-f20f-47a3-8c15-8452348f183d")
-		)
-		(instances
-			(project "stigma_core_board"
-				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 90.17 220.98 270)
 		(unit 1)
@@ -29767,6 +29848,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 167.64 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc506944-8e1d-4ef8-8cbd-a34a44fd4b29")
+		(property "Reference" "#PWR0108"
+			(at 167.64 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 167.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f224336-3477-4659-a8d7-ed3ddbe89805")
+		)
+		(instances
+			(project "stigma_core_board"
+				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 283.21 264.16 0)
 		(unit 1)
@@ -29828,136 +29975,6 @@
 			(project "stigma_core_board"
 				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 165.1 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf0cd4d8-171b-4c21-a179-504226363cbf")
-		(property "Reference" "#PWR073"
-			(at 165.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 165.1 145.0142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0d4e023-50a0-47a1-ae1f-2a43d6180a69")
-		)
-		(instances
-			(project "stigma_core_board"
-				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 162.56 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c10b6286-bf30-408c-80b7-568d87f3c29a")
-		(property "Reference" "#PWR063"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 162.56 78.9742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6140b6c-062b-4161-96fd-60fd4e200a86")
-		)
-		(instances
-			(project "stigma_core_board"
-				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -30864,7 +30881,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Small"
+		(property "Value" "red"
 			(at 39.3065 252.73 0)
 			(effects
 				(font
@@ -31044,71 +31061,6 @@
 			(project "stigma_core_board"
 				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 166.37 199.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6cad10e-a6a1-4a09-b109-2f2a57c5e7bd")
-		(property "Reference" "#PWR039"
-			(at 166.37 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 166.37 195.8142 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 166.37 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b1fa1dd-036a-4285-b614-e46b2de1ca4e")
-		)
-		(instances
-			(project "stigma_core_board"
-				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -31340,6 +31292,72 @@
 			(project "stigma_core_board"
 				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 162.56 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da061130-44d1-4b42-af30-64a2877dc472")
+		(property "Reference" "#PWR059"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 162.56 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "086769a2-db10-4ad3-a860-8e3f224ffbd1")
+		)
+		(instances
+			(project "stigma_core_board"
+				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -31710,71 +31728,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 191.77 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e0ba94c1-1dcc-4791-9d71-4011bc8a077e")
-		(property "Reference" "#PWR070"
-			(at 191.77 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 191.77 147.5542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70e0d861-d5c3-4e67-96d8-ed5bbb9956f3")
-		)
-		(instances
-			(project "stigma_core_board"
-				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 161.29 135.89 0)
 		(unit 1)
@@ -31995,7 +31948,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Small"
+		(property "Value" "yellow"
 			(at 39.3065 261.62 0)
 			(effects
 				(font
@@ -32339,71 +32292,6 @@
 			(project "stigma_core_board"
 				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 274.32 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ebb5d72a-c199-436e-b4d0-dd557b18d124")
-		(property "Reference" "#PWR085"
-			(at 274.32 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 274.32 133.5842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 274.32 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d2d891d-b919-4656-8fea-b48729f96d05")
-		)
-		(instances
-			(project "stigma_core_board"
-				(path "/7c42dbb8-4eb9-4f37-a778-cc2604c65a15"
-					(reference "#PWR085")
 					(unit 1)
 				)
 			)
