@@ -63,7 +63,6 @@
         "courtyards_overlap|113150001|125550001|a8db3c35-eef5-4a5c-9205-c53318dd509d|cc24afd0-edca-47e0-a4d9-284733beb20c",
         "courtyards_overlap|113150001|126400001|14e2eb2a-c843-4174-8160-1e2f6798ad80|cc24afd0-edca-47e0-a4d9-284733beb20c",
         "courtyards_overlap|123399999|126314791|3b379108-c10c-4572-a4c3-b92e7e37c5e7|cc24afd0-edca-47e0-a4d9-284733beb20c",
-        "courtyards_overlap|125658955|107350001|3df2c6e4-02a3-42e6-8ae9-2adc19b3e557|f0a17404-0d0e-4f90-8980-30d3bf1548a9",
         "courtyards_overlap|127360001|104830334|3df2c6e4-02a3-42e6-8ae9-2adc19b3e557|53133713-01f0-4ea7-969a-e2019f5be275",
         "courtyards_overlap|99758132|103740001|775b65c0-3207-4148-9813-5acb85839bb9|f480d000-75ea-4d7f-9c61-dfbed3b652b4",
         "hole_clearance|129020000|106250000|225c7289-4dff-486c-b31b-f570a0d1c17f|5c9ecc41-8e36-467e-b425-c942c2ac2a33",
@@ -561,7 +560,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -618,7 +617,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
