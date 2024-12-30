@@ -13896,36 +13896,6 @@
 		)
 		(uuid "40cc6156-4e1e-42eb-b0e8-cb3b301730ae")
 	)
-	(text "TODO: replace with BMP585, ICP 20100? Another LGA-10 footprint?"
-		(exclude_from_sim no)
-		(at 291.084 90.17 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6d9d5afc-0991-4b42-b04d-901a00cb5e64")
-	)
-	(text "TODO: additional input capacitance?"
-		(exclude_from_sim no)
-		(at 355.092 162.306 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "842b1658-9758-4c92-9a5e-1853c9f09946")
-	)
-	(text "TODO: button footprint?"
-		(exclude_from_sim no)
-		(at 143.51 194.056 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8e4e762d-fe75-488c-aaf0-e674f61ec7d6")
-	)
 	(text "Of the two USB peripherals, we use\nthis one, because PA11/PA12 are what\nthe bootloader uses for DFU."
 		(exclude_from_sim no)
 		(at 85.852 85.344 0)
@@ -26113,7 +26083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TODO: LCSC"
+		(property "Description" ""
 			(at 240.03 241.3 0)
 			(effects
 				(font
