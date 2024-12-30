@@ -21597,7 +21597,7 @@
 				)
 			)
 		)
-		(property "Value" "IIM-42652 (or other LGA-14 IMU)"
+		(property "Value" "ICM-42670-P"
 			(at 248.92 175.514 0)
 			(effects
 				(font
@@ -21616,7 +21616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf"
+		(property "Datasheet" ""
 			(at 247.65 207.01 0)
 			(effects
 				(font
@@ -21634,7 +21634,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2988404"
+		(property "LCSC" "C3288646"
 			(at 245.11 190.5 0)
 			(effects
 				(font
@@ -21643,7 +21643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
+		(property "Manufacturer" ""
 			(at 245.11 190.5 0)
 			(effects
 				(font
@@ -21652,7 +21652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part#" "LSM6DSRTR"
+		(property "Part#" ""
 			(at 245.11 190.5 0)
 			(effects
 				(font
@@ -27541,9 +27541,9 @@
 		(at 356.87 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "9dca6ab9-a07e-4494-ad3d-0d3356dd56df")
 		(property "Reference" "J3"
 			(at 356.87 55.626 0)
