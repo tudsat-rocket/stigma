@@ -13918,16 +13918,6 @@
 		)
 		(uuid 2d3f52f3-bb6e-427d-934a-2c51cfe9a10a)
 	)
-	(text "TODO: double check pinout"
-		(exclude_from_sim no)
-		(at 107.95 194.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "40cc6156-4e1e-42eb-b0e8-cb3b301730ae")
-	)
 	(text "128 Mbit"
 		(exclude_from_sim no)
 		(at 328.676 201.168 0)
@@ -13971,26 +13961,6 @@
 			(justify left bottom)
 		)
 		(uuid "bb464b07-5581-484e-9472-ad8bfcecaccd")
-	)
-	(text "should have 90Ohms of impedance!"
-		(exclude_from_sim no)
-		(at 211.328 250.444 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ca71e98f-7253-4f15-8d4b-84ab0f038b13")
-	)
-	(text "TODO: load cap values"
-		(exclude_from_sim no)
-		(at 40.64 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ebbc7851-c107-4032-8f2e-cb39a61a518e")
 	)
 	(label "VCAP1"
 		(at 16.51 163.83 0)
@@ -26675,7 +26645,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.5p"
+		(property "Value" "10p"
 			(at 30.988 235.966 0)
 			(effects
 				(font
@@ -26702,7 +26672,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TODO"
+		(property "Description" "With Cs = 7pF and Cl = 12.5pF (Y1): Cext = 2 * (Cl - Cs) ~= 10pF"
+			(at 38.1 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32949"
 			(at 38.1 234.95 0)
 			(effects
 				(font
@@ -29480,7 +29459,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.9p"
+		(property "Value" "10p"
 			(at 48.26 214.6235 0)
 			(effects
 				(font
@@ -29507,7 +29486,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TODO"
+		(property "Description" "With Cs = 7pF and Cl = 12pF (Y1): Cext = 2 * (Cl - Cs) = 10 pF"
+			(at 45.72 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32949"
 			(at 45.72 213.36 0)
 			(effects
 				(font
@@ -31331,7 +31319,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.5p"
+		(property "Value" "10p"
 			(at 48.26 236.2135 0)
 			(effects
 				(font
@@ -31358,7 +31346,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TODO"
+		(property "Description" "With Cs = 7pF and Cl = 12.5pF (Y1): Cext = 2 * (Cl - Cs) ~= 10pF"
+			(at 45.72 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32949"
 			(at 45.72 234.95 0)
 			(effects
 				(font
@@ -31831,7 +31828,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.9p"
+		(property "Value" "10p"
 			(at 30.988 214.376 0)
 			(effects
 				(font
@@ -31858,7 +31855,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TODO"
+		(property "Description" "With Cs = 7pF and Cl = 12pF (Y1): Cext = 2 * (Cl - Cs) = 10 pF"
+			(at 38.1 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32949"
 			(at 38.1 213.36 0)
 			(effects
 				(font
