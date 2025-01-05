@@ -512,6 +512,8 @@
       "+5V": "rgb(132, 0, 0)",
       "/D0+": "rgb(0, 0, 132)",
       "/D0-": "rgb(0, 0, 132)",
+      "/VCAP1": "rgb(0, 255, 255)",
+      "/VCAP2": "rgb(0, 255, 255)",
       "ETH_RXD+": "rgb(255, 153, 0)",
       "ETH_RXD-": "rgb(255, 153, 0)",
       "ETH_TXD+": "rgb(255, 153, 0)",
@@ -562,7 +564,12 @@
       "USB_D-": "rgb(0, 0, 194)"
     },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "SPI1_MISO"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -722,7 +729,7 @@
   "sheets": [
     [
       "7c42dbb8-4eb9-4f37-a778-cc2604c65a15",
-      "Root"
+      "Stammblatt"
     ]
   ],
   "text_variables": {}
