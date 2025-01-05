@@ -12638,6 +12638,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 236.22) (xy 95.25 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30f158e-ab8f-4649-b6c2-9184369d81a3")
+	)
+	(wire
+		(pts
 			(xy 247.65 125.73) (xy 247.65 127)
 		)
 		(stroke
@@ -12755,6 +12765,16 @@
 			(type default)
 		)
 		(uuid "a9f352e0-385b-46c1-90cb-0e46eb7d629a")
+	)
+	(wire
+		(pts
+			(xy 73.66 215.9) (xy 90.17 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2fae5d-a56f-49d1-a48e-de58a011fc16")
 	)
 	(wire
 		(pts
@@ -13886,6 +13906,18 @@
 		)
 		(uuid "fff889b6-7a4c-4dfe-9b25-f21f1c82bbcc")
 	)
+	(rectangle
+		(start 317.5 191.77)
+		(end 388.62 246.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2d3f52f3-bb6e-427d-934a-2c51cfe9a10a)
+	)
 	(text "TODO: double check pinout"
 		(exclude_from_sim no)
 		(at 107.95 194.31 0)
@@ -13895,6 +13927,16 @@
 			)
 		)
 		(uuid "40cc6156-4e1e-42eb-b0e8-cb3b301730ae")
+	)
+	(text "128 Mbit"
+		(exclude_from_sim no)
+		(at 328.676 201.168 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "64720330-f56d-4a7d-baaf-b1b1c83b71c4")
 	)
 	(text "Of the two USB peripherals, we use\nthis one, because PA11/PA12 are what\nthe bootloader uses for DFU."
 		(exclude_from_sim no)
@@ -13907,6 +13949,18 @@
 		)
 		(uuid "a3737214-45e1-4b05-bf98-79b729e97046")
 	)
+	(text "flash"
+		(exclude_from_sim no)
+		(at 319.786 190.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "b54454de-d146-485e-98f7-87173dbeb31e")
+	)
 	(text "When substituting with a different 1117,\nensure compatibility with low-ESR\nceramic output capacitors."
 		(exclude_from_sim no)
 		(at 128.27 276.86 0)
@@ -13918,6 +13972,16 @@
 		)
 		(uuid "bb464b07-5581-484e-9472-ad8bfcecaccd")
 	)
+	(text "should have 90Ohms of impedance!"
+		(exclude_from_sim no)
+		(at 211.328 250.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca71e98f-7253-4f15-8d4b-84ab0f038b13")
+	)
 	(text "TODO: load cap values"
 		(exclude_from_sim no)
 		(at 40.64 198.12 0)
@@ -13927,6 +13991,17 @@
 			)
 		)
 		(uuid "ebbc7851-c107-4032-8f2e-cb39a61a518e")
+	)
+	(label "VCAP1"
+		(at 16.51 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ab424be-158b-47f3-a9e2-39a64f69e24f")
 	)
 	(label "D0+"
 		(at 223.52 243.84 180)
@@ -13939,6 +14014,39 @@
 		)
 		(uuid "39631c1a-7991-4bc9-a94b-8b3d723e1f37")
 	)
+	(label "J1-SWCLK"
+		(at 101.6 228.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51aa8428-a339-4fe3-8897-761cd964a9ff")
+	)
+	(label "J1-SWO"
+		(at 77.47 234.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94486aa1-45e0-4127-bb4e-fc13e47021e1")
+	)
+	(label "VBUS"
+		(at 218.44 217.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6b1972f-44cb-42bc-94a4-a5dd6f0ec703")
+	)
 	(label "D0-"
 		(at 223.52 238.76 180)
 		(fields_autoplaced yes)
@@ -13949,6 +14057,28 @@
 			(justify right bottom)
 		)
 		(uuid "ce3dba75-98db-4ac7-a83d-6b8c6b8f1528")
+	)
+	(label "J1-SWDIO"
+		(at 81.28 218.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4f6bc42-fc56-46e8-8f53-c151f55b0ffc")
+	)
+	(label "VCAP2"
+		(at 25.4 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd373841-2356-4146-a63d-59aaff1bce4f")
 	)
 	(global_label "SPI3_SCK"
 		(shape input)
@@ -14854,7 +14984,7 @@
 	)
 	(global_label "NRST"
 		(shape input)
-		(at 90.17 215.9 180)
+		(at 73.66 215.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14864,7 +14994,7 @@
 		)
 		(uuid "45e75f9a-2a46-46a3-a0f9-8831542e59a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.4072 215.9 0)
+			(at 65.8972 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20924,15 +21054,15 @@
 		(dnp no)
 		(uuid "3b8c282a-0e7f-4bf8-8640-d1b0f8479e42")
 		(property "Reference" "R13"
-			(at 215.265 247.015 90)
+			(at 214.884 246.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22"
-			(at 215.265 248.92 90)
+		(property "Value" "22R"
+			(at 218.948 246.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26598,7 +26728,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 95.25 237.49 0)
+		(at 95.25 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26607,7 +26737,7 @@
 		(fields_autoplaced yes)
 		(uuid "934997a9-ae32-48a7-bd89-570b546662f4")
 		(property "Reference" "#PWR0102"
-			(at 95.25 241.3 0)
+			(at 95.25 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26616,7 +26746,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 95.25 232.41 0)
+			(at 95.25 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26624,7 +26754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 237.49 0)
+			(at 95.25 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26633,7 +26763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 237.49 0)
+			(at 95.25 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26642,7 +26772,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 95.25 237.49 0)
+			(at 95.25 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27464,7 +27594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117.pdf"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117I.pdf"
 			(at 146.05 252.73 0)
 			(effects
 				(font
@@ -30159,15 +30289,15 @@
 		(dnp no)
 		(uuid "c275cb92-129b-4af0-b909-926650137d0b")
 		(property "Reference" "R12"
-			(at 215.265 236.22 90)
+			(at 217.17 238.252 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "22"
-			(at 215.265 238.125 90)
+		(property "Value" "22R"
+			(at 217.424 242.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32832,10 +32962,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f378fbfd-9b51-4799-be55-a991ada18c08")
 		(property "Reference" "U2"
-			(at 203.6765 251.46 0)
+			(at 202.946 253.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32844,7 +32973,7 @@
 			)
 		)
 		(property "Value" "TPD4E1U06"
-			(at 203.6765 254 0)
+			(at 202.946 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
