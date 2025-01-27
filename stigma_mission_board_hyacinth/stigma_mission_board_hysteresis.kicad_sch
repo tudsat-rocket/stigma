@@ -9109,7 +9109,7 @@
 		(uuid "ffe87ce4-61b9-476a-a4ac-f29261c526dc")
 	)
 	(no_connect
-		(at 191.262 252.73)
+		(at 189.23 252.73)
 		(uuid "00d968e8-0ef8-46da-a632-6bb996532e35")
 	)
 	(no_connect
@@ -9129,11 +9129,11 @@
 		(uuid "314b8c06-b417-41d0-b66c-acfd16f3e4b8")
 	)
 	(no_connect
-		(at 118.11 252.73)
+		(at 124.46 251.46)
 		(uuid "710d598b-621b-4cc2-9624-4f96a9568a63")
 	)
 	(no_connect
-		(at 118.11 250.19)
+		(at 124.46 248.92)
 		(uuid "87a1625a-efe0-4d3c-97d8-ab2b46539684")
 	)
 	(no_connect
@@ -9165,7 +9165,7 @@
 		(uuid "cd74f8dd-5b86-4ca0-a389-3de9fe972e2f")
 	)
 	(no_connect
-		(at 191.262 250.19)
+		(at 189.23 248.92)
 		(uuid "d11fb71a-eefe-4ea5-8881-7468311358bb")
 	)
 	(wire
@@ -12250,16 +12250,6 @@
 	)
 	(wire
 		(pts
-			(xy 89.408 218.44) (xy 88.9 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc34989b-c455-4498-af14-d62d02cefc62")
-	)
-	(wire
-		(pts
 			(xy 236.22 383.54) (xy 236.22 384.81)
 		)
 		(stroke
@@ -12420,7 +12410,7 @@
 	)
 	(rectangle
 		(start 15.24 193.04)
-		(end 205.74 287.02)
+		(end 214.884 287.02)
 		(stroke
 			(width 0)
 			(type default)
@@ -13587,7 +13577,7 @@
 	)
 	(global_label "PA3 _ADC_REC_1_I"
 		(shape input)
-		(at 120.65 220.98 0)
+		(at 120.65 214.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13597,7 +13587,7 @@
 		)
 		(uuid "25fbf99f-baa2-40fc-8e1c-973b0a7c0d14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.1732 220.98 0)
+			(at 141.1732 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13873,7 +13863,7 @@
 	)
 	(global_label "REV_out_1"
 		(shape input)
-		(at 120.65 212.09 0)
+		(at 120.904 209.042 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13883,7 +13873,7 @@
 		)
 		(uuid "551342d4-067f-437c-8f14-e3a68dad92f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.3112 212.09 0)
+			(at 133.5652 209.042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13895,7 +13885,7 @@
 	)
 	(global_label "REV_out_3"
 		(shape input)
-		(at 118.11 243.84 0)
+		(at 124.46 243.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13905,7 +13895,7 @@
 		)
 		(uuid "57e84127-d5ec-4eca-b591-7f2ab3e3a028")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.7712 243.84 0)
+			(at 137.1212 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13939,7 +13929,7 @@
 	)
 	(global_label "recovery - PC8"
 		(shape input)
-		(at 86.36 251.46 180)
+		(at 95.25 240.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13949,7 +13939,7 @@
 		)
 		(uuid "5d433a6c-d317-4735-add2-b8a924c3dfe7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.1953 251.46 0)
+			(at 77.0853 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14093,7 +14083,7 @@
 	)
 	(global_label "PB0_ADC_REC_2_U"
 		(shape input)
-		(at 191.77 220.98 0)
+		(at 189.23 219.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14103,7 +14093,7 @@
 		)
 		(uuid "68db8204-f86c-40c7-b0f0-b99cfe970389")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.2327 220.98 0)
+			(at 209.6927 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14181,7 +14171,7 @@
 	)
 	(global_label "recovery - PC9"
 		(shape input)
-		(at 159.512 251.46 180)
+		(at 160.02 241.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14191,7 +14181,7 @@
 		)
 		(uuid "70ff710a-556a-4c75-bfaf-bd3486506cc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.3473 251.46 0)
+			(at 141.8553 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14621,7 +14611,7 @@
 	)
 	(global_label "REV_out_4"
 		(shape input)
-		(at 191.77 243.84 0)
+		(at 189.23 245.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14631,7 +14621,7 @@
 		)
 		(uuid "90172b3a-4c61-4217-a0d3-88d4315f1407")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.4312 243.84 0)
+			(at 201.8912 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14753,7 +14743,7 @@
 	)
 	(global_label "recovery - PC7"
 		(shape input)
-		(at 160.528 220.98 180)
+		(at 160.02 208.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14763,7 +14753,7 @@
 		)
 		(uuid "a0539ee1-94d0-4920-be43-454e73108652")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.3633 220.98 0)
+			(at 141.8553 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15379,7 +15369,7 @@
 	)
 	(global_label "REV_out_2"
 		(shape input)
-		(at 192.278 214.63 0)
+		(at 189.23 212.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15389,7 +15379,7 @@
 		)
 		(uuid "db3242b0-3e97-47ef-abc6-af0d12d48479")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.9392 214.63 0)
+			(at 201.8912 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15621,7 +15611,7 @@
 	)
 	(global_label "recovery - PC6"
 		(shape input)
-		(at 88.9 218.44 180)
+		(at 91.44 205.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15631,7 +15621,7 @@
 		)
 		(uuid "f6f28013-262a-45c1-ac58-734997214d47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.7353 218.44 0)
+			(at 73.2753 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15643,7 +15633,7 @@
 	)
 	(global_label "PB1_ADC_REC_2_I"
 		(shape input)
-		(at 191.77 223.52 0)
+		(at 189.23 217.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15653,7 +15643,7 @@
 		)
 		(uuid "f700749d-535e-4c90-a67a-73338570ee4d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.507 223.52 0)
+			(at 208.967 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31751,8 +31741,8 @@
 		)
 	)
 	(sheet
-		(at 160.528 212.09)
-		(size 31.242 13.462)
+		(at 160.02 205.74)
+		(size 29.21 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -31761,9 +31751,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "3c669623-ba40-42b2-b68d-d8e1287df580")
-		(property "Sheetname" "Recovery output 2"
-			(at 160.528 211.3784 0)
+		(uuid "1b0ab639-d420-4016-938c-453dcf1ed81d")
+		(property "Sheetname" "Recovery Output2"
+			(at 160.02 205.0284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31771,8 +31761,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 160.528 226.1366 0)
+		(property "Sheetfile" "recovery_output.kicad_sch"
+			(at 160.02 224.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31780,55 +31770,55 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO_recovery" input
-			(at 160.528 220.98 180)
+		(pin "cont_check" input
+			(at 160.02 217.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f7c38e7a-498f-4ad6-8f30-f9de2819b336")
+			(uuid "9cf13146-a0c0-4c88-bcb1-434f90953cf9")
+		)
+		(pin "GPIO_recovery" input
+			(at 160.02 208.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "90c91a8b-a289-47ed-b3dd-aac3dcc43caa")
 		)
 		(pin "adc_u_sense" output
-			(at 191.77 220.98 0)
+			(at 189.23 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d8e71bea-c3d4-449d-8ccd-9905394e93ad")
-		)
-		(pin "adc_i_sense" output
-			(at 191.77 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "750e0161-728a-468d-b865-c4a26eed4030")
-		)
-		(pin "cont_check" input
-			(at 160.528 214.63 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "78e7e732-91ba-4fa0-9f46-5959d761c384")
+			(uuid "89ddf239-df0b-466c-ae24-ad191d146dda")
 		)
 		(pin "recovery_out" output
-			(at 191.77 214.63 0)
+			(at 189.23 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f1401468-d0e7-4b5a-926b-011662a6ede0")
+			(uuid "843caa8c-e90f-4fa2-8fb2-f93b9f3ba79c")
+		)
+		(pin "adc_i_sense" output
+			(at 189.23 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "05f684fe-9ba7-472e-810c-02b489aa14fa")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
@@ -31839,8 +31829,8 @@
 		)
 	)
 	(sheet
-		(at 160.02 241.3)
-		(size 31.242 13.462)
+		(at 95.25 237.49)
+		(size 29.21 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -31849,9 +31839,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "75f1ea16-f2eb-4c3c-b1fa-635b9d015465")
-		(property "Sheetname" "Recovery output 4"
-			(at 160.02 240.5884 0)
+		(uuid "1e21a0b4-3701-4fea-ae6f-c1650f6b51b3")
+		(property "Sheetname" "Recovery Output1"
+			(at 95.25 236.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31859,8 +31849,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 160.02 255.3466 0)
+		(property "Sheetfile" "recovery_output.kicad_sch"
+			(at 95.25 255.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31868,143 +31858,55 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO_recovery" input
-			(at 160.02 251.46 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fc314c1b-3a7c-44a7-93ce-e7042246d581")
-		)
-		(pin "adc_u_sense" output
-			(at 191.262 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6780ce28-d0f8-44a1-be50-08bf765ce059")
-		)
-		(pin "adc_i_sense" output
-			(at 191.262 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "82f8eff3-951f-4e32-8a22-03e97399ffa5")
-		)
 		(pin "cont_check" input
-			(at 160.02 245.11 180)
+			(at 95.25 248.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "80b636c7-0ea6-4074-bca7-d061c3b58bb4")
-		)
-		(pin "recovery_out" output
-			(at 191.262 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ca73b6ba-4a28-4f0e-9e94-419fefae076e")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 89.408 209.55)
-		(size 31.242 13.462)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "81a840bc-48b2-4614-bd78-3ffe4e39bf38")
-		(property "Sheetname" "Recovery output 1"
-			(at 89.408 208.8384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 89.408 223.5966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
+			(uuid "82ed2092-25a0-4f89-936d-539cf9e355d9")
 		)
 		(pin "GPIO_recovery" input
-			(at 89.408 218.44 180)
+			(at 95.25 240.03 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cd0abce8-ad6d-42c7-9c2a-c5e8eef4b84e")
+			(uuid "1dc043d5-a24e-4d82-9ea1-5b183582d717")
 		)
 		(pin "adc_u_sense" output
-			(at 120.65 218.44 0)
+			(at 124.46 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a09d8dbf-99d6-4270-9e2c-ce6f22ebef8d")
-		)
-		(pin "adc_i_sense" output
-			(at 120.65 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b982f467-6856-41c6-b81c-46abb78e6b74")
-		)
-		(pin "cont_check" input
-			(at 89.408 213.36 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "548ff7ae-f6ee-468a-836c-bd73c4cfac23")
+			(uuid "46cf0eaf-29a4-484a-99ad-f6ada2a7b0c4")
 		)
 		(pin "recovery_out" output
-			(at 120.65 212.09 0)
+			(at 124.46 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ce66fc1e-2e79-44fc-bb9e-567358ed68f1")
+			(uuid "f615d6a9-a3f3-4f1d-892f-6df699de16cd")
+		)
+		(pin "adc_i_sense" output
+			(at 124.46 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "15058312-6c4f-46c3-a0dd-15e25b7cb7fa")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
@@ -32015,8 +31917,8 @@
 		)
 	)
 	(sheet
-		(at 86.868 241.3)
-		(size 31.242 13.462)
+		(at 91.44 202.692)
+		(size 29.21 17.78)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -32025,9 +31927,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "b8e29772-1fef-4e4f-806b-39a1977bfaf9")
-		(property "Sheetname" "Recovery output 3"
-			(at 86.868 240.5884 0)
+		(uuid "4924f453-debe-420b-955f-34707f20b488")
+		(property "Sheetname" "Recovery Output"
+			(at 91.44 201.9804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32035,8 +31937,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
-			(at 86.868 255.3466 0)
+		(property "Sheetfile" "recovery_output.kicad_sch"
+			(at 91.44 221.0566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32044,55 +31946,143 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO_recovery" input
-			(at 86.868 251.46 180)
+		(pin "cont_check" input
+			(at 91.44 214.122 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7ce7c2e0-eedf-40be-b273-65db3f1a355c")
+			(uuid "4151227e-f5b2-4164-b980-77a89e24ed52")
+		)
+		(pin "GPIO_recovery" input
+			(at 91.44 205.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2bb22846-5a54-4a97-8e42-9ea7be1e23a4")
 		)
 		(pin "adc_u_sense" output
-			(at 118.11 250.19 0)
+			(at 120.65 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "12e3e7c1-5f44-4096-9592-ec12ba24b59f")
+			(uuid "cdcf69a3-2b89-4fb7-96ee-b7990659ae52")
+		)
+		(pin "recovery_out" output
+			(at 120.65 209.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cb43b79e-2f22-4965-870c-13860f3e88dd")
 		)
 		(pin "adc_i_sense" output
-			(at 118.11 252.73 0)
+			(at 120.65 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c07f824f-26df-4fed-ba59-9137fd5e6715")
+			(uuid "0c783fd4-d6b6-4867-969a-60047a0296a3")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 238.76)
+		(size 29.21 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9351aa18-d08f-4bdd-8577-c307d483b4c3")
+		(property "Sheetname" "Recovery Output3"
+			(at 160.02 238.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "recovery_output.kicad_sch"
+			(at 160.02 257.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
 		)
 		(pin "cont_check" input
-			(at 86.868 245.11 180)
+			(at 160.02 250.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "57387ae9-9e90-4cf8-b493-c30ea50bddf4")
+			(uuid "db5653f4-32fd-4a7a-b6be-5bcf41d5b6ef")
 		)
-		(pin "recovery_out" output
-			(at 118.11 243.84 0)
+		(pin "GPIO_recovery" input
+			(at 160.02 241.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d8e10f79-8927-4f1a-adeb-51644705dfb8")
+		)
+		(pin "adc_u_sense" output
+			(at 189.23 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2fc28715-05d4-46a9-b43c-606b5d3ec119")
+			(uuid "ad70079a-25b2-4cda-87cb-3ef5c5edeeac")
+		)
+		(pin "recovery_out" output
+			(at 189.23 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5fce50cf-15af-45b3-808a-4ee309576e06")
+		)
+		(pin "adc_i_sense" output
+			(at 189.23 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bc13f74a-8a08-42c9-9e4c-02e5ee880df7")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"

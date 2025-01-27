@@ -3326,30 +3326,30 @@
 			)
 		)
 		(pin "1"
-			(uuid "9298096e-c880-4e41-a419-13d7ae8db53b")
+			(uuid "45c6c648-2d4e-47fc-905d-2b5e587f1359")
 		)
 		(pin "2"
-			(uuid "780e4e38-63c1-4412-bb9b-8c48725ca2eb")
+			(uuid "eb6279bf-04c8-4967-a655-45ca13b32738")
 		)
 		(pin "3"
-			(uuid "3dc579f6-24e3-4891-b2e4-0f1098d31eea")
+			(uuid "d69a0c6e-b106-4679-a0cf-71e9b6e891e1")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
-					(reference "Q6")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "Q10")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "Q14")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
 					(reference "Q2")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "Q10")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -3410,24 +3410,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "753b65bc-590d-4a99-80ec-774ad4728fa2")
+			(uuid "4eb3fdc6-f7be-4ac8-b258-7f74e350c9b4")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "#PWR099")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "#PWR085")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "#PWR038")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "#PWR097")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -3518,30 +3518,30 @@
 			)
 		)
 		(pin "1"
-			(uuid "01992509-58bb-4671-a9da-876a4390aa0d")
+			(uuid "0fdb71a6-6fb1-47fb-b3c3-df01b6dfce29")
 		)
 		(pin "2"
-			(uuid "5a7c5107-4d89-4f92-8016-44c44fbb9bde")
+			(uuid "e21e7ace-6174-465d-8866-7450e75d767f")
 		)
 		(pin "3"
-			(uuid "84f4d794-fc90-4277-8980-2f7508f23e6d")
+			(uuid "d125f745-2c58-4dad-a781-557f3ea820d2")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
-					(reference "Q8")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "Q12")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "Q16")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
 					(reference "Q4")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "Q12")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -3602,24 +3602,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "6d7b5273-8b22-4017-95b1-13341888974e")
+			(uuid "f0950f03-1fe8-43bb-9f19-cb8a5b0e25c1")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "#PWR097")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "#PWR083")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "#PWR036")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "#PWR095")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -3681,33 +3681,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "370d7ed0-4e07-4ad5-b8b9-c6112606c11d")
+			(uuid "3b9f5650-66ab-473a-9b25-48546ffa1d2c")
 		)
 		(pin "4"
-			(uuid "bd854c67-02e9-4062-9f80-2b9732596631")
+			(uuid "d989ebeb-6ba8-4cc5-8c3e-a7df6176f1f0")
 		)
 		(pin "2"
-			(uuid "3a11288a-2f0b-43ea-bc29-242e24c23e11")
+			(uuid "3cc09bba-fc63-4b63-aa52-c5a78be0574e")
 		)
 		(pin "3"
-			(uuid "7aeb038d-a2fe-4a01-bc39-196328b56695")
+			(uuid "7ba24e99-a813-46b8-8cac-25593541bd95")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "R14")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "R22")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "R7")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "R18")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -3799,45 +3799,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "483efdc9-6783-467a-a3b2-b448bc2417bd")
+			(uuid "108fa985-cadd-4bd5-8d68-19b0fd18e835")
 		)
 		(pin "2"
-			(uuid "845f62c6-145b-4b0c-b96c-af1053c7159c")
+			(uuid "3bf33232-65d4-46ee-86e4-67f4e2f60c02")
 		)
 		(pin "3"
-			(uuid "8c2b2e19-385f-4e08-a7f6-2f1bac1a1778")
+			(uuid "c8c6e100-44dc-42ef-b750-8e2541d2de23")
 		)
 		(pin "4"
-			(uuid "b3c892c7-02be-4c6b-9e2d-e7f654fb2ca9")
+			(uuid "a92360f4-1394-4ff5-9e15-a31cfdaa9625")
 		)
 		(pin "5"
-			(uuid "cd173011-e73a-4cb0-a6a8-345f22f74baa")
+			(uuid "53287131-2679-4451-8d37-21527a22a43a")
 		)
 		(pin "6"
-			(uuid "114cef12-4942-47b9-8bca-3fddcd944871")
+			(uuid "601151ad-589d-415a-911f-b93606482e7e")
 		)
 		(pin "7"
-			(uuid "0479ec86-5fb7-427f-b625-404fe6f93498")
+			(uuid "086766f7-2187-4e36-88cd-0ddd9ad0f7cb")
 		)
 		(pin "8"
-			(uuid "e0755d3b-bf9d-4788-807e-dc649b3b6bc4")
+			(uuid "700b9027-b6df-436c-be21-d3495e14fa61")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
-					(reference "Q9")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "Q13")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "Q17")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
 					(reference "Q5")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "Q13")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
+					(reference "Q9")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "Q17")
 					(unit 1)
 				)
 			)
@@ -3935,27 +3935,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "d5def011-41e3-4f43-ba51-37098b54442c")
+			(uuid "86df4a5c-b875-4d31-92c2-64d1dc6e7d3f")
 		)
 		(pin "2"
-			(uuid "a05fced3-2ead-49d2-8bf2-391e0ae3e11e")
+			(uuid "089f2870-16af-49c7-8885-ac75cf983d42")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
-					(reference "F3")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "F5")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "F7")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
 					(reference "F1")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "F5")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
+					(reference "F3")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "F7")
 					(unit 1)
 				)
 			)
@@ -4015,24 +4015,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "b975bbfc-9317-4535-8f5e-b1ec1d720d59")
+			(uuid "407ec6e6-9820-45b3-a04c-842183460f73")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "#PWR096")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "#PWR082")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "#PWR035")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "#PWR094")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -4092,24 +4092,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee432ba7-fe56-40a2-bd2f-28df87d2ecb9")
+			(uuid "1b20a4be-a632-430e-9967-9d3cc3520326")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "#PWR090")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "#PWR086")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "#PWR062")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "#PWR098")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -4125,7 +4125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dc414e2-2e14-4c70-ab1e-929c09a01ea2")
-		(property "Reference" "R31"
+		(property "Reference" "R17"
 			(at 105.41 129.5399 0)
 			(effects
 				(font
@@ -4171,27 +4171,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "72bc70aa-6feb-4cc2-807f-161502640ff1")
+			(uuid "69839ae0-a632-459f-99ef-087470cef8b4")
 		)
 		(pin "2"
-			(uuid "ef9ffcce-b3dc-4339-9f48-f9277f628d0d")
+			(uuid "cd9667cb-c56a-4e3e-b4e1-b192547acf00")
 		)
 		(instances
-			(project ""
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
-					(reference "R31")
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "R22")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "R33")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "R17")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "R30")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "R32")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -4280,27 +4276,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "d85905ef-3b7e-4d4b-8f86-e6b39488ca47")
+			(uuid "b017dfc3-5f09-46dc-a403-49b03b0e8423")
 		)
 		(pin "2"
-			(uuid "8c0a32ac-22ca-41d3-b016-d5975d2dfc22")
+			(uuid "2b8abeef-e738-4c66-a392-207899e35806")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "C26")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "C19")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "C29")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "C10")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "C24")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -4394,45 +4390,45 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd79042d-e58d-4733-99c1-188916271238")
+			(uuid "22880591-a4cd-4644-9f8c-a74b4290fc4f")
 		)
 		(pin "2"
-			(uuid "3299280b-e08f-44df-949e-3509ba6c15bb")
+			(uuid "4ec7b06a-36c9-4d3d-9941-53d81c3331b3")
 		)
 		(pin "3"
-			(uuid "93f71d08-8576-4e19-9f2e-b6af79596fd8")
+			(uuid "795dc528-c836-4def-b99b-e36ae2d76b84")
 		)
 		(pin "4"
-			(uuid "09f528b3-097b-4dfe-8338-68ef169eba36")
+			(uuid "9cfd8156-e1b2-4366-95c0-c501e40275ca")
 		)
 		(pin "5"
-			(uuid "72cba4f6-1e37-408c-a0be-07081b536fc6")
+			(uuid "7938d4d2-3ac7-4aeb-8508-d4d324f0e9f2")
 		)
 		(pin "6"
-			(uuid "28ffbe88-e0c5-421c-a3bf-c9edbcd98410")
+			(uuid "7370c601-8da6-4fa7-950d-aa0317f08afe")
 		)
 		(pin "7"
-			(uuid "2daac0fd-df4e-430a-bed2-9dc252f4524b")
+			(uuid "350660dc-d503-457f-b504-fbc0ce4f328e")
 		)
 		(pin "8"
-			(uuid "552d7900-3f2d-4c2f-ab1d-5fc9323b4a18")
+			(uuid "b34227c7-4c89-4803-a5fe-d47a520ae777")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
-					(reference "Q7")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "Q11")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "Q15")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
 					(reference "Q3")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "Q11")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "Q15")
 					(unit 1)
 				)
 			)
@@ -4493,24 +4489,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e9504bd-d88e-477c-a860-3d92a8eb347c")
+			(uuid "7fca8d61-c486-469b-9ca0-7aa3ed98c520")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
-					(reference "#PWR077")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
 					(reference "#PWR0101")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "#PWR022")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "#PWR089")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "#PWR089")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
+					(reference "#PWR077")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -4570,24 +4566,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "df86d2bd-ecef-41e2-8f11-e16e36f40c57")
+			(uuid "f921209b-0e45-458f-9d71-ead42e8568fd")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "#PWR094")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "#PWR080")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "#PWR033")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "#PWR092")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -4646,39 +4642,39 @@
 			)
 		)
 		(pin "6"
-			(uuid "23204f7f-6a3d-4e14-af72-908cc4e9d0ce")
+			(uuid "33667859-d543-471f-9c30-df66e3823bca")
 		)
 		(pin "2"
-			(uuid "8bc3e181-3ebf-4435-bc26-3caf89b411a4")
+			(uuid "b6ef5160-23f4-462c-8525-e2e829ca3486")
 		)
 		(pin "1"
-			(uuid "8809a39d-f88d-49d4-a6a7-1cee85a552c7")
+			(uuid "4e4679d8-750d-4f46-a774-7f4edeb3efe1")
 		)
 		(pin "4"
-			(uuid "0b766c0b-c64a-45f2-804c-a6b2d1c274db")
+			(uuid "364f99cc-d171-4b54-96db-0d679c08bd43")
 		)
 		(pin "5"
-			(uuid "c7c82569-902a-483b-99ac-22361d7ac9a2")
+			(uuid "fcfd09ac-8734-4db1-b783-2be3bea535d8")
 		)
 		(pin "3"
-			(uuid "17b12f60-ad06-42e5-a052-3f476eb2d957")
+			(uuid "9ffe15d6-6eb2-40df-8865-bdd94e91ae7a")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
-					(reference "U9")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
 					(reference "U11")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "U4")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "U10")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "U10")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
+					(reference "U9")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -4757,27 +4753,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2ee87b2-f24c-4411-84f4-2a90430995ab")
+			(uuid "7142ff8b-b409-4e48-85ce-72ebbe88fff1")
 		)
 		(pin "2"
-			(uuid "fabe686f-f1ed-4970-9f84-ba7c5377397c")
+			(uuid "291907ba-4655-401c-b51f-a1f97182fadf")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "C28")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "C23")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "C16")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "C26")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "C7")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "C21")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -4856,27 +4852,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "32dc3f4f-2096-40f0-b799-dc25f45f849f")
+			(uuid "ba44a2f4-affd-47a0-a044-55347abf421d")
 		)
 		(pin "2"
-			(uuid "cca11149-6725-4639-8359-edaa4a862d2c")
+			(uuid "e8284bab-1a52-4ca0-b7cb-823d0976dc6a")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "C30")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "C25")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "C18")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "C28")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "C9")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "C23")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -4937,24 +4933,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c71f4a6-1d46-4113-9a2d-bf71fe1547bb")
+			(uuid "42c9d87f-d780-4207-a146-26ecdaf6c3d5")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "#PWR093")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "#PWR079")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "#PWR032")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "#PWR091")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -5016,27 +5012,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a5908a7-959b-4964-9e07-15c130b19193")
+			(uuid "cc42fe06-30b2-43b9-9099-7c88b85ebc3b")
 		)
 		(pin "2"
-			(uuid "0b39b35d-9e10-4522-b66f-f2e30832688e")
+			(uuid "58db9c6a-28e7-403e-ab24-d8abc859286b")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "R20")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "R13")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "R21")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "R6")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "R17")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -5097,24 +5093,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff71c70f-1d18-4d7a-bb5f-086b17884847")
+			(uuid "280516a0-990d-496c-9e19-c6037bfc085c")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
-					(reference "#PWR076")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
 					(reference "#PWR0100")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "#PWR021")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "#PWR088")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "#PWR088")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
+					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -5203,27 +5199,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "60503525-4a67-486c-93f3-97b534d1a290")
+			(uuid "a1e8d586-7972-4945-848c-0f0f9a46e10b")
 		)
 		(pin "2"
-			(uuid "af301b4f-94a5-45fd-b5b1-f7958583e5af")
+			(uuid "250d4c19-86fa-495b-9cb0-ae26d1d33221")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "R11")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "R19")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "R4")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "R15")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5284,24 +5280,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "13ad2e66-1911-4aea-bb71-34f581afa2d1")
+			(uuid "11bb878e-7c1c-49fc-82be-e9b127949db9")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "#PWR095")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "#PWR081")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "#PWR034")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "#PWR093")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -5390,27 +5386,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "7c724e26-69f0-40a2-b952-2b3ddabfc140")
+			(uuid "522e4496-4e48-45d4-bc5e-98002ac29bc4")
 		)
 		(pin "2"
-			(uuid "0125a2cb-6625-49b6-aeb3-fd353349f631")
+			(uuid "65956dd4-4044-4514-b05e-8028dc1b6c53")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "R12")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "R20")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "R5")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "R16")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -5426,7 +5422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b929a8cb-31ab-4df6-bb05-0d800061c5e9")
-		(property "Reference" "D15"
+		(property "Reference" "D12"
 			(at 106.68 138.7474 90)
 			(effects
 				(font
@@ -5472,27 +5468,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "eca95093-e63d-4e7f-9057-739364ac79be")
+			(uuid "efd533c1-a70d-4273-b4ef-b065beff7028")
 		)
 		(pin "2"
-			(uuid "bfe9f9a8-e455-4251-83f0-606d799a23f2")
+			(uuid "bf312d77-bb28-4982-8a40-8956f13bc550")
 		)
 		(instances
-			(project ""
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
-					(reference "D15")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "D17")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
 					(reference "D14")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "D16")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -5552,27 +5544,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad8eafe0-f85b-4951-8e29-e19d82b2d89b")
+			(uuid "6317350c-a643-467e-a9f1-5185f9bace20")
 		)
 		(pin "2"
-			(uuid "8b41bf65-5454-4075-b976-5028a582b76e")
+			(uuid "1bcb1747-92e9-48bd-aed8-6af324595db8")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "C29")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "C17")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "C27")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "C8")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "C22")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -5633,24 +5625,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "ceda5899-5038-44ee-a896-2ac6c1d94bc7")
+			(uuid "ad3e3c8f-263f-4e87-badb-327fed18fb70")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "#PWR091")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "#PWR087")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "#PWR063")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "#PWR099")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -5711,24 +5703,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "5af14e4a-e8f8-4b0f-b1e2-a09528cdcc9f")
+			(uuid "bafd0fce-193d-4895-aa24-c8b5736da26b")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "#PWR092")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "#PWR078")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "#PWR031")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "#PWR090")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -5817,27 +5809,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "67f5905d-1daf-46d6-855b-4f876d7704d9")
+			(uuid "4f14d91a-c32f-4af5-bb9e-842873115bd8")
 		)
 		(pin "2"
-			(uuid "b04ea693-82af-40ad-9282-8ab01cde6ba4")
+			(uuid "e843d81d-5b39-4dd6-9533-ee34f52b2461")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "C27")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "C20")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "C30")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "C11")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "C25")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -5898,24 +5890,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "b37529b1-205a-4c40-b581-6a42413ed4d4")
+			(uuid "e97a81f4-1997-423c-ab3f-376adc73c4ed")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "#PWR098")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "#PWR084")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
-					(reference "#PWR037")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "#PWR096")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -6013,27 +6005,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "dcaf65f1-7aab-4eff-a508-3875bdc65687")
+			(uuid "1c528de5-d6cb-42d8-93cd-3f4e7ac0d305")
 		)
 		(pin "2"
-			(uuid "c6720a93-12ad-4c49-8aa4-daab422ca28b")
+			(uuid "853a771d-caf1-452f-9665-4ed733503850")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
-					(reference "F4")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "F6")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
-					(reference "F8")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
 					(reference "F2")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "F6")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
+					(reference "F4")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "F8")
 					(unit 1)
 				)
 			)
@@ -6113,27 +6105,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "6b76df6e-f822-4e6a-9088-351f8d37f032")
+			(uuid "efeac414-e0e9-415f-b18f-e5ca7c3cc569")
 		)
 		(pin "1"
-			(uuid "1b4a9965-07d5-4ff4-82bb-bf11ed21435e")
+			(uuid "99305f5d-878f-48b3-ba28-629f88e1026e")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/3c669623-ba40-42b2-b68d-d8e1287df580"
-					(reference "D11")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/75f1ea16-f2eb-4c3c-b1fa-635b9d015465"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
 					(reference "D13")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/81a840bc-48b2-4614-bd78-3ffe4e39bf38"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
 					(reference "D6")
 					(unit 1)
 				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/b8e29772-1fef-4e4f-806b-39a1977bfaf9"
-					(reference "D12")
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "D16")
 					(unit 1)
 				)
 			)
