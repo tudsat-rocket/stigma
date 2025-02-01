@@ -939,7 +939,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x04_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x04_Top_Bottom"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -953,7 +953,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x04_Counter_Clockwise"
+			(property "Value" "Conn_02x04_Top_Bottom"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -979,7 +979,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1006,7 +1006,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x04_Counter_Clockwise_1_1"
+			(symbol "Conn_02x04_Top_Bottom_1_1"
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -1179,7 +1179,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1197,7 +1197,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -1215,7 +1215,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1233,7 +1233,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -21548,6 +21548,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Top_Bottom")
+		(at 325.12 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36ae798a-a786-45d5-aed7-7bb2b8bf8310")
+		(property "Reference" "J3"
+			(at 326.39 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x04_Top_Bottom"
+			(at 326.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal"
+			(at 325.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 325.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "0df70dc9-84c9-49c5-bf4b-95eb42bb2c47")
+		)
+		(pin "1"
+			(uuid "33f5cc4d-a2ea-4a6b-8c22-2efed93abc0b")
+		)
+		(pin "7"
+			(uuid "fb9ecb18-28cc-4d85-afc9-fd1c61abb2cf")
+		)
+		(pin "2"
+			(uuid "92765550-6490-4c88-ad89-8bec317243c5")
+		)
+		(pin "4"
+			(uuid "172dfad1-35a6-4af3-8c28-321a512ec1f9")
+		)
+		(pin "3"
+			(uuid "3af0f17a-9a2b-42c1-911b-7bfc3b228f8f")
+		)
+		(pin "5"
+			(uuid "415daa7b-8b89-41c4-90d9-7bdcdcdb90ec")
+		)
+		(pin "8"
+			(uuid "22981770-d4fb-446d-ae7f-e3d24912fac6")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 176.53 389.89 0)
 		(unit 1)
@@ -31004,91 +31090,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 325.12 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c043f3ca-f91a-41cd-b36e-38b944a99455")
-		(property "Reference" "J3"
-			(at 326.898 64.516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 326.39 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0821_2x04-1MP_P3.00mm_Horizontal"
-			(at 325.12 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 325.12 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 325.12 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "1d8248b7-5381-4bc4-9075-37f90690a817")
-		)
-		(pin "1"
-			(uuid "0d007464-e8d7-4807-b678-abeebba53542")
-		)
-		(pin "5"
-			(uuid "59c749ef-dec8-4c5d-b64a-34937c763ead")
-		)
-		(pin "6"
-			(uuid "a180141b-6161-470e-a16e-ccec3f48dcb1")
-		)
-		(pin "3"
-			(uuid "8255b8ed-34c2-465d-80ca-3ab7a723715e")
-		)
-		(pin "7"
-			(uuid "d44eb956-f19e-4aa3-9f7e-c9389c5654b7")
-		)
-		(pin "2"
-			(uuid "2c3a3f38-6bd5-4d27-b07b-3a4ab62fd1ca")
-		)
-		(pin "4"
-			(uuid "6d3e15ec-d859-468b-ba8d-b0a3c46aa9a8")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 287.02 80.01 90)
 		(unit 1)
@@ -32973,6 +32974,92 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Top_Bottom")
+		(at 325.12 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8287ee7-2753-4ceb-bc83-b6a291ae0283")
+		(property "Reference" "J8"
+			(at 326.39 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x04_Top_Bottom"
+			(at 326.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal"
+			(at 325.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 325.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6186143f-bf8d-4fe4-9eec-2a2903fbbcbb")
+		)
+		(pin "1"
+			(uuid "91eb9590-88bf-41b3-931b-0c27c0ac25a9")
+		)
+		(pin "7"
+			(uuid "6b8bd988-000a-49b5-9854-f213997faff5")
+		)
+		(pin "2"
+			(uuid "78a1bb34-9ffb-47ae-b77c-301d800518bb")
+		)
+		(pin "4"
+			(uuid "e9fbb8ed-6d59-4bef-a0cd-195b69eb121c")
+		)
+		(pin "3"
+			(uuid "83c1f445-7136-4e0b-b04c-c9883a7e887a")
+		)
+		(pin "5"
+			(uuid "69fbe9e0-fbe7-43d9-81cd-a9e027bd493c")
+		)
+		(pin "8"
+			(uuid "f5460144-1d31-47d7-aa9c-ae027d02b6f3")
+		)
+		(instances
+			(project ""
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -35045,92 +35132,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
-		(at 325.12 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1aab7df-1f04-44bc-948d-4cd7b36cd129")
-		(property "Reference" "J14"
-			(at 326.39 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 326.39 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0821_2x04-1MP_P3.00mm_Horizontal"
-			(at 325.12 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 325.12 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 325.12 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "74b675d1-c6a8-4ed0-aba5-31720dfd3229")
-		)
-		(pin "1"
-			(uuid "07cffeda-fbdb-4399-a786-8923a4392bf8")
-		)
-		(pin "5"
-			(uuid "5c578897-0e2f-4373-a6a6-d3e4107714f9")
-		)
-		(pin "6"
-			(uuid "5d91754a-6cab-4be8-9709-36677786c5cb")
-		)
-		(pin "3"
-			(uuid "48f6018b-10f1-4ffe-9876-2b6546035fa0")
-		)
-		(pin "7"
-			(uuid "b63dce91-4f97-4c7b-a8b5-6bdde3ec9341")
-		)
-		(pin "2"
-			(uuid "ea436ba5-e5d5-4ba5-a710-e780ab529424")
-		)
-		(pin "4"
-			(uuid "43ef8a7e-b7d7-4c02-9042-717cf874a94e")
-		)
-		(instances
-			(project ""
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "J14")
 					(unit 1)
 				)
 			)
