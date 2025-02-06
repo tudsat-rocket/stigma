@@ -5045,7 +5045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121615_Littelfuse-0501010-WR1_C207003.pdf"
+		(property "Datasheet" "~"
 			(at 71.12 107.95 0)
 			(effects
 				(font
