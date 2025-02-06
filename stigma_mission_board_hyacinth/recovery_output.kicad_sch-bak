@@ -3426,6 +3426,12 @@
 		(uuid "4c9cf7a9-44ad-4307-a92e-b6cab80258ef")
 	)
 	(junction
+		(at 95.25 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52cfabd1-892b-42f7-8c16-b2f079429043")
+	)
+	(junction
 		(at 41.91 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3623,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 104.14) (xy 95.25 116.84)
+			(xy 95.25 104.14) (xy 95.25 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3660,6 +3666,16 @@
 			(type default)
 		)
 		(uuid "43b57b24-57d3-4848-add1-c839af587861")
+	)
+	(wire
+		(pts
+			(xy 95.25 115.57) (xy 101.6 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452412b1-30c1-4ab2-b5b4-5fbf79ece777")
 	)
 	(wire
 		(pts
@@ -4183,6 +4199,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 116.84) (xy 95.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4c4527-a450-4dcc-84c7-f48cfa649733")
+	)
+	(wire
+		(pts
 			(xy 99.06 96.52) (xy 104.14 96.52)
 		)
 		(stroke
@@ -4440,6 +4466,18 @@
 			(justify right)
 		)
 		(uuid "4a5f815b-87ca-4d03-93e4-91250e68fca9")
+	)
+	(hierarchical_label "adc_u_sense"
+		(shape output)
+		(at 101.6 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef58a2a4-5b79-4abf-ba09-3cf23254bd12")
 	)
 	(symbol
 		(lib_id "Transistor_FET:DMG2302U")
@@ -5045,7 +5083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121615_Littelfuse-0501010-WR1_C207003.pdf"
+		(property "Datasheet" "~"
 			(at 71.12 107.95 0)
 			(effects
 				(font
