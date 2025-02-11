@@ -1,4 +1,3 @@
-
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
@@ -3829,7 +3828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0358f384-6c69-45b2-96c0-8c4085499e6b")
-		(property "Reference" "Q10"
+		(property "Reference" "Q4"
 			(at 52.197 94.4153 0)
 			(effects
 				(font
@@ -3916,7 +3915,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "Q10")
+					(reference "Q4")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
@@ -3924,11 +3923,11 @@
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "Q6")
+					(reference "Q8")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "Q14")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -3944,7 +3943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06290bad-7f91-424f-bb1f-5f3d002e078e")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0138"
 			(at 119.38 72.39 0)
 			(effects
 				(font
@@ -3994,19 +3993,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "#PWR0111")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "#PWR099")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "#PWR085")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "#PWR0152")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -4022,7 +4021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b745e3a-2102-494e-ba92-e46fe4f3f3ec")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0142"
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -4072,19 +4071,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "#PWR0109")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "#PWR097")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "#PWR083")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "#PWR0150")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -4100,7 +4099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fbee848-a140-48a4-b83b-bfd20520eab1")
-		(property "Reference" "JP6"
+		(property "Reference" "JP8"
 			(at 104.648 108.458 90)
 			(effects
 				(font
@@ -4164,19 +4163,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "JP6")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "JP5")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
 					(reference "JP8")
 					(unit 1)
 				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "JP6")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
+					(reference "JP12")
+					(unit 1)
+				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "JP7")
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -4192,7 +4191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "110c6537-ea69-43cb-b172-f559e5f416ae")
-		(property "Reference" "R21"
+		(property "Reference" "R46"
 			(at 90.17 74.9299 0)
 			(effects
 				(font
@@ -4252,19 +4251,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "R21")
+					(reference "R46")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "R16")
+					(reference "R41")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "R14")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "R28")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -4280,7 +4279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23bb8609-9b58-46d8-a33f-6d320bf56922")
-		(property "Reference" "F5"
+		(property "Reference" "F4"
 			(at 69.723 84.2553 90)
 			(effects
 				(font
@@ -4370,19 +4369,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "F5")
+					(reference "F4")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "F1")
+					(reference "F2")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "F3")
+					(reference "F8")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "F7")
+					(reference "F6")
 					(unit 1)
 				)
 			)
@@ -4397,7 +4396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35bc9f7d-6de1-4f7d-af18-6de7a76c09ab")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0137"
 			(at 106.68 67.31 0)
 			(effects
 				(font
@@ -4447,15 +4446,15 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "#PWR0108")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "#PWR096")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "#PWR082")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
@@ -4474,7 +4473,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d980f96-7eeb-4def-b143-fd955ce00fda")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0140"
 			(at 146.05 73.66 0)
 			(effects
 				(font
@@ -4524,19 +4523,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "#PWR0102")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "#PWR090")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "#PWR086")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "#PWR0116")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -4552,7 +4551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dc414e2-2e14-4c70-ab1e-929c09a01ea2")
-		(property "Reference" "R22"
+		(property "Reference" "R49"
 			(at 95.25 106.6799 0)
 			(effects
 				(font
@@ -4606,19 +4605,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "R22")
+					(reference "R49")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "R17")
+					(reference "R44")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "R7")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "R29")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -4634,7 +4633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f0e9b31-1093-4662-a65b-5d0612fca4e0")
-		(property "Reference" "C26"
+		(property "Reference" "C49"
 			(at 143.2941 75.3589 0)
 			(effects
 				(font
@@ -4715,19 +4714,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "C26")
+					(reference "C49")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "C21")
+					(reference "C45")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "C19")
+					(reference "C57")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "C49")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -4744,7 +4743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "588f97a7-d8a8-4754-a35a-9ef3fec34d23")
-		(property "Reference" "Q11"
+		(property "Reference" "Q5"
 			(at 71.247 94.4153 0)
 			(effects
 				(font
@@ -4847,7 +4846,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "Q11")
+					(reference "Q5")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
@@ -4855,11 +4854,11 @@
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "Q7")
+					(reference "Q9")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "Q15")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -4875,7 +4874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62765c4d-01a1-4a89-b396-fcbd839107e1")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0145"
 			(at 49.53 113.03 0)
 			(effects
 				(font
@@ -4925,19 +4924,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "#PWR0101")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "#PWR089")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "#PWR077")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "#PWR0114")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -4952,7 +4951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a22bb94-b6bb-481a-97a9-5abbebd9d06e")
-		(property "Reference" "U11"
+		(property "Reference" "U14"
 			(at 111.506 69.85 0)
 			(effects
 				(font
@@ -5016,19 +5015,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "U11")
+					(reference "U14")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "U10")
+					(reference "U13")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "U9")
+					(reference "U16")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "U16")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -5044,7 +5043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c480e3d-acbe-4b02-9775-a3e8312a40ef")
-		(property "Reference" "R20"
+		(property "Reference" "R45"
 			(at 95.25 64.7699 0)
 			(effects
 				(font
@@ -5098,19 +5097,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "R20")
+					(reference "R45")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "R15")
+					(reference "R40")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "R13")
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "R26")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -5125,7 +5124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f43d1f7-d847-4788-b624-95a677cf8911")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0146"
 			(at 125.73 119.38 0)
 			(effects
 				(font
@@ -5176,19 +5175,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "#PWR0126")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "#PWR0124")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "#PWR0142")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "#PWR0127")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -5204,7 +5203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a6a9e7e-a8af-43c7-ab8b-036865c5b215")
-		(property "Reference" "R18"
+		(property "Reference" "R47"
 			(at 51.0286 84.2553 0)
 			(effects
 				(font
@@ -5285,19 +5284,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "R18")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "R6")
+					(reference "R42")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "R11")
+					(reference "R57")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "R24")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -5312,7 +5311,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b789c4b-54e9-4b3d-a3e7-5a890c11771a")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0139"
 			(at 67.31 73.66 0)
 			(effects
 				(font
@@ -5363,19 +5362,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "#PWR088")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "#PWR078")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "#PWR0100")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "#PWR092")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -5391,7 +5390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a15a8d54-64c5-4a85-8ea0-6660cddbff00")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0147"
 			(at 92.71 125.73 0)
 			(effects
 				(font
@@ -5441,19 +5440,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "#PWR0107")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "#PWR095")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "#PWR081")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "#PWR0148")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -5468,7 +5467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a33d0d89-c71b-44db-89be-1a7e0359aecf")
-		(property "Reference" "JP2"
+		(property "Reference" "JP7"
 			(at 58.42 68.58 0)
 			(effects
 				(font
@@ -5532,19 +5531,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "JP2")
+					(reference "JP7")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "JP1")
+					(reference "JP5")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "JP4")
+					(reference "JP11")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "JP3")
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -5560,7 +5559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a913b27e-d8bc-4fb9-a3cf-93e65e769866")
-		(property "Reference" "F4"
+		(property "Reference" "F3"
 			(at 93.98 58.4199 90)
 			(effects
 				(font
@@ -5650,19 +5649,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "F4")
+					(reference "F3")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "F2")
+					(reference "F1")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "F8")
+					(reference "F7")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "F6")
+					(reference "F5")
 					(unit 1)
 				)
 			)
@@ -5677,7 +5676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "add74099-8118-4e4e-be29-22c08b15be3b")
-		(property "Reference" "J17"
+		(property "Reference" "J12"
 			(at 146.05 110.4899 90)
 			(effects
 				(font
@@ -5737,19 +5736,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "J17")
+					(reference "J12")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "J16")
+					(reference "J11")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "J19")
+					(reference "J14")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "J18")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -5765,7 +5764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6e17ff5-431f-406d-b97e-527d3e226695")
-		(property "Reference" "C63"
+		(property "Reference" "C51"
 			(at 81.28 91.4399 0)
 			(effects
 				(font
@@ -5828,19 +5827,19 @@
 		(instances
 			(project ""
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "C63")
+					(reference "C51")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "C62")
+					(reference "C47")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "C66")
+					(reference "C59")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "C65")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -5856,7 +5855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b918b1a4-48ae-431d-98fa-a4b665214ce8")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0143"
 			(at 77.47 101.6 0)
 			(effects
 				(font
@@ -5906,19 +5905,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "#PWR0168")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "#PWR0167")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "#PWR0170")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "#PWR0169")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -5934,7 +5933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b929a8cb-31ab-4df6-bb05-0d800061c5e9")
-		(property "Reference" "D14"
+		(property "Reference" "D22"
 			(at 96.52 115.8874 90)
 			(effects
 				(font
@@ -5988,11 +5987,11 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "D14")
+					(reference "D22")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "D12")
+					(reference "D19")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
@@ -6000,7 +5999,7 @@
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "D17")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -6016,7 +6015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba6caa03-751b-4f31-a1d3-547df865b727")
-		(property "Reference" "C29"
+		(property "Reference" "C48"
 			(at 113.03 57.15 90)
 			(effects
 				(font
@@ -6068,15 +6067,15 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "C29")
+					(reference "C48")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "C24")
+					(reference "C44")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "C17")
+					(reference "C56")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
@@ -6096,7 +6095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc566439-218f-4044-8b5c-4a1d938fd7ff")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0144"
 			(at 39.37 113.03 0)
 			(effects
 				(font
@@ -6146,19 +6145,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "#PWR0157")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "#PWR0145")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "#PWR0163")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "#PWR0161")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -6174,7 +6173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdf75f1c-fef0-4b0b-bd46-16a38879f9c1")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0141"
 			(at 146.05 87.63 0)
 			(effects
 				(font
@@ -6224,19 +6223,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "#PWR0103")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "#PWR091")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "#PWR087")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "#PWR0117")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -6252,7 +6251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c40ad0f2-d238-4de4-bc05-c22216da2fa4")
-		(property "Reference" "R33"
+		(property "Reference" "R48"
 			(at 41.91 100.3299 0)
 			(effects
 				(font
@@ -6306,19 +6305,19 @@
 		(instances
 			(project ""
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "R33")
+					(reference "R48")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "R32")
+					(reference "R43")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "R39")
+					(reference "R58")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "R38")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -6334,7 +6333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1254241-1d1f-4fe9-937d-e6509ccf57b4")
-		(property "Reference" "D25"
+		(property "Reference" "D21"
 			(at 128.27 107.9499 90)
 			(effects
 				(font
@@ -6406,11 +6405,11 @@
 		(instances
 			(project ""
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "D25")
+					(reference "D21")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "D24")
+					(reference "D18")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
@@ -6418,7 +6417,7 @@
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "D26")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -6433,7 +6432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3144493-bb71-40ea-93a5-6cedce7c5af6")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0148"
 			(at 140.97 127 0)
 			(effects
 				(font
@@ -6484,19 +6483,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "#PWR0156")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "#PWR0121")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "#PWR0162")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "#PWR0158")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -6512,7 +6511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc7d32e5-eccd-4ca4-9a9e-047fbb2ec4fb")
-		(property "Reference" "C27"
+		(property "Reference" "C50"
 			(at 153.4541 75.3589 0)
 			(effects
 				(font
@@ -6593,19 +6592,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "C27")
+					(reference "C50")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "C22")
+					(reference "C46")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "C20")
+					(reference "C58")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "C50")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -6621,7 +6620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3ae03ce-1f5e-4bb7-9a12-7f1e535a4d0e")
-		(property "Reference" "D13"
+		(property "Reference" "D20"
 			(at 95.25 96.5199 90)
 			(effects
 				(font
@@ -6702,19 +6701,19 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "D13")
+					(reference "D20")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "D6")
+					(reference "D17")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "D11")
+					(reference "D26")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "D16")
+					(reference "D23")
 					(unit 1)
 				)
 			)

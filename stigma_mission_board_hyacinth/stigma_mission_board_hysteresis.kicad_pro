@@ -251,7 +251,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|2882900|3073400|2a6bcbfe-54d0-4369-ae35-4004cd639308|cdd0349c-8908-4a3b-8bf7-390c03c273c1|/34e067c7-b84e-477a-88f3-7322f422dd23|/34e067c7-b84e-477a-88f3-7322f422dd23|/34e067c7-b84e-477a-88f3-7322f422dd23",
+      "power_pin_not_driven|1219200|3365500|0ea8a352-844a-4dd5-8de0-2d30b2918369|00000000-0000-0000-0000-000000000000|/34e067c7-b84e-477a-88f3-7322f422dd23|/34e067c7-b84e-477a-88f3-7322f422dd23|",
+      "power_pin_not_driven|2667000|1193800|2a9135ee-4481-4edd-8456-962be4f260d6|00000000-0000-0000-0000-000000000000|/34e067c7-b84e-477a-88f3-7322f422dd23|/34e067c7-b84e-477a-88f3-7322f422dd23|",
+      "power_pin_not_driven|2667000|1524000|6d6e93ec-0d92-4d26-b631-5dd41c81248a|00000000-0000-0000-0000-000000000000|/34e067c7-b84e-477a-88f3-7322f422dd23|/34e067c7-b84e-477a-88f3-7322f422dd23|"
+    ],
     "meta": {
       "version": 0
     },
@@ -440,7 +445,7 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -625,7 +630,7 @@
   "sheets": [
     [
       "34e067c7-b84e-477a-88f3-7322f422dd23",
-      "Root"
+      "Stammblatt"
     ],
     [
       "1e21a0b4-3701-4fea-ae6f-c1650f6b51b3",
