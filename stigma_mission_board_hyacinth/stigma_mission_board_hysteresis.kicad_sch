@@ -1,3 +1,4 @@
+
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
@@ -1488,22 +1489,22 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic_Shielded:Conn_02x05_Top_Bottom_Shielded"
+		(symbol "Connector_Generic_MountingPin:Conn_02x05_Top_Bottom_MountingPin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 1.524 7.366 0)
+				(at 1.27 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x05_Top_Bottom_Shielded"
-				(at 2.286 -7.366 0)
+			(property "Value" "Conn_02x05_Top_Bottom_MountingPin"
+				(at 2.54 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1529,7 +1530,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic shielded connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1547,7 +1548,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??-1SH*"
+			(property "ki_fp_filters" "Connector*:*_2x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1556,76 +1557,65 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x05_Top_Bottom_Shielded_1_1"
+			(symbol "Conn_02x05_Top_Bottom_MountingPin_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 6.35)
 					(end 3.81 -6.35)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 -4.953)
-					(end 0.254 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 -2.413)
-					(end 0.254 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 0.127)
-					(end 0.254 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 2.667)
-					(end 0.254 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 5.207)
-					(end 0.254 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 6.096)
-					(end 3.556 -6.096)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1634,9 +1624,10 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start 3.556 -4.953)
-					(end 2.286 -5.207)
+				(polyline
+					(pts
+						(xy 0.254 -7.112) (xy 2.286 -7.112)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1646,8 +1637,8 @@
 					)
 				)
 				(rectangle
-					(start 3.556 -2.413)
-					(end 2.286 -2.667)
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1657,8 +1648,8 @@
 					)
 				)
 				(rectangle
-					(start 3.556 0.127)
-					(end 2.286 -0.127)
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1668,8 +1659,8 @@
 					)
 				)
 				(rectangle
-					(start 3.556 2.667)
-					(end 2.286 2.413)
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1679,19 +1670,38 @@
 					)
 				)
 				(rectangle
-					(start 3.556 5.207)
-					(end 2.286 4.953)
+					(start 3.81 2.667)
+					(end 2.54 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 1.27 -6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
 					(at -5.08 5.08 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_1"
 						(effects
 							(font
@@ -1709,7 +1719,7 @@
 				)
 				(pin passive line
 					(at 7.62 -5.08 180)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_10"
 						(effects
 							(font
@@ -1727,7 +1737,7 @@
 				)
 				(pin passive line
 					(at -5.08 2.54 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_2"
 						(effects
 							(font
@@ -1745,7 +1755,7 @@
 				)
 				(pin passive line
 					(at -5.08 0 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_3"
 						(effects
 							(font
@@ -1763,7 +1773,7 @@
 				)
 				(pin passive line
 					(at -5.08 -2.54 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_4"
 						(effects
 							(font
@@ -1781,7 +1791,7 @@
 				)
 				(pin passive line
 					(at -5.08 -5.08 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_5"
 						(effects
 							(font
@@ -1799,7 +1809,7 @@
 				)
 				(pin passive line
 					(at 7.62 5.08 180)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_6"
 						(effects
 							(font
@@ -1817,7 +1827,7 @@
 				)
 				(pin passive line
 					(at 7.62 2.54 180)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_7"
 						(effects
 							(font
@@ -1835,7 +1845,7 @@
 				)
 				(pin passive line
 					(at 7.62 0 180)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_8"
 						(effects
 							(font
@@ -1853,7 +1863,7 @@
 				)
 				(pin passive line
 					(at 7.62 -2.54 180)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_9"
 						(effects
 							(font
@@ -1871,15 +1881,15 @@
 				)
 				(pin passive line
 					(at 1.27 -10.16 90)
-					(length 3.81)
-					(name "Shield"
+					(length 3.048)
+					(name "MountPin"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "SH"
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10260,7 +10270,7 @@
 		(uuid "fc7aab81-19c6-4600-bd75-26dbcff12e8c")
 	)
 	(no_connect
-		(at 158.75 48.26)
+		(at 157.48 48.26)
 		(uuid "140c56c6-ae31-4002-b97b-f60f88418151")
 	)
 	(no_connect
@@ -10304,7 +10314,7 @@
 		(uuid "c6a33a47-58e1-4a3f-a0f4-9aec123f2d42")
 	)
 	(no_connect
-		(at 171.45 48.26)
+		(at 170.18 48.26)
 		(uuid "cd74f8dd-5b86-4ca0-a389-3de9fe972e2f")
 	)
 	(wire
@@ -10639,7 +10649,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 45.72) (xy 177.8 45.72)
+			(xy 170.18 45.72) (xy 177.8 45.72)
 		)
 		(stroke
 			(width 0)
@@ -11519,7 +11529,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 40.64) (xy 185.42 40.64)
+			(xy 170.18 40.64) (xy 185.42 40.64)
 		)
 		(stroke
 			(width 0)
@@ -12349,7 +12359,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 45.72) (xy 158.75 45.72)
+			(xy 148.59 45.72) (xy 157.48 45.72)
 		)
 		(stroke
 			(width 0)
@@ -12759,7 +12769,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 38.1) (xy 189.23 38.1)
+			(xy 170.18 38.1) (xy 189.23 38.1)
 		)
 		(stroke
 			(width 0)
@@ -12829,7 +12839,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 43.18) (xy 148.59 43.18)
+			(xy 157.48 43.18) (xy 148.59 43.18)
 		)
 		(stroke
 			(width 0)
@@ -13529,7 +13539,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 40.64) (xy 148.59 40.64)
+			(xy 157.48 40.64) (xy 148.59 40.64)
 		)
 		(stroke
 			(width 0)
@@ -13729,7 +13739,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 43.18) (xy 181.61 43.18)
+			(xy 170.18 43.18) (xy 181.61 43.18)
 		)
 		(stroke
 			(width 0)
@@ -14519,7 +14529,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 38.1) (xy 158.75 38.1)
+			(xy 148.59 38.1) (xy 157.48 38.1)
 		)
 		(stroke
 			(width 0)
@@ -18639,6 +18649,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_02x05_Top_Bottom_MountingPin")
+		(at 162.56 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0123a961-e392-4798-a646-2f9d2538d92e")
+		(property "Reference" "J10"
+			(at 163.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x05_Top_Bottom_MountingPin"
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1010_2x05-1MP_P3.00mm_Horizontal"
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "766070d5-b2ac-4c36-b631-b6dd14126f46")
+		)
+		(pin "2"
+			(uuid "f0c8115e-e4eb-4fe5-93d2-22e9a543b209")
+		)
+		(pin "4"
+			(uuid "4a788a9e-0a2b-4a32-ab34-7662a6d0203c")
+		)
+		(pin "10"
+			(uuid "41acac68-d713-4ba0-97d1-43f085e6fd14")
+		)
+		(pin "9"
+			(uuid "5b76e599-3800-4205-9104-231a23a9bf52")
+		)
+		(pin "5"
+			(uuid "a6226243-3a20-46f2-9b5d-e8414a4e14f3")
+		)
+		(pin "MP"
+			(uuid "b3a77312-9038-45e4-b352-919c24a90434")
+		)
+		(pin "8"
+			(uuid "3ba81ea5-083f-43b0-80ea-51cae054153b")
+		)
+		(pin "1"
+			(uuid "35bf7101-3986-4496-b14c-ceecfb0279c9")
+		)
+		(pin "7"
+			(uuid "8b07e6ad-c90d-4418-b916-bda9a97b99e0")
+		)
+		(pin "6"
+			(uuid "7edccfa0-aad2-4e72-9c9b-28031d422fb9")
+		)
+		(instances
+			(project ""
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 60.96 113.03 270)
 		(unit 1)
@@ -19306,7 +19411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 103.378 337.82 90)
 			(effects
 				(font
@@ -20120,7 +20225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.82 377.952 90)
 			(effects
 				(font
@@ -21534,7 +21639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.3252 297.18 0)
 			(effects
 				(font
@@ -21669,7 +21774,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 74.6252 316.23 0)
 			(effects
 				(font
@@ -22483,7 +22588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 174.752 389.89 90)
 			(effects
 				(font
@@ -23794,7 +23899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.4552 297.18 0)
 			(effects
 				(font
@@ -24827,7 +24932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 273.812 116.84 90)
 			(effects
 				(font
@@ -24895,7 +25000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0421_2x02-1MP_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
 			(at 335.28 113.03 0)
 			(effects
 				(font
@@ -24970,7 +25075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 146.812 341.63 90)
 			(effects
 				(font
@@ -25182,7 +25287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0421_2x02-1MP_P3.00mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
 			(at 335.28 93.98 0)
 			(effects
 				(font
@@ -25258,7 +25363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 482.092 48.26 90)
 			(effects
 				(font
@@ -25462,7 +25567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 367.792 90)
 			(effects
 				(font
@@ -25531,7 +25636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Shunt_Ohmite_LVK12"
 			(at 131.572 120.65 90)
 			(effects
 				(font
@@ -26602,7 +26707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "stigma:DF40GB-70DP-0.4V-plug"
+		(property "Footprint" "Stigma:DF40GB-70DP-0.4V-plug"
 			(at 66.04 74.93 0)
 			(effects
 				(font
@@ -26878,7 +26983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.4352 297.18 0)
 			(effects
 				(font
@@ -27043,7 +27148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.138 337.82 90)
 			(effects
 				(font
@@ -27274,7 +27379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 151.892 341.63 90)
 			(effects
 				(font
@@ -27675,7 +27780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 365.252 90)
 			(effects
 				(font
@@ -27745,7 +27850,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 347.98 100.33 0)
 			(effects
 				(font
@@ -27814,7 +27919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 67.0052 297.18 0)
 			(effects
 				(font
@@ -27881,7 +27986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 57.15 360.172 90)
 			(effects
 				(font
@@ -28136,7 +28241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 537.21 121.158 90)
 			(effects
 				(font
@@ -28402,7 +28507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.218 337.82 90)
 			(effects
 				(font
@@ -28834,7 +28939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 156.972 341.63 90)
 			(effects
 				(font
@@ -29396,7 +29501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
 			(at 481.33 124.46 0)
 			(effects
 				(font
@@ -29547,7 +29652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 530.352 125.73 90)
 			(effects
 				(font
@@ -29749,7 +29854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 93.6752 316.23 0)
 			(effects
 				(font
@@ -31479,7 +31584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 103.8352 297.18 0)
 			(effects
 				(font
@@ -32207,7 +32312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 122.682 281.94 90)
 			(effects
 				(font
@@ -32244,100 +32349,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_Shielded:Conn_02x05_Top_Bottom_Shielded")
-		(at 163.83 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1c5bf7e-bc19-48f5-bac4-d86450f1331f")
-		(property "Reference" "J7"
-			(at 165.1 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x05_Top_Bottom_Shielded"
-			(at 171.196 34.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic shielded connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 163.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "SH"
-			(uuid "c1a87526-6897-4629-a82d-1dac4cd5c8c2")
-		)
-		(pin "9"
-			(uuid "4690ac8a-32db-4c9d-8e24-0bc7427ebc52")
-		)
-		(pin "7"
-			(uuid "f11deaa5-8dbb-45ff-873e-5ce2cae58552")
-		)
-		(pin "6"
-			(uuid "42987bc0-e206-436c-b5f4-3dfd8cd4eec4")
-		)
-		(pin "1"
-			(uuid "67a08cc0-a49a-4f0f-974e-3dc3d44442e3")
-		)
-		(pin "10"
-			(uuid "ca698d91-ba96-4938-94c2-f8b8fb7e0e24")
-		)
-		(pin "3"
-			(uuid "c171e91e-7940-4ba8-9e05-b10c32996665")
-		)
-		(pin "4"
-			(uuid "e0557fc1-0d5f-459f-9447-18adb8119aa4")
-		)
-		(pin "2"
-			(uuid "e658c744-3b81-46cd-85e0-c1dd3e175a3e")
-		)
-		(pin "5"
-			(uuid "4cc2e210-804f-4420-b0cf-fa2aad570e77")
-		)
-		(pin "8"
-			(uuid "5ed4cbdd-afae-4a0c-99ce-6156d9b541f9")
-		)
-		(instances
-			(project ""
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -32846,7 +32857,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 148.59 371.348 90)
 			(effects
 				(font
@@ -33256,7 +33267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 98.298 337.82 90)
 			(effects
 				(font
@@ -33528,7 +33539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 81.788 337.82 90)
 			(effects
 				(font
@@ -34109,7 +34120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 96.2152 297.18 0)
 			(effects
 				(font
@@ -34451,7 +34462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdc94b80-27c2-43c8-a4d9-7a3ded603cdc")
-		(property "Reference" "U9"
+		(property "Reference" "U17"
 			(at 302.26 354.076 0)
 			(effects
 				(font
@@ -34574,7 +34585,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "U9")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -34749,7 +34760,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 62.23 362.712 90)
 			(effects
 				(font
@@ -35769,7 +35780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 141.732 341.63 90)
 			(effects
 				(font
@@ -35838,7 +35849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 56.8452 297.18 0)
 			(effects
 				(font
@@ -35908,7 +35919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 484.8352 62.23 0)
 			(effects
 				(font
@@ -36309,7 +36320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
 			(at 137.16 247.65 0)
 			(effects
 				(font
@@ -36585,72 +36596,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 165.1 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5312e06-8ba7-4a2c-9ee4-e7aadc92a91a")
-		(property "Reference" "#PWR039"
-			(at 165.1 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 165.1 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b4afdfa-1b58-4d4f-be65-2d5deb028e31")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -36949,7 +36894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 273.812 149.86 90)
 			(effects
 				(font
@@ -37360,7 +37305,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 157.48 108.2548 0)
 			(effects
 				(font
@@ -37593,7 +37538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 354.33 119.38 0)
 			(effects
 				(font
@@ -37797,7 +37742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
 			(at 137.16 220.98 0)
 			(effects
 				(font
@@ -37867,7 +37812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 50.8 357.632 90)
 			(effects
 				(font
@@ -38616,7 +38561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 83.5152 316.23 0)
 			(effects
 				(font

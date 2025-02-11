@@ -1,3 +1,4 @@
+
 (kicad_sch
 	(version 20231120)
 	(generator "eeschema")
@@ -4209,7 +4210,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Shunt_Ohmite_LVK12"
 			(at 90.932 76.2 90)
 			(effects
 				(font
@@ -4569,7 +4570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.932 107.95 90)
 			(effects
 				(font
@@ -4613,7 +4614,7 @@
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
@@ -5061,7 +5062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 90.932 66.04 90)
 			(effects
 				(font
@@ -5694,7 +5695,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
 			(at 140.97 113.03 0)
 			(effects
 				(font
@@ -5951,7 +5952,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 92.71 115.57 0)
 			(effects
 				(font
@@ -5995,7 +5996,7 @@
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "D?")
+					(reference "D28")
 					(unit 1)
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
@@ -6031,7 +6032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.84 63.8048 0)
 			(effects
 				(font
@@ -6269,7 +6270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 37.592 101.6 90)
 			(effects
 				(font
@@ -6351,7 +6352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 125.73 109.22 0)
 			(effects
 				(font
