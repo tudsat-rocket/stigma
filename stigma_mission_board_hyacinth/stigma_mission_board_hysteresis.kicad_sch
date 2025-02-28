@@ -11088,6 +11088,12 @@
 		(uuid "3af23601-dd67-41c7-a355-09ad11cee217")
 	)
 	(junction
+		(at 210.82 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4290e735-c266-42a3-9adb-4d8536e5fdb5")
+	)
+	(junction
 		(at 86.36 369.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12974,6 +12980,16 @@
 			(type default)
 		)
 		(uuid "327baf9f-0a9a-4cb8-85fe-bcc6761f25ea")
+	)
+	(wire
+		(pts
+			(xy 210.82 90.17) (xy 210.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327ec9d1-e58e-4c38-9891-cd1737dfec74")
 	)
 	(wire
 		(pts
@@ -15567,6 +15583,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 97.79) (xy 210.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c407e354-85a3-48dd-a5d6-91a8c6990280")
+	)
+	(wire
+		(pts
 			(xy 415.29 48.26) (xy 415.29 49.53)
 		)
 		(stroke
@@ -15714,6 +15740,16 @@
 			(type default)
 		)
 		(uuid "cf7c7ddb-2b00-4323-93dc-cbbd26caaf2a")
+	)
+	(wire
+		(pts
+			(xy 210.82 95.25) (xy 210.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0715a73-c5c6-4e21-8691-43a1a05944fe")
 	)
 	(wire
 		(pts
@@ -16077,6 +16113,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 97.79) (xy 213.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30764be-e4ff-4de4-89c2-bb5a9d864cef")
+	)
+	(wire
+		(pts
 			(xy 257.81 69.85) (xy 257.81 68.58)
 		)
 		(stroke
@@ -16434,6 +16480,16 @@
 			(type default)
 		)
 		(uuid "f1b481b6-a4f9-48a4-980d-901f2ad3baef")
+	)
+	(wire
+		(pts
+			(xy 210.82 87.63) (xy 213.36 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30cf2d9-4ebf-4071-a50f-3ba5aae8824b")
 	)
 	(wire
 		(pts
@@ -17379,28 +17435,6 @@
 			)
 		)
 	)
-	(global_label "@TODO Free-ADC"
-		(shape input)
-		(at 60.96 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "36f7cdbb-60b4-418a-a8dd-f197fafe6304")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.2227 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ADC_RECOVERY_1_I"
 		(shape input)
 		(at 102.87 217.17 0)
@@ -17612,6 +17646,28 @@
 		(uuid "4cad94e3-a4eb-4274-93d1-b65043e88295")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 46.4845 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_HIGH_CURRENT2"
+		(shape input)
+		(at 60.96 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "505943bb-9c10-4e33-9a5a-33c9b0335882")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.0781 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18118,6 +18174,28 @@
 		(uuid "84b07845-4259-44a0-a79e-06395263b414")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.7165 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_HIGH_CURRENT2"
+		(shape input)
+		(at 213.36 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88a5d07c-4d59-4f3a-8208-f2e9a9c9b22f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.2419 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19621,7 +19699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00d977a9-705c-4c70-952e-d17f4f991f5f")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR062"
 			(at 67.31 129.54 0)
 			(effects
 				(font
@@ -19671,7 +19749,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR060")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -19687,7 +19765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0110c353-cf01-476c-9088-1b69f1aec8d9")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR075"
 			(at 297.18 146.05 0)
 			(effects
 				(font
@@ -19737,7 +19815,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR073")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -19847,7 +19925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "015cfb78-99c9-459e-96e0-1db4cb9a9e38")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR051"
 			(at 54.61 113.03 0)
 			(effects
 				(font
@@ -19898,7 +19976,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR049")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -20290,7 +20368,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "053da0ca-ee33-49fc-b349-a6bbbbecb7b9")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0119"
 			(at 349.25 369.57 0)
 			(effects
 				(font
@@ -20340,7 +20418,103 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0117")
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 210.82 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06567646-2895-4201-b19e-d4addb8178d8")
+		(property "Reference" "R4"
+			(at 212.09 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 212.09 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 210.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C185354"
+			(at 210.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 210.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "RC0603FR-071K8L"
+			(at 210.82 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32a85ae9-9db0-4205-a01c-20bbf26e4630")
+		)
+		(pin "2"
+			(uuid "04fe1544-a9c1-4bb7-9108-7fc353460070")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -20356,7 +20530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07730fa9-7f96-4ffa-a3be-ef04fa483766")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 355.6 93.98 0)
 			(effects
 				(font
@@ -20407,7 +20581,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -20420,7 +20594,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "084f6bd4-2f03-4b00-a7ff-7e2521b74357")
 		(property "Reference" "F6"
@@ -20528,7 +20702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08b69f88-6405-4b57-8d5c-a154987a4a6c")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0111"
 			(at 298.45 331.47 0)
 			(effects
 				(font
@@ -20578,7 +20752,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0109")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -20591,7 +20765,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0bc65503-75b6-42ca-885d-e39b6db6b321")
 		(property "Reference" "F4"
 			(at 138.43 223.266 90)
@@ -20698,7 +20872,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bdecf8e-9b20-4232-bd11-86cead180086")
-		(property "Reference" "R25"
+		(property "Reference" "R27"
 			(at 105.41 334.264 0)
 			(effects
 				(font
@@ -20752,7 +20926,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R25")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -20931,7 +21105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10f95b61-c254-45a5-938c-57fff944260b")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0113"
 			(at 80.01 332.74 0)
 			(effects
 				(font
@@ -20981,7 +21155,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0111")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -21067,7 +21241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "138c6bf9-adf7-44cb-b269-19de27250de9")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR060"
 			(at 69.85 118.11 0)
 			(effects
 				(font
@@ -21118,7 +21292,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR058")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -21210,7 +21384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17a94ae3-17d0-47f4-902c-86be33e2a643")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR098"
 			(at 124.46 281.94 0)
 			(effects
 				(font
@@ -21260,7 +21434,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR096")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -21364,7 +21538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18b98732-5d1c-4ecb-90fe-14d2d7d77e33")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 133.35 114.3 0)
 			(effects
 				(font
@@ -21414,7 +21588,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -21429,7 +21603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "192c9ce0-01f0-4c31-8428-974f9af3fcc8")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 147.32 111.76 0)
 			(effects
 				(font
@@ -21479,7 +21653,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -21659,7 +21833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b88068c-eab1-4f0c-a9eb-8c199b335ae0")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0122"
 			(at 340.36 372.11 0)
 			(effects
 				(font
@@ -21709,7 +21883,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0120")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -21724,7 +21898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c8dd956-d746-45d8-acdf-992ee439d351")
-		(property "Reference" "R38"
+		(property "Reference" "R40"
 			(at 83.82 378.714 90)
 			(effects
 				(font
@@ -21776,7 +21950,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R38")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -21791,7 +21965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1de02a8e-6c1e-4fb6-bc75-472d45de05c4")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR078"
 			(at 43.18 166.37 0)
 			(effects
 				(font
@@ -21842,7 +22016,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR076")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -21857,7 +22031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20e3735a-edbe-4148-aade-1b108a265117")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0100"
 			(at 298.45 298.45 0)
 			(effects
 				(font
@@ -21907,7 +22081,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR098")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -21923,7 +22097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21192364-0bb3-41dd-8efe-61164f3251f6")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR064"
 			(at 254 134.62 0)
 			(effects
 				(font
@@ -21973,7 +22147,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR062")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -21989,7 +22163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21850d9e-24f0-48f1-a069-faee2c6d5ae1")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0106"
 			(at 438.15 312.42 0)
 			(effects
 				(font
@@ -22039,7 +22213,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0104")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -22254,7 +22428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23677948-41a9-415c-9f45-5362245fb537")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR080"
 			(at 53.34 166.37 0)
 			(effects
 				(font
@@ -22305,7 +22479,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR078")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -22611,7 +22785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2700f75e-79a1-41bb-ac16-5c53d94f96c9")
-		(property "Reference" "R39"
+		(property "Reference" "R41"
 			(at 209.55 384.048 0)
 			(effects
 				(font
@@ -22665,7 +22839,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R39")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -22747,7 +22921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2758e9c1-3168-4212-bc91-31ec270d7f6b")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0121"
 			(at 330.2 372.11 0)
 			(effects
 				(font
@@ -22797,7 +22971,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0119")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -22812,7 +22986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "291ee6bc-36cf-4950-87aa-c26033e19da8")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 297.18 152.4 0)
 			(effects
 				(font
@@ -22891,7 +23065,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -22907,7 +23081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2993fc1a-cd48-4e9b-a481-1c7de7ad5cb7")
-		(property "Reference" "R20"
+		(property "Reference" "R22"
 			(at 335.28 295.2836 90)
 			(effects
 				(font
@@ -22986,7 +23160,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R20")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -23139,7 +23313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ac1a9ec-29a7-4c34-ab68-8435d9e080be")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 198.12 115.57 0)
 			(effects
 				(font
@@ -23190,7 +23364,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR055")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -23275,7 +23449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2be86fff-d625-4ce6-8d2c-31dee5601516")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR097"
 			(at 137.16 248.92 0)
 			(effects
 				(font
@@ -23325,7 +23499,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR095")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -23572,7 +23746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f46fb37-fdd7-45f5-afdd-f6f1bb3c82f5")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 212.09 130.048 0)
 			(effects
 				(font
@@ -23653,7 +23827,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -23669,7 +23843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3056314f-f12a-4b5a-9a61-18ce87a25327")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR074"
 			(at 254 146.05 0)
 			(effects
 				(font
@@ -23719,7 +23893,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR072")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -23734,7 +23908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "335cd89f-37ba-4104-a282-5223e0a86755")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR084"
 			(at 81.28 166.37 0)
 			(effects
 				(font
@@ -23785,7 +23959,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR082")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -23906,7 +24080,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3485253a-a86b-4772-a46e-c86f89f2469c")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 549.91 110.49 0)
 			(effects
 				(font
@@ -23957,7 +24131,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -23973,7 +24147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3502a8d2-d4a1-4044-b245-a5f2f7751f97")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR089"
 			(at 294.64 167.64 0)
 			(effects
 				(font
@@ -24023,7 +24197,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR087")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -24192,7 +24366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36b2d0d1-1bfe-4336-94fd-289e4536d27d")
-		(property "Reference" "R42"
+		(property "Reference" "R44"
 			(at 176.53 386.588 0)
 			(effects
 				(font
@@ -24246,7 +24420,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R42")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -24262,7 +24436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37ea07b3-22c0-46f9-b86d-ac90cb0071a6")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0114"
 			(at 347.98 335.28 0)
 			(effects
 				(font
@@ -24312,7 +24486,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0112")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -24328,7 +24502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38a19c71-4e84-4b42-81a1-d93d68620b23")
-		(property "Reference" "R31"
+		(property "Reference" "R33"
 			(at 335.28 353.7036 90)
 			(effects
 				(font
@@ -24407,7 +24581,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R31")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -24422,7 +24596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39d8db14-3848-4b0c-b5cd-c047ac92c6d9")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR095"
 			(at 38.1 243.84 0)
 			(effects
 				(font
@@ -24473,7 +24647,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR093")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -24555,7 +24729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f23b49b-9339-40c6-8b0a-b8d33cbded40")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 278.13 123.1899 0)
 			(effects
 				(font
@@ -24609,7 +24783,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -24625,7 +24799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f352e06-8427-403b-8bce-b1dcd9f6da0d")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR056"
 			(at 69.85 115.57 0)
 			(effects
 				(font
@@ -24676,7 +24850,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR054")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -24874,7 +25048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4051f0e4-261f-4b37-8c22-2439ef445137")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 297.18 113.03 0)
 			(effects
 				(font
@@ -24924,7 +25098,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -25005,7 +25179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41622dc2-dfe3-4332-a540-c5e94345f079")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR059"
 			(at 64.77 118.11 0)
 			(effects
 				(font
@@ -25056,7 +25230,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR057")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -25072,7 +25246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41904646-8be7-4e20-8825-40321aeb9c08")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 254 113.03 0)
 			(effects
 				(font
@@ -25122,7 +25296,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -25138,7 +25312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41e46cfe-d386-48e3-94df-4c34aa68feed")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR071"
 			(at 549.91 138.43 0)
 			(effects
 				(font
@@ -25188,7 +25362,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR069")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -25448,7 +25622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45818c6e-f22b-4cc1-b9b3-a662f6ce3034")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0112"
 			(at 438.15 330.2 0)
 			(effects
 				(font
@@ -25499,7 +25673,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0110")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -25679,7 +25853,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4609e968-8477-455f-ac31-5e6a78031e56")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR061"
 			(at 485.14 124.46 0)
 			(effects
 				(font
@@ -25730,7 +25904,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR059")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -26035,7 +26209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a8661b9-e547-4bd0-8ab6-323c3f64f02a")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 454.8886 295.0753 0)
 			(effects
 				(font
@@ -26116,7 +26290,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -26229,6 +26403,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 210.82 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c77c18a-7ce7-4c2b-8d84-e9873f516ffb")
+		(property "Reference" "R5"
+			(at 212.09 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 212.09 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C22548"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "RC0603FR-071KL"
+			(at 210.82 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e8bd9be-c1cc-462a-a1fe-49e2ef753464")
+		)
+		(pin "2"
+			(uuid "a4436aea-e288-46f2-b23b-86234ced60d3")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 275.59 157.48 0)
 		(unit 1)
@@ -26238,7 +26508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e421d6d-ff6f-42d5-9929-894118d02780")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 278.13 156.2099 0)
 			(effects
 				(font
@@ -26292,7 +26562,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -26415,7 +26685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "503d025c-5827-4685-91ad-c7c2aa86e8c4")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0115"
 			(at 403.86 341.63 0)
 			(effects
 				(font
@@ -26465,7 +26735,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0113")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -26557,7 +26827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51ec97a3-d324-4936-9628-5d469a4fe44b")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR066"
 			(at 284.48 134.62 0)
 			(effects
 				(font
@@ -26607,7 +26877,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR064")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -26622,7 +26892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5284092e-f001-43a1-9d8a-5996c50d3ba9")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR081"
 			(at 58.42 166.37 0)
 			(effects
 				(font
@@ -26673,7 +26943,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR079")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -26689,7 +26959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53012af9-082d-45ce-8a99-aadea370baf6")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 278.13 115.5699 0)
 			(effects
 				(font
@@ -26743,7 +27013,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -26832,7 +27102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54e68fe1-498d-4c14-9288-b4a81928bb14")
-		(property "Reference" "R28"
+		(property "Reference" "R30"
 			(at 148.336 338.074 0)
 			(effects
 				(font
@@ -26886,7 +27156,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R28")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -26902,7 +27172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "551d3975-f2e1-43ff-8a32-310e8b4c0ac8")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 217.17 289.56 90)
 			(effects
 				(font
@@ -26963,7 +27233,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -26979,7 +27249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "553b54bb-9be7-458f-b250-959e4f760260")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 321.31 93.98 0)
 			(effects
 				(font
@@ -27030,7 +27300,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -27326,7 +27596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5842ee0d-b767-4383-9d24-ac2639db5f92")
-		(property "Reference" "R36"
+		(property "Reference" "R38"
 			(at 73.914 368.554 90)
 			(effects
 				(font
@@ -27378,7 +27648,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R36")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -27393,7 +27663,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "588bfc6b-3c70-4c27-9eae-0a9f330ddba9")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 130.81 119.3799 0)
 			(effects
 				(font
@@ -27453,7 +27723,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -27469,7 +27739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c49cab4-278a-4365-a9eb-6c63e7fce65a")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 54.61 105.41 0)
 			(effects
 				(font
@@ -27520,7 +27790,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -28035,7 +28305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6188e7ff-993a-43dd-95cd-26ee0b24a6d2")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR068"
 			(at 485.14 134.62 0)
 			(effects
 				(font
@@ -28085,7 +28355,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR066")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -28167,7 +28437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62f7a9e4-a2d0-4a38-823f-bb11a93915b3")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 198.12 119.634 0)
 			(effects
 				(font
@@ -28248,7 +28518,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -28264,7 +28534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6352b7b1-ad0d-4586-960a-8dc15f75821d")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR072"
 			(at 196.85 139.7 0)
 			(effects
 				(font
@@ -28314,7 +28584,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR070")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -28502,7 +28772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "641599be-b349-433c-bb45-a6fadf3722a5")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR096"
 			(at 137.16 246.38 0)
 			(effects
 				(font
@@ -28552,7 +28822,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR094")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -28568,7 +28838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64711e33-2156-4861-9b5d-065820a238d2")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR092"
 			(at 137.16 219.71 0)
 			(effects
 				(font
@@ -28618,7 +28888,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR090")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -29075,7 +29345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "666e0937-ad45-45b9-95a2-21c51fbbefa6")
-		(property "Reference" "R22"
+		(property "Reference" "R24"
 			(at 89.916 334.264 0)
 			(effects
 				(font
@@ -29129,7 +29399,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R22")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -29373,7 +29643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a3edb55-710f-46ae-ac4a-71a7d13c7e1d")
-		(property "Reference" "R29"
+		(property "Reference" "R31"
 			(at 153.924 338.328 0)
 			(effects
 				(font
@@ -29427,7 +29697,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R29")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -29643,7 +29913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ce1a126-1496-4498-834d-e55f4f2029d4")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR099"
 			(at 438.15 289.56 0)
 			(effects
 				(font
@@ -29694,7 +29964,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR097")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -29710,7 +29980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e0731a8-c88d-4251-8474-e5fb3536d8ae")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 80.01 113.03 0)
 			(effects
 				(font
@@ -29761,7 +30031,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -29843,7 +30113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fa50ff2-fd0d-47aa-92d2-254bccaa4aeb")
-		(property "Reference" "R35"
+		(property "Reference" "R37"
 			(at 68.58 366.268 90)
 			(effects
 				(font
@@ -29895,7 +30165,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R35")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -29981,7 +30251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74dcb558-87cc-4660-9d04-002dbaab6dca")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR094"
 			(at 29.21 243.84 0)
 			(effects
 				(font
@@ -30031,7 +30301,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR092")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -30115,7 +30385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77927755-ff17-40c1-b7d8-4ff28b6ced27")
-		(property "Reference" "R33"
+		(property "Reference" "R35"
 			(at 57.15 361.188 90)
 			(effects
 				(font
@@ -30167,7 +30437,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R33")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -30303,7 +30573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b1d53fa-04f9-4fd6-a025-a304c25d65a4")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0127"
 			(at 347.98 393.7 0)
 			(effects
 				(font
@@ -30353,7 +30623,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0125")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -30368,7 +30638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b655321-9487-4995-a293-21c321dfedde")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 538.48 117.094 90)
 			(effects
 				(font
@@ -30422,7 +30692,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -30504,7 +30774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d469ec2-b566-48b7-b876-c926538de6a5")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0105"
 			(at 349.25 311.15 0)
 			(effects
 				(font
@@ -30554,7 +30824,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0103")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -30569,7 +30839,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e280a01-de98-4843-bf49-df56ed99a2e7")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR063"
 			(at 133.35 123.19 0)
 			(effects
 				(font
@@ -30619,7 +30889,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -30634,7 +30904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8116117f-972d-4028-ae66-3e15d936450f")
-		(property "Reference" "R23"
+		(property "Reference" "R25"
 			(at 95.25 334.264 0)
 			(effects
 				(font
@@ -30688,7 +30958,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -30770,7 +31040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83ee7076-b34e-4ae0-b5af-4a44e1a1b583")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0129"
 			(at 219.71 401.32 0)
 			(effects
 				(font
@@ -30820,7 +31090,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0127")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -30835,7 +31105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "840c6c99-7015-45de-b193-ce11b0ad570d")
-		(property "Reference" "R41"
+		(property "Reference" "R43"
 			(at 237.49 384.048 0)
 			(effects
 				(font
@@ -30889,7 +31159,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R41")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -30994,7 +31264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86001648-bb35-41c6-98b9-cfaf2b5017ef")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0109"
 			(at 347.98 322.58 0)
 			(effects
 				(font
@@ -31044,7 +31314,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0107")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -31135,7 +31405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86c7387f-7463-4396-915f-fd7686ded7ee")
-		(property "Reference" "R30"
+		(property "Reference" "R32"
 			(at 158.75 338.328 0)
 			(effects
 				(font
@@ -31189,7 +31459,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R30")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -31205,7 +31475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8734a0d9-dc36-4f02-aaa8-dd3051c30c16")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR067"
 			(at 294.64 134.62 0)
 			(effects
 				(font
@@ -31255,7 +31525,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR065")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -31270,7 +31540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ac3493a-8ccb-4795-91db-450b59406787")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 212.09 119.634 0)
 			(effects
 				(font
@@ -31351,7 +31621,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -31631,7 +31901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ce16256-759b-4ce1-8d8c-06a63a96f90e")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0116"
 			(at 177.8 353.06 0)
 			(effects
 				(font
@@ -31681,7 +31951,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0114")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -31772,7 +32042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9030ed41-e14c-4c37-9f97-e21479c32a1a")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 533.654 124.206 0)
 			(effects
 				(font
@@ -31826,7 +32096,7 @@
 		(instances
 			(project ""
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -31909,7 +32179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9091cb02-57eb-4e00-aeaf-851694e325a7")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR086"
 			(at 254 167.64 0)
 			(effects
 				(font
@@ -31959,7 +32229,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR084")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -32044,7 +32314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91c342b9-4243-47e5-9339-ea3b6faf4fe4")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 54.61 95.25 0)
 			(effects
 				(font
@@ -32095,7 +32365,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -32381,7 +32651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "995e9690-cbed-495d-a027-acb9c38b9456")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 209.55 115.57 0)
 			(effects
 				(font
@@ -32432,7 +32702,73 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR056")
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9afb6db6-6e67-48cd-ad7c-87e154600168")
+		(property "Reference" "#PWR044"
+			(at 210.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 109.8534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49b5585a-849a-46a3-8fa4-a9bd1f2c51df")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -32614,7 +32950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e22532a-800a-4e24-a4f5-2028dde8dd06")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0120"
 			(at 39.37 364.49 0)
 			(effects
 				(font
@@ -32665,7 +33001,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0118")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -33161,7 +33497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a188c5a6-cd90-4b47-8482-8a2350295cfc")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0125"
 			(at 298.45 389.89 0)
 			(effects
 				(font
@@ -33211,7 +33547,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0123")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -33227,7 +33563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1bf53cd-2b0e-45dd-8ad8-6fe10a853b7f")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR093"
 			(at 137.16 222.25 0)
 			(effects
 				(font
@@ -33277,7 +33613,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR091")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -33293,7 +33629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2e1c73b-55e8-4fed-99d3-7f389be7e679")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR065"
 			(at 275.59 134.62 0)
 			(effects
 				(font
@@ -33343,7 +33679,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR063")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -33423,7 +33759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a421411c-e4a0-4a5b-b3ae-12e8f9ef0c49")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR079"
 			(at 48.26 166.37 0)
 			(effects
 				(font
@@ -33474,7 +33810,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR077")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -33489,7 +33825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4830696-3912-49fd-a0a5-5c380b764dfe")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0110"
 			(at 73.66 326.39 0)
 			(effects
 				(font
@@ -33539,7 +33875,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0108")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -33650,7 +33986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a71238f1-8a54-4755-b622-cfbd5eb7761d")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR082"
 			(at 71.12 166.37 0)
 			(effects
 				(font
@@ -33701,7 +34037,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR080")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -33948,7 +34284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa95c9aa-d855-4db3-a53c-921f9646b9e2")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR050"
 			(at 160.02 116.84 0)
 			(effects
 				(font
@@ -33998,7 +34334,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR048")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -34013,7 +34349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aadf2b29-08cc-48c0-86d2-7f30daac9c46")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 297.18 119.38 0)
 			(effects
 				(font
@@ -34092,7 +34428,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -35193,7 +35529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8f91de9-a80d-4eec-acee-15453a570fa8")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0128"
 			(at 124.46 401.32 0)
 			(effects
 				(font
@@ -35243,7 +35579,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0126")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -35258,7 +35594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b99fd185-c1e0-4c26-80b8-9e604c35cb6a")
-		(property "Reference" "R37"
+		(property "Reference" "R39"
 			(at 148.844 367.284 90)
 			(effects
 				(font
@@ -35310,7 +35646,7 @@
 		(instances
 			(project ""
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R37")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -35504,7 +35840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba3aa429-837e-431c-894e-7b3e33ae77fa")
-		(property "Reference" "R26"
+		(property "Reference" "R28"
 			(at 456.184 338.074 0)
 			(effects
 				(font
@@ -35585,7 +35921,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R26")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -35598,7 +35934,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "bb47da05-ff53-4b55-850d-edb636faee21")
 		(property "Reference" "F2"
@@ -35706,7 +36042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be83d4d4-8ee0-4b87-8dfe-96dea7b9a8fc")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 100.33 334.264 0)
 			(effects
 				(font
@@ -35760,7 +36096,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R24")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -35872,7 +36208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf8c6984-b028-443e-8bb8-abc95de4e7ea")
-		(property "Reference" "R40"
+		(property "Reference" "R42"
 			(at 219.71 384.048 0)
 			(effects
 				(font
@@ -35926,7 +36262,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R40")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -36047,7 +36383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2960eb8-e97c-48b3-983e-3c0d8a951d81")
-		(property "Reference" "R21"
+		(property "Reference" "R23"
 			(at 84.074 334.01 0)
 			(effects
 				(font
@@ -36101,7 +36437,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R21")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -36183,7 +36519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4267819-a68b-409a-b9d7-ff7c34fb187b")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR088"
 			(at 284.48 167.64 0)
 			(effects
 				(font
@@ -36233,7 +36569,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR086")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -36248,7 +36584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c56a30d6-e2e5-42a4-9975-fcc85aa53b42")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0123"
 			(at 158.75 369.57 0)
 			(effects
 				(font
@@ -36298,7 +36634,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0121")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -36568,7 +36904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c940e5be-f730-4314-bf73-05387b6ad3b3")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0103"
 			(at 55.88 306.07 0)
 			(effects
 				(font
@@ -36618,7 +36954,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0101")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -36633,7 +36969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9a1d7c7-cc6a-472e-8f85-2f0aebd9b855")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR091"
 			(at 38.1 217.17 0)
 			(effects
 				(font
@@ -36684,7 +37020,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR089")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -36863,7 +37199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb58d563-4829-4b29-a356-cde105bccc7f")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR070"
 			(at 147.32 138.43 0)
 			(effects
 				(font
@@ -36913,7 +37249,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR068")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -36995,7 +37331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd7f3ceb-c459-4612-9a06-e8690ecee341")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR090"
 			(at 29.21 217.17 0)
 			(effects
 				(font
@@ -37045,7 +37381,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR088")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -37060,7 +37396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd8ff6c6-1575-4433-ac95-bbeabdb7f6a9")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0118"
 			(at 298.45 356.87 0)
 			(effects
 				(font
@@ -37110,7 +37446,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0116")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -37263,7 +37599,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce993fea-bf12-4878-86ac-8a895a4f6160")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0124"
 			(at 347.98 381 0)
 			(effects
 				(font
@@ -37313,7 +37649,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0122")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -37407,7 +37743,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cef5342e-ec71-41b1-99bc-0d6225cddf90")
-		(property "Reference" "R34"
+		(property "Reference" "R36"
 			(at 62.23 363.728 90)
 			(effects
 				(font
@@ -37459,7 +37795,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R34")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -37475,7 +37811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d044e1bd-1f9c-4176-b42e-12d071a02b9d")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0108"
 			(at 340.36 313.69 0)
 			(effects
 				(font
@@ -37525,7 +37861,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0106")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -37538,7 +37874,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d178adb1-62ab-4b39-a087-c0cd4db7a7e5")
 		(property "Reference" "F8"
 			(at 138.43 249.936 90)
@@ -37712,7 +38048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4453bfa-38bb-437f-ac29-dc94799c4750")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR083"
 			(at 76.2 166.37 0)
 			(effects
 				(font
@@ -37763,7 +38099,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR081")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -37779,7 +38115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d44d9ce1-7e6b-4ccd-baba-c0246e83dfe4")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 355.6 113.03 0)
 			(effects
 				(font
@@ -37830,7 +38166,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR052")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -37845,7 +38181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d451ccd7-b0ac-4ada-b3aa-324fbe1d9a49")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR085"
 			(at 86.36 166.37 0)
 			(effects
 				(font
@@ -37896,7 +38232,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR083")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -37912,7 +38248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4bef4bf-5895-48e9-8ee8-bb759d719ca2")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 80.01 100.33 0)
 			(effects
 				(font
@@ -37963,7 +38299,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -38141,7 +38477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d797c8b9-fc3b-42f9-876d-a0bfb9dae181")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR077"
 			(at 38.1 166.37 0)
 			(effects
 				(font
@@ -38192,7 +38528,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR075")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -38466,7 +38802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9b9ddcf-73c5-4103-bb9d-b826f74c9e8e")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0117"
 			(at 438.15 355.6 0)
 			(effects
 				(font
@@ -38516,7 +38852,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0115")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -38597,7 +38933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9c0a227-7818-4ab7-abca-e2ef68aa5128")
-		(property "Reference" "R27"
+		(property "Reference" "R29"
 			(at 143.51 338.074 0)
 			(effects
 				(font
@@ -38651,7 +38987,7 @@
 		(instances
 			(project ""
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R27")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -38873,7 +39209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dddf4409-e30c-469e-85a4-6b1834a2af90")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0102"
 			(at 119.38 302.26 0)
 			(effects
 				(font
@@ -38923,7 +39259,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0100")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -39005,7 +39341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1e05e4e-3f0c-4227-9cbe-22ac742deed3")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0101"
 			(at 403.86 300.99 0)
 			(effects
 				(font
@@ -39055,7 +39391,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR099")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -39071,7 +39407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1eb85d1-db10-41c8-98e0-b9071d19646d")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR073"
 			(at 210.82 139.7 0)
 			(effects
 				(font
@@ -39121,7 +39457,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR071")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -39439,7 +39775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e63bb0f8-0aad-4fb1-8ae8-32824ffcf6fd")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR087"
 			(at 275.59 167.64 0)
 			(effects
 				(font
@@ -39489,7 +39825,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR085")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -39572,7 +39908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7317c62-c3ee-4345-bd4a-54e2874a4a90")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0104"
 			(at 209.55 307.34 0)
 			(effects
 				(font
@@ -39622,7 +39958,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0102")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -39638,7 +39974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7932d0e-19bd-4c45-bd43-aae04748adb6")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 278.13 148.5899 0)
 			(effects
 				(font
@@ -39692,7 +40028,74 @@
 		(instances
 			(project ""
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R14")
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VSW")
+		(at 213.36 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8063e70-f0d3-4f42-aa36-9dd70479e980")
+		(property "Reference" "#PWR038"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "high_current"
+			(at 217.17 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfb977dc-6ad3-4261-9be0-61aced8ddb22")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -39811,7 +40214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e878f946-f348-4990-b3eb-70a025f2862a")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0126"
 			(at 176.53 388.62 0)
 			(effects
 				(font
@@ -39861,7 +40264,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0124")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -39877,7 +40280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e99f1ab1-7152-49fc-ba6d-1f6c3b8de79b")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 201.93 289.56 90)
 			(effects
 				(font
@@ -39938,7 +40341,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -40118,7 +40521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eaa53761-1266-4485-8e55-9b90c5b0ae07")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 198.374 129.54 0)
 			(effects
 				(font
@@ -40199,7 +40602,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -40215,7 +40618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebff7524-451f-4282-ae78-88d01b2ab379")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR069"
 			(at 355.6 130.81 0)
 			(effects
 				(font
@@ -40266,7 +40669,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR067")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -40419,7 +40822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed68e13e-6ff4-494a-832b-c366dd56729e")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR053"
 			(at 321.31 113.03 0)
 			(effects
 				(font
@@ -40470,7 +40873,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR051")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -40485,7 +40888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee797e02-f9f1-47b1-a032-5fc599ee40ca")
-		(property "Reference" "R32"
+		(property "Reference" "R34"
 			(at 50.8 358.648 90)
 			(effects
 				(font
@@ -40537,7 +40940,7 @@
 		(instances
 			(project ""
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R32")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -41110,7 +41513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f577ed36-c91d-422e-9acd-73bf32d3d97a")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR076"
 			(at 33.02 166.37 0)
 			(effects
 				(font
@@ -41161,7 +41564,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR074")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -41407,7 +41810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbd837a5-0b04-4917-9ecc-7986c255802c")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 64.77 115.57 0)
 			(effects
 				(font
@@ -41458,7 +41861,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -41637,7 +42040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe994a9c-8a5a-406a-91f4-0f01674822e5")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0107"
 			(at 330.2 313.69 0)
 			(effects
 				(font
@@ -41687,7 +42090,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0105")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
