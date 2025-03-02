@@ -15,7 +15,7 @@
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
-        "dimension_units": 3,
+        "dimension_units": 2,
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|107047668|126405000|14e2eb2a-c843-4174-8160-1e2f6798ad80|fbfdf760-b07b-4e8d-bb06-5d02e8ce4f31",
+        "courtyards_overlap|113155000|125555000|a8db3c35-eef5-4a5c-9205-c53318dd509d|cc24afd0-edca-47e0-a4d9-284733beb20c",
+        "courtyards_overlap|113155000|126405000|14e2eb2a-c843-4174-8160-1e2f6798ad80|cc24afd0-edca-47e0-a4d9-284733beb20c",
+        "courtyards_overlap|123395000|126294356|3b379108-c10c-4572-a4c3-b92e7e37c5e7|cc24afd0-edca-47e0-a4d9-284733beb20c",
+        "courtyards_overlap|127365000|104903415|3df2c6e4-02a3-42e6-8ae9-2adc19b3e557|53133713-01f0-4ea7-969a-e2019f5be275",
+        "hole_clearance|129020000|106250000|225c7289-4dff-486c-b31b-f570a0d1c17f|5c9ecc41-8e36-467e-b425-c942c2ac2a33",
+        "hole_clearance|129020000|106250000|225c7289-4dff-486c-b31b-f570a0d1c17f|9eb1a745-20d2-4d84-81a9-8c81739d2f61",
+        "hole_clearance|129020000|112050000|b1571e48-e0c4-4496-9be7-605b970ee5b1|511ccdaa-2fdb-4049-b799-a8b58e53e473",
+        "hole_clearance|129020000|112050000|b1571e48-e0c4-4496-9be7-605b970ee5b1|c6b75736-fcb8-4718-bbf8-55ca1672888a",
+        "lib_footprint_mismatch|100000000|100000000|775b65c0-3207-4148-9813-5acb85839bb9|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|100000000|130500000|4b67ab98-76d9-4aa6-b5ab-6c1a2d8b40db|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|105250000|125250000|fbfdf760-b07b-4e8d-bb06-5d02e8ce4f31|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|125250000|125250000|3b379108-c10c-4572-a4c3-b92e7e37c5e7|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|130500000|100000000|51eff00c-1243-4fef-85b3-ab2ccb6ea510|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|130500000|130500000|505a8271-b356-4927-a30e-95447eab8159|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|131825000|109150000|53133713-01f0-4ea7-969a-e2019f5be275|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -123,11 +140,11 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.2,
@@ -216,6 +233,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         },
         {
           "diameter": 1.0,
@@ -466,23 +495,84 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
+        "microvia_diameter": 0.25,
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_drill": 0.25,
         "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3V": "rgb(255, 0, 0)",
+      "+3.3VA": "rgb(72, 0, 0)",
+      "+5V": "rgb(132, 0, 0)",
+      "/D0+": "rgb(0, 0, 132)",
+      "/D0-": "rgb(0, 0, 132)",
+      "/VCAP1": "rgb(0, 255, 255)",
+      "/VCAP2": "rgb(0, 255, 255)",
+      "ETH_RXD+": "rgb(255, 153, 0)",
+      "ETH_RXD-": "rgb(255, 153, 0)",
+      "ETH_TXD+": "rgb(255, 153, 0)",
+      "ETH_TXD-": "rgb(255, 153, 0)",
+      "GND": "rgb(132, 132, 132)",
+      "Net-(J1-Pin_2)": "rgb(0, 255, 255)",
+      "Net-(J1-Pin_5)": "rgb(0, 255, 255)",
+      "Net-(J1-Pin_6)": "rgb(0, 255, 255)",
+      "PA0": "rgb(0, 194, 0)",
+      "PA1_ETH_REF_CLK": "rgb(255, 153, 0)",
+      "PA2_ETH_MDIO": "rgb(255, 153, 0)",
+      "PA3": "rgb(0, 194, 0)",
+      "PA6": "rgb(0, 194, 0)",
+      "PA7_ETH_CRS_DV": "rgb(255, 153, 0)",
+      "PB0": "rgb(0, 194, 0)",
+      "PB1": "rgb(0, 194, 0)",
+      "PB11_ETH_TX_EN": "rgb(255, 153, 0)",
+      "PB5": "rgb(0, 72, 0)",
+      "PB6": "rgb(0, 72, 0)",
+      "PB8": "rgb(0, 72, 0)",
+      "PB9": "rgb(0, 72, 0)",
+      "PC0": "rgb(0, 194, 0)",
+      "PC1_ETH_MDC": "rgb(255, 153, 0)",
+      "PC2_C": "rgb(0, 194, 0)",
+      "PC3_C": "rgb(0, 194, 0)",
+      "PD0": "rgb(128, 77, 0)",
+      "PD1": "rgb(128, 77, 0)",
+      "PE0": "rgb(128, 77, 0)",
+      "PE1": "rgb(128, 77, 0)",
+      "PE2": "rgb(194, 0, 194)",
+      "PE5": "rgb(194, 0, 194)",
+      "PE6": "rgb(194, 0, 194)",
+      "PE7": "rgb(128, 77, 0)",
+      "PE8": "rgb(128, 77, 0)",
+      "SPI1_MISO": "rgb(255, 0, 255)",
+      "SPI1_MOSI": "rgb(255, 0, 255)",
+      "SPI1_SCK": "rgb(255, 0, 255)",
+      "SPI2_MISO": "rgb(255, 0, 255)",
+      "SPI2_MOSI": "rgb(255, 0, 255)",
+      "SPI2_SCK": "rgb(255, 0, 255)",
+      "SPI3_MISO": "rgb(132, 0, 132)",
+      "SPI3_MOSI": "rgb(132, 0, 132)",
+      "SPI3_SCK": "rgb(132, 0, 132)",
+      "SWCLK": "rgb(0, 255, 255)",
+      "SWDIO": "rgb(0, 255, 255)",
+      "SWO": "rgb(0, 255, 255)",
+      "USB_D+": "rgb(0, 0, 194)",
+      "USB_D-": "rgb(0, 0, 194)"
+    },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "SPI1_MISO"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -534,7 +624,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -565,9 +655,9 @@
         },
         {
           "group_by": false,
-          "label": "LCSC#",
-          "name": "LCSC#",
-          "show": false
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         },
         {
           "group_by": false,
@@ -591,7 +681,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
