@@ -1,4 +1,4 @@
-24759975661111683
+24758239284530876
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64547,13 +64547,6 @@ solder jumper open
 2
 2
 Jumper
-SolderJumper-3_Open_RoundedPad2x2mm
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open
-solder jumper open
-0
-3
-3
-Jumper
 SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm
 SMD Solder 3-pad Jumper, 1x1.5mm Pads, 0.3mm gap, pads 1-2 Bridged2Bar with 2 copper strip
 net tie solder jumper bridged
@@ -64633,13 +64626,6 @@ solder jumper open
 Jumper
 SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels
 SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers
-solder jumper open
-0
-3
-3
-Jumper
-SolderJumper-3_P1.3mm_Open_RoundedPad2.0x1.5mm
-SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open
 solder jumper open
 0
 3
@@ -65862,13 +65848,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Library
-SolderJumper-3_Open_RoundedPad2x2mm
-SMD Solder 3-pad Jumper, 2mmx2mm high current pads, 0.3mm gap, open
-solder jumper open
-0
-3
-3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -91874,6 +91853,97 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Stigma
+DF17(4.0)-40DS-0.5V
+
+
+0
+42
+41
+Stigma
+DF40C-70DS-0.4V-receptacle
+
+
+0
+74
+71
+Stigma
+DF40GB-10DP-0.4V-plug
+
+
+0
+14
+11
+Stigma
+DF40GB-48DP-0.4V
+
+
+0
+48
+48
+Stigma
+DF40GB-48DP-0.4V-plug
+
+
+0
+48
+48
+Stigma
+DF40GB-70DP-0.4V
+
+
+0
+70
+70
+Stigma
+DF40GB-70DP-0.4V-plug
+
+
+0
+74
+71
+Stigma
+RJ45-TH_MJ88B-B011-RVL11-P
+
+
+0
+14
+14
+Stigma
+SolderJumper-3_Open_RoundedPad2x2mm
+SMD Solder 3-pad Jumper, 2mmx2mm high current pads, 0.3mm gap, open
+solder jumper open
+0
+3
+3
+Stigma
+core-board
+
+
+0
+82
+71
+Stigma
+gps-board
+
+
+0
+22
+12
+Stigma
+gps-board-only-inner-mounting-holes
+
+
+0
+18
+12
+Stigma
+gps-board-outer-mounting-holes
+
+
+0
+18
+12
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -99532,80 +99602,3 @@ Varistor VF
 0
 2
 2
-stigma
-DF17(4.0)-40DS-0.5V
-
-
-0
-42
-41
-stigma
-DF40C-70DS-0.4V-receptacle
-
-
-0
-74
-71
-stigma
-DF40GB-10DP-0.4V-plug
-
-
-0
-14
-11
-stigma
-DF40GB-48DP-0.4V
-
-
-0
-48
-48
-stigma
-DF40GB-48DP-0.4V-plug
-
-
-0
-48
-48
-stigma
-DF40GB-70DP-0.4V
-
-
-0
-70
-70
-stigma
-DF40GB-70DP-0.4V-plug
-
-
-0
-74
-71
-stigma
-RJ45-TH_MJ88B-B011-RVL11-P
-
-
-0
-14
-14
-stigma
-SolderJumper-3_Open_RoundedPad2x2mm
-SMD Solder 3-pad Jumper, 2mmx2mm high current pads, 0.3mm gap, open
-solder jumper open
-0
-3
-3
-stigma
-core-board
-
-
-0
-82
-71
-stigma
-gps-board
-
-
-0
-22
-12
