@@ -1,4 +1,4 @@
-24754752850921592
+24759975661111683
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99588,3 +99588,24 @@ RJ45-TH_MJ88B-B011-RVL11-P
 0
 14
 14
+stigma
+SolderJumper-3_Open_RoundedPad2x2mm
+SMD Solder 3-pad Jumper, 2mmx2mm high current pads, 0.3mm gap, open
+solder jumper open
+0
+3
+3
+stigma
+core-board
+
+
+0
+82
+71
+stigma
+gps-board
+
+
+0
+22
+12

@@ -1928,16 +1928,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 1.524 45.466 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_02x35_Top_Bottom_Shielded"
-				(at 2.286 -45.466 0)
+			(property "Reference" "J1"
+				(at 0 45.974 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1945,7 +1937,17 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Value" "~"
+				(at 0.0001 24.13 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "stigma:core-board"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1963,7 +1965,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic shielded connector, double row, 02x35, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "populated manually"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3423,7 +3425,7 @@
 							)
 						)
 					)
-					(number "SH"
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -28922,7 +28924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Stigma:DF40GB-70DP-0.4V-plug"
+		(property "Footprint" "stigma:core-board"
 			(at 66.04 74.93 0)
 			(effects
 				(font
@@ -29159,7 +29161,7 @@
 		(pin "63"
 			(uuid "f66f0983-7e13-4d61-aa2a-43447f2612f9")
 		)
-		(pin "SH"
+		(pin "MP"
 			(uuid "01d4ad25-60cc-4a84-9bc7-1a7126bd47d9")
 		)
 		(instances
