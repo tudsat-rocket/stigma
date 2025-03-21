@@ -19838,7 +19838,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x05_Top_Bottom_MountingPin"
+		(property "Value" "DF40HB(2.5)-10DS-0.4V(51)"
 			(at 163.83 29.21 0)
 			(effects
 				(font
@@ -19855,7 +19855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=&productname=&series=DF40&documenttype=Catalog&lang=en&documentid=en_DF40_CAT"
 			(at 162.56 43.18 0)
 			(effects
 				(font
@@ -19864,7 +19864,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN RCPT 10POS SMD GOLD"
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C5623558"
 			(at 162.56 43.18 0)
 			(effects
 				(font
@@ -24272,92 +24281,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x04_Top_Bottom")
-		(at 336.55 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "36ae798a-a786-45d5-aed7-7bb2b8bf8310")
-		(property "Reference" "J6"
-			(at 337.82 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x04_Top_Bottom"
-			(at 337.82 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal"
-			(at 336.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 336.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 336.55 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "0df70dc9-84c9-49c5-bf4b-95eb42bb2c47")
-		)
-		(pin "1"
-			(uuid "33f5cc4d-a2ea-4a6b-8c22-2efed93abc0b")
-		)
-		(pin "7"
-			(uuid "fb9ecb18-28cc-4d85-afc9-fd1c61abb2cf")
-		)
-		(pin "2"
-			(uuid "92765550-6490-4c88-ad89-8bec317243c5")
-		)
-		(pin "4"
-			(uuid "172dfad1-35a6-4af3-8c28-321a512ec1f9")
-		)
-		(pin "3"
-			(uuid "3af0f17a-9a2b-42c1-911b-7bfc3b228f8f")
-		)
-		(pin "5"
-			(uuid "415daa7b-8b89-41c4-90d9-7bdcdcdb90ec")
-		)
-		(pin "8"
-			(uuid "22981770-d4fb-446d-ae7f-e3d24912fac6")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 176.53 389.89 0)
 		(unit 1)
@@ -27020,80 +26943,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
-		(at 335.28 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "531b4abc-4c46-40e1-aaa9-3bf829477186")
-		(property "Reference" "J4"
-			(at 336.296 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 335.026 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
-			(at 335.28 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 335.28 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 335.28 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0079ccd7-5b60-4e38-b1a1-49a26e17dccb")
-		)
-		(pin "2"
-			(uuid "34068778-3ca7-4ab0-b38e-f226e757e6b5")
-		)
-		(pin "4"
-			(uuid "5b00b659-2419-47f7-acd7-f54dfc5c87a3")
-		)
-		(pin "1"
-			(uuid "9a6b438f-4a5b-42ab-9093-062d2154ed0d")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 148.59 341.63 0)
 		(unit 1)
@@ -27341,7 +27190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 335.28 93.98 0)
 			(effects
 				(font
@@ -27350,7 +27199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 335.28 93.98 0)
 			(effects
 				(font
@@ -28912,7 +28761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DF40C-70DS-0.4V(51)"
 			(at 66.0401 50.8 90)
 			(effects
 				(font
@@ -28931,7 +28780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=&productname=&series=DF40&documenttype=Catalog&lang=en&documentid=en_DF40_CAT"
 			(at 66.04 74.93 0)
 			(effects
 				(font
@@ -28941,6 +28790,15 @@
 			)
 		)
 		(property "Description" "populated manually"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C294854"
 			(at 66.04 74.93 0)
 			(effects
 				(font
@@ -38618,7 +38476,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Top_Bottom"
+		(property "Value" ""
 			(at 337.82 34.29 0)
 			(effects
 				(font
@@ -38636,7 +38494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 336.55 40.64 0)
 			(effects
 				(font
@@ -38645,7 +38503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 336.55 40.64 0)
 			(effects
 				(font
@@ -39700,6 +39558,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
+		(at 335.28 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4f941b0-fedb-4bac-b387-ca1e42db60dd")
+		(property "Reference" "J4"
+			(at 336.296 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 335.026 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
+			(at 335.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "44ab7f4b-144e-4626-9087-3aaa59fe8fda")
+		)
+		(pin "2"
+			(uuid "12e7a084-add8-430b-ba7e-cd22d19a68e9")
+		)
+		(pin "4"
+			(uuid "1c26a5f8-89ec-4de5-93b5-6c8b3e5e23b5")
+		)
+		(pin "1"
+			(uuid "94143038-544f-4cf2-bcc3-2b3ab6b66cc5")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 49.53 0)
 		(unit 1)
@@ -40603,6 +40535,92 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x04_Top_Bottom")
+		(at 336.55 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb6d8238-ab13-4b2d-bc6e-6a9983c7df62")
+		(property "Reference" "J6"
+			(at 337.82 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 337.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal"
+			(at 336.55 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 336.55 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 336.55 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "b2900f47-b901-4761-9322-d54612066b4f")
+		)
+		(pin "1"
+			(uuid "948f1d78-e02b-4c75-940d-5b86a2540d54")
+		)
+		(pin "7"
+			(uuid "6e2c3a20-78f1-42d3-acd2-07a76c70985c")
+		)
+		(pin "2"
+			(uuid "e6c5bfc4-9152-4246-8a3a-dc3c2c67c22a")
+		)
+		(pin "4"
+			(uuid "9e4d854a-5b28-42f5-89cb-9ae57e80b4bb")
+		)
+		(pin "3"
+			(uuid "e6e8efe9-14ed-4497-862d-8b28167e9757")
+		)
+		(pin "5"
+			(uuid "036ec529-bec6-41d6-8d6e-36a2fea5d23a")
+		)
+		(pin "8"
+			(uuid "dd8bf861-0fdc-4e57-9643-be1dc6ba25e5")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "J6")
 					(unit 1)
 				)
 			)

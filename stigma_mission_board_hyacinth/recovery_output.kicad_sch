@@ -2460,12 +2460,6 @@
 		(uuid "5425a2b2-f119-4818-98c4-6df838dc6bfa")
 	)
 	(junction
-		(at 140.97 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66b77953-198b-4b07-ae5f-b5a3b4ce1027")
-	)
-	(junction
 		(at 92.71 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2512,6 +2506,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce84c31d-09b5-4464-8297-0ec2e142ddd1")
+	)
+	(junction
+		(at 140.97 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa194a21-e998-4d19-8087-95f759c02f5f")
 	)
 	(wire
 		(pts
@@ -3452,6 +3452,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
+		(at 140.97 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2463f233-50bc-472b-ac9a-2c1272fccb0b")
+		(property "Reference" "J10"
+			(at 138.684 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 137.414 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
+			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4133c27f-f0cb-41ac-95aa-b2acfffb3457")
+		)
+		(pin "2"
+			(uuid "4b53f43a-02d1-48bc-8736-fab4d29b1729")
+		)
+		(pin "4"
+			(uuid "e54cdace-2856-4047-8522-ef4986fc07e9")
+		)
+		(pin "1"
+			(uuid "8ca42afe-e13e-48c0-9603-90133920693c")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
+					(reference "J11")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
+					(reference "J10")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
+					(reference "J13")
+					(unit 1)
+				)
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 106.68 63.5 0)
 		(unit 1)
@@ -4352,93 +4438,6 @@
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
 					(reference "#PWR0151")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
-		(at 140.97 113.03 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "add74099-8118-4e4e-be29-22c08b15be3b")
-		(property "Reference" "J10"
-			(at 146.05 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_02x02_Top_Bottom"
-			(at 146.304 113.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
-			(at 140.97 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 140.97 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "0931588d-b0a0-4664-ac4e-f907bb67ba0d")
-		)
-		(pin "1"
-			(uuid "4c0a440b-2b6b-47d5-898c-b9197026850d")
-		)
-		(pin "3"
-			(uuid "91d10622-e217-4c8c-9ab6-3ae499db7707")
-		)
-		(pin "2"
-			(uuid "dddb5822-65f9-4aa9-b114-f263bbe83e3a")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1b0ab639-d420-4016-938c-453dcf1ed81d"
-					(reference "J11")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3"
-					(reference "J10")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/4924f453-debe-420b-955f-34707f20b488"
-					(reference "J13")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/9351aa18-d08f-4bdd-8577-c307d483b4c3"
-					(reference "J12")
 					(unit 1)
 				)
 			)

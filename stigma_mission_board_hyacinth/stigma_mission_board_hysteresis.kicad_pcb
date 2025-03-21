@@ -3390,7 +3390,7 @@
 		(property "Reference" "U1"
 			(at 6.5 -3.33 90)
 			(layer "F.SilkS")
-			(uuid "a2fa44df-4ed3-4e58-b88c-1a49bd1aaea4")
+			(uuid "e1744a9e-441a-48bc-b641-a44b5b2ac0dc")
 			(effects
 				(font
 					(size 1 1)
@@ -3401,7 +3401,7 @@
 		(property "Value" "LAN8742A"
 			(at 6.3 -3.3 90)
 			(layer "F.Fab")
-			(uuid "017e2779-acb0-46fc-afe0-a3593a97b5ab")
+			(uuid "a774344b-39b9-461f-b010-b2c23ef2fbc7")
 			(effects
 				(font
 					(size 1 1)
@@ -3414,7 +3414,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5e712d14-41f3-4ff5-8604-7cd8fec65c39")
+			(uuid "ba8a368d-80c0-4845-9971-26aab472a879")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3427,7 +3427,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc448215-2853-415f-9954-0b97d1698359")
+			(uuid "ddb1b687-f95e-4f7a-a2f0-1c88ec77f02a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,7 +4806,7 @@
 		(property "Reference" "J4"
 			(at -4.87 -4.07 180)
 			(layer "F.SilkS")
-			(uuid "e00733b5-1ff4-4f37-87e1-557bb29df0fe")
+			(uuid "0bbbae73-7dd9-4f6c-973c-18f5c195f93e")
 			(effects
 				(font
 					(size 1 1)
@@ -4817,7 +4817,7 @@
 		(property "Value" "~"
 			(at 1.5 -10.3 90)
 			(layer "F.Fab")
-			(uuid "1bece14f-956b-4b62-b68c-9da0a93c915e")
+			(uuid "952597cd-9a67-42ae-a1d1-af7adf39fbce")
 			(effects
 				(font
 					(size 1 1)
@@ -4830,7 +4830,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1e77409-76e6-46ea-8c33-9b9f63710ab1")
+			(uuid "c1ea397c-3267-4c2f-a7c5-a10f46bba704")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,12 +4838,12 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1abf6a98-645c-4a8e-a881-5c8aa7abf672")
+			(uuid "84ffe8f0-42f6-4eef-a2b3-5894267d9302")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4852,7 +4852,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
-		(path "/531b4abc-4c46-40e1-aaa9-3bf829477186")
+		(path "/e4f941b0-fedb-4bac-b387-ca1e42db60dd")
 		(sheetname "/")
 		(sheetfile "stigma_mission_board_hysteresis.kicad_sch")
 		(attr through_hole)
@@ -10750,7 +10750,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Top_Bottom"
+		(property "Value" "~"
 			(at 4.5 5.7 0)
 			(layer "F.Fab")
 			(uuid "083332ec-3a42-4a29-a9ab-e183e8e1a780")
@@ -10774,7 +10774,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10788,7 +10788,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
-		(path "/36ae798a-a786-45d5-aed7-7bb2b8bf8310")
+		(path "/eb6d8238-ab13-4b2d-bc6e-6a9983c7df62")
 		(sheetname "/")
 		(sheetfile "stigma_mission_board_hysteresis.kicad_sch")
 		(attr through_hole)
@@ -17670,7 +17670,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x02_Top_Bottom"
+		(property "Value" "~"
 			(at 3.9 7.515 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -17695,7 +17695,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17709,7 +17709,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
-		(path "/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3/add74099-8118-4e4e-be29-22c08b15be3b")
+		(path "/1e21a0b4-3701-4fea-ae6f-c1650f6b51b3/2463f233-50bc-472b-ac9a-2c1272fccb0b")
 		(sheetname "/Recovery Output3/")
 		(sheetfile "recovery_output.kicad_sch")
 		(attr through_hole)
@@ -24265,7 +24265,7 @@
 		(property "Reference" "J9"
 			(at 0 -1.55 0)
 			(layer "F.SilkS")
-			(uuid "79e75e5a-8f20-4e8a-9d36-95db2421016d")
+			(uuid "a9817d7d-40ff-46ab-b9c8-077b46601144")
 			(effects
 				(font
 					(size 1 1)
@@ -24276,7 +24276,7 @@
 		(property "Value" "JST-GH 4Pin"
 			(at 0 4 0)
 			(layer "F.Fab")
-			(uuid "d4445aff-9939-45e9-8d05-941e4de9ed48")
+			(uuid "ec92ba16-124e-4dca-aab6-3571dc9bd555")
 			(effects
 				(font
 					(size 1 1)
@@ -24289,7 +24289,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "59bd793b-c8b6-4cf9-897d-a4e61cb4d437")
+			(uuid "335bb79b-4618-4b0c-b46c-1148b488b7eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24302,7 +24302,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d144d9dd-c59d-4aa9-91f5-2c0fef8ca213")
+			(uuid "3306ac83-c99c-48e9-ab1f-b505ff3d2450")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32845,7 +32845,7 @@
 		(property "Reference" "J3"
 			(at -2.1 2.415 180)
 			(layer "F.SilkS")
-			(uuid "692cc2c7-f74c-4e9c-851b-2287a4a13914")
+			(uuid "aba52592-2943-46cc-98bb-c998a3ae9bd0")
 			(effects
 				(font
 					(size 1 1)
@@ -32856,7 +32856,7 @@
 		(property "Value" "~"
 			(at 1.6 -10.02 90)
 			(layer "F.Fab")
-			(uuid "a4a57c71-f272-4e05-8dc0-cb802cbce92d")
+			(uuid "45c7230d-37ad-4a0c-8822-ad8e7ae548b1")
 			(effects
 				(font
 					(size 1 1)
@@ -32869,7 +32869,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d38f1f3-3c6b-4ff5-879e-02c57ac6bac7")
+			(uuid "7dd511a1-0de8-46a3-960d-3ddeb4af6a8e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32877,12 +32877,12 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a20b8371-3c1e-4e2c-a8dd-2e3c216c9052")
+			(uuid "50d8925d-d04d-46ff-bc33-b6be172ebb36")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34538,7 +34538,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x04_Top_Bottom"
+		(property "Value" "~"
 			(at 4.5 5.7 0)
 			(layer "F.Fab")
 			(uuid "a2f95472-3afd-4e0f-bec7-d77e7cc15c2d")
@@ -34562,7 +34562,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x04, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34944,7 +34944,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x02_Top_Bottom"
+		(property "Value" "~"
 			(at 1.5 5.7 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -34969,7 +34969,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34983,7 +34983,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
-		(path "/1b0ab639-d420-4016-938c-453dcf1ed81d/add74099-8118-4e4e-be29-22c08b15be3b")
+		(path "/1b0ab639-d420-4016-938c-453dcf1ed81d/2463f233-50bc-472b-ac9a-2c1272fccb0b")
 		(sheetname "/Recovery Output2/")
 		(sheetfile "recovery_output.kicad_sch")
 		(attr through_hole)
@@ -38870,7 +38870,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x02_Top_Bottom"
+		(property "Value" "~"
 			(at 1.5 5.7 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -38895,7 +38895,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38909,7 +38909,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
-		(path "/9351aa18-d08f-4bdd-8577-c307d483b4c3/add74099-8118-4e4e-be29-22c08b15be3b")
+		(path "/9351aa18-d08f-4bdd-8577-c307d483b4c3/2463f233-50bc-472b-ac9a-2c1272fccb0b")
 		(sheetname "/Recovery Output 4/")
 		(sheetfile "recovery_output.kicad_sch")
 		(attr through_hole)
@@ -43286,7 +43286,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x02_Top_Bottom"
+		(property "Value" "~"
 			(at 1.7 -10.02 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -43311,7 +43311,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43325,7 +43325,7 @@
 			)
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
-		(path "/4924f453-debe-420b-955f-34707f20b488/add74099-8118-4e4e-be29-22c08b15be3b")
+		(path "/4924f453-debe-420b-955f-34707f20b488/2463f233-50bc-472b-ac9a-2c1272fccb0b")
 		(sheetname "/Recovery Output 1/")
 		(sheetfile "recovery_output.kicad_sch")
 		(attr through_hole)
@@ -53237,7 +53237,7 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "6ce2fca2-289f-4760-b1fe-c89dc319ac8b")
+			(uuid "ea704491-c734-4bdb-979e-ed599f751f99")
 			(effects
 				(font
 					(size 1 1)
@@ -53246,12 +53246,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Conn_02x05_Top_Bottom_MountingPin"
+		(property "Value" "DF40HB(2.5)-10DS-0.4V(51)"
 			(at 1.3 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "474f964c-7f3b-4917-bb83-a6d336fa1e87")
+			(uuid "47f0e827-47fa-4828-bf86-ce0266f5c4c9")
 			(effects
 				(font
 					(size 1 1)
@@ -53260,12 +53260,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=&productname=&series=DF40&documenttype=Catalog&lang=en&documentid=en_DF40_CAT"
 			(at 3.7 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "eed4c6f4-d2af-4b1d-843e-abfcaa2233e7")
+			(uuid "0ca0a9c6-6cab-4f26-be30-ecf52034c5fb")
 			(effects
 				(font
 					(size 1 1)
@@ -53274,12 +53274,26 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Generic connectable mounting pin connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN RCPT 10POS SMD GOLD"
 			(at 3.7 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f5c23253-c650-4b93-a252-269c74077373")
+			(uuid "c6b31833-87b1-4f62-8761-003650e395e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC#" "C5623558"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2c12983d-a9ec-4ce0-addf-2f2abde79264")
 			(effects
 				(font
 					(size 1 1)
@@ -53525,7 +53539,7 @@
 			(drill 4.3)
 			(layers "F&B.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "1e5d87ed-7be4-4201-b274-c46b08bd346e")
+			(uuid "4e951c46-bfa8-4466-a306-3052fe69e17a")
 		)
 		(pad "MP" thru_hole circle
 			(at 15.25 -15.25 270)
@@ -53533,7 +53547,7 @@
 			(drill 4.3)
 			(layers "F&B.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "1e5d87ed-7be4-4201-b274-c46b08bd346e")
+			(uuid "d9aecd53-601c-43a7-8e06-3c3f3c64c8d7")
 		)
 		(pad "MP" thru_hole circle
 			(at 15.25 15.25 270)
@@ -53541,7 +53555,7 @@
 			(drill 4.3)
 			(layers "F&B.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "1e5d87ed-7be4-4201-b274-c46b08bd346e")
+			(uuid "74b8da8d-c00c-438c-a417-415e93a0fb9f")
 		)
 		(pad "s" smd roundrect
 			(at -1.275 -1.35 270)
@@ -53563,7 +53577,7 @@
 			(pinfunction "shield")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "5ffac44c-fcba-420f-8405-bafcbe7a5b95")
+			(uuid "e4f4277d-e6c7-4b98-8edf-ab5f094c09a1")
 		)
 		(pad "s" smd roundrect
 			(at 1.275 -1.35 270)
@@ -53574,7 +53588,7 @@
 			(pinfunction "shield")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "5ffac44c-fcba-420f-8405-bafcbe7a5b95")
+			(uuid "821d5cda-1cae-4c26-bc86-02f688d3088e")
 		)
 		(pad "s" smd roundrect
 			(at 1.275 1.35 270)
@@ -53585,7 +53599,7 @@
 			(pinfunction "shield")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "5ffac44c-fcba-420f-8405-bafcbe7a5b95")
+			(uuid "393d65f8-e2e2-4d33-a004-d7ea07d9b39a")
 		)
 		(zone
 			(net 0)
@@ -53620,6 +53634,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "C:/Users/Marco/Documents/RAPID-Git/pcbs/stigma/common/3dmodels/df40hb_2_5_-10ds-0_4v_51_.stp"
+			(offset
+				(xyz -4.88 0 0.5)
+			)
+			(scale
+				(xyz 1 0.5 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Fuse:Fuse_1206_3216Metric"
 		(layer "B.Cu")
@@ -54753,7 +54778,7 @@
 			(at -0.4 1.85 90)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "6fa77c02-f2b2-410d-a314-06f7a0500b0b")
+			(uuid "ff19e099-da6d-448a-be88-1f60f998c5bb")
 			(effects
 				(font
 					(size 1 1)
@@ -54762,12 +54787,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DF40C-70DS-0.4V(51)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8c09c26f-5918-4e48-a7b1-98af7cd7b23c")
+			(uuid "638c31d2-47bb-4df6-8d78-0de643b9c0cd")
 			(effects
 				(font
 					(size 1 1)
@@ -54776,12 +54801,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=&productname=&series=DF40&documenttype=Catalog&lang=en&documentid=en_DF40_CAT"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fd6d6e54-993c-4837-ba76-3880e931f8ab")
+			(uuid "a25345e3-e377-4f58-8d1d-43b69594705f")
 			(effects
 				(font
 					(size 1 1)
@@ -54795,7 +54820,21 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "07a3eaf4-2c98-4a42-a1c0-6193495bf9a9")
+			(uuid "60d353ed-b434-4860-aadd-17c8579cb631")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC#" "C294854"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a0d968bc-53b9-4c3e-bdf1-4ab9c759d529")
 			(effects
 				(font
 					(size 1 1)
@@ -55795,7 +55834,7 @@
 			(at -15.25 -15.25 270)
 			(size 7 7)
 			(drill 4.3)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(uuid "812f903d-bbeb-41db-a484-96f4a49a8dc6")
 		)
@@ -55803,26 +55842,26 @@
 			(at -15.25 15.25 270)
 			(size 7 7)
 			(drill 4.3)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "7582c9ba-9525-4923-ab33-af4a6f47dcf7")
+			(uuid "177c8c42-1411-4805-b146-37eff41b0fac")
 		)
 		(pad "MP" thru_hole circle
 			(at -10 -10 270)
 			(size 3.8 3.8)
 			(drill 2.2)
 			(property pad_prop_castellated)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "48069aac-bab0-4b8a-8c56-54c56a7bc0e8")
+			(uuid "c533e83f-9bcc-45b7-b834-775b749a7d47")
 		)
 		(pad "MP" thru_hole circle
 			(at -10 10 270)
 			(size 3.8 3.8)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "6e32392a-daec-4e1a-9300-bb6a63dd86e1")
+			(uuid "6f6d24c8-7761-483a-ad29-9ade5e8145c2")
 		)
 		(pad "MP" smd roundrect
 			(at -8 -1.54 270)
@@ -55830,7 +55869,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
-			(uuid "581aaaa9-4af1-419a-bb68-b17d5587552b")
+			(uuid "178af2a1-3fcc-471c-99ed-9fca29d9a1fe")
 		)
 		(pad "MP" smd roundrect
 			(at -8 1.54 270)
@@ -55838,7 +55877,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
-			(uuid "c3dc88e3-2824-48dc-add1-7320784359af")
+			(uuid "5de11715-ff05-437a-b1bd-73b6478c5225")
 		)
 		(pad "MP" smd roundrect
 			(at 8 -1.54 270)
@@ -55846,7 +55885,7 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
-			(uuid "6345a04a-bb98-4149-805c-74f2d9454692")
+			(uuid "5d18fc57-e874-48bc-aa88-e17f02c77961")
 		)
 		(pad "MP" smd roundrect
 			(at 8 1.54 270)
@@ -55854,39 +55893,39 @@
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.1)
 			(thermal_bridge_angle 45)
-			(uuid "73a007db-63fd-45b8-85ec-600a8a6d421d")
+			(uuid "e7f63338-4913-44b1-8c86-631ed5767304")
 		)
 		(pad "MP" thru_hole circle
 			(at 10 -10 270)
 			(size 3.8 3.8)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "4485430e-194b-448b-be48-93a26d8240df")
+			(uuid "dd69c484-783b-46af-948b-726a9af19eeb")
 		)
 		(pad "MP" thru_hole circle
 			(at 10 10 270)
 			(size 3.8 3.8)
 			(drill 2.2)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "5ea44529-a236-43d6-8b22-08f826e6651e")
+			(uuid "cb77bf23-0260-41b7-b8fb-cffa42afe646")
 		)
 		(pad "MP" thru_hole circle
 			(at 15.25 -15.25 270)
 			(size 7 7)
 			(drill 4.3)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "83cf1a7e-3e80-4ad7-b345-fcedec691c96")
+			(uuid "a415af09-a2c1-4626-a2f3-cdcdcdc4688c")
 		)
 		(pad "MP" thru_hole circle
 			(at 15.25 15.25 270)
 			(size 7 7)
 			(drill 4.3)
-			(layers "*.Cu" "*.Mask")
+			(layers "F&B.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "56981919-e672-40fe-9d54-efa5bb77f872")
+			(uuid "25e961c4-933a-4f16-90ce-540f3867995a")
 		)
 		(zone
 			(net 0)
@@ -55953,6 +55992,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "C:/Users/Marco/Documents/RAPID-Git/pcbs/stigma/common/3dmodels/df40c-70ds-0_4v_51_.stp"
+			(offset
+				(xyz -1.11 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
 	)
 	(gr_line
 		(start 250 100)
@@ -56148,7 +56198,7 @@
 		(uuid "1b0404fe-777b-4ff1-ab47-2c9ce98994b3")
 	)
 	(gr_line
-		(start 250 100.24)
+		(start 250 102.5)
 		(end 250 245.24)
 		(stroke
 			(width 0.05)
@@ -56199,6 +56249,16 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "de4a091d-6a59-47bb-a33c-9b05c3764092")
+	)
+	(gr_line
+		(start 247.5 100)
+		(end 202.5 100)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fd238ab3-f67b-497c-a496-399767a59e4c")
 	)
 	(gr_text "GPS"
 		(at 167.5 150.5 0)
