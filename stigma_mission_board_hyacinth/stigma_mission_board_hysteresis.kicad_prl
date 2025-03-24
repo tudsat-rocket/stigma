@@ -43,8 +43,8 @@
       "zones",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_5fffffaf",
-    "zone_display_mode": 1
+    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffaf",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",

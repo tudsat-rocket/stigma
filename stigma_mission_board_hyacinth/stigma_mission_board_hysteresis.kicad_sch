@@ -21966,72 +21966,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 43.18 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1de02a8e-6c1e-4fb6-bc75-472d45de05c4")
-		(property "Reference" "#PWR07"
-			(at 43.18 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4bf041ee-ee11-4771-b30f-52da2be70e2b")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 298.45 294.64 0)
 		(unit 1)
@@ -22327,15 +22261,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 48.26 157.48 0)
+		(at 38.1 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "22bbcd3e-8f9e-45d6-b626-15e554d6262e")
-		(property "Reference" "H4"
-			(at 48.26 153.67 90)
+		(property "Reference" "H2"
+			(at 38.1 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22344,7 +22278,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 49.9622 153.67 90)
+			(at 39.8022 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22354,7 +22288,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 48.26 157.48 0)
+			(at 38.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22363,7 +22297,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 157.48 0)
+			(at 38.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22372,7 +22306,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 157.48 0)
+			(at 38.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22381,7 +22315,7 @@
 			)
 		)
 		(property "Manufacturer" "N/A"
-			(at 48.26 157.48 0)
+			(at 38.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22390,7 +22324,7 @@
 			)
 		)
 		(property "Part#" "N/A"
-			(at 48.26 157.48 0)
+			(at 38.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22399,7 +22333,7 @@
 			)
 		)
 		(property "DigiKey#" "N/A"
-			(at 48.26 157.48 0)
+			(at 38.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22408,7 +22342,7 @@
 			)
 		)
 		(property "LCSC#" "N/A"
-			(at 48.26 157.48 0)
+			(at 38.1 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22422,7 +22356,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -22430,7 +22364,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 160.02 0)
+		(at 43.18 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22438,7 +22372,7 @@
 		(dnp no)
 		(uuid "23677948-41a9-415c-9f45-5362245fb537")
 		(property "Reference" "#PWR010"
-			(at 53.34 166.37 0)
+			(at 43.18 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22447,7 +22381,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 162.56 90)
+			(at 43.18 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22456,7 +22390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 160.02 0)
+			(at 43.18 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22465,7 +22399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 160.02 0)
+			(at 43.18 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22474,7 +22408,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 160.02 0)
+			(at 43.18 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23910,7 +23844,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 160.02 0)
+		(at 53.34 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23918,7 +23852,7 @@
 		(dnp no)
 		(uuid "335cd89f-37ba-4104-a282-5223e0a86755")
 		(property "Reference" "#PWR039"
-			(at 81.28 166.37 0)
+			(at 53.34 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23927,7 +23861,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 162.56 90)
+			(at 53.34 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23936,7 +23870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 160.02 0)
+			(at 53.34 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23945,7 +23879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 160.02 0)
+			(at 53.34 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23954,7 +23888,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 160.02 0)
+			(at 53.34 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25913,15 +25847,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 53.34 157.48 0)
+		(at 43.18 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "47329e8f-5258-4da6-b379-7dc6d4d2bea6")
-		(property "Reference" "H5"
-			(at 53.34 153.67 90)
+		(property "Reference" "H3"
+			(at 43.18 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25930,7 +25864,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 55.0422 153.67 90)
+			(at 44.8822 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25940,7 +25874,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 53.34 157.48 0)
+			(at 43.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25949,7 +25883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 157.48 0)
+			(at 43.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25958,7 +25892,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 157.48 0)
+			(at 43.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25967,7 +25901,7 @@
 			)
 		)
 		(property "Manufacturer" "N/A"
-			(at 53.34 157.48 0)
+			(at 43.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25976,7 +25910,7 @@
 			)
 		)
 		(property "Part#" "N/A"
-			(at 53.34 157.48 0)
+			(at 43.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25985,7 +25919,7 @@
 			)
 		)
 		(property "DigiKey#" "N/A"
-			(at 53.34 157.48 0)
+			(at 43.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25994,7 +25928,7 @@
 			)
 		)
 		(property "LCSC#" "N/A"
-			(at 53.34 157.48 0)
+			(at 43.18 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26008,7 +25942,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "H5")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -26808,7 +26742,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 160.02 0)
+		(at 48.26 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26816,7 +26750,7 @@
 		(dnp no)
 		(uuid "5284092e-f001-43a1-9d8a-5996c50d3ba9")
 		(property "Reference" "#PWR012"
-			(at 58.42 166.37 0)
+			(at 48.26 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26825,7 +26759,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 162.56 90)
+			(at 48.26 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26834,7 +26768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 160.02 0)
+			(at 48.26 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26843,7 +26777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 160.02 0)
+			(at 48.26 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26852,7 +26786,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 160.02 0)
+			(at 48.26 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31552,109 +31486,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 71.12 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b95e788-018d-408d-be62-ee9e5a1ec1a6")
-		(property "Reference" "H7"
-			(at 71.12 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 72.8222 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 71.12 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "N/A"
-			(at 71.12 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "N/A"
-			(at 71.12 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey#" "N/A"
-			(at 71.12 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "N/A"
-			(at 71.12 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2425b2f-acc7-45c0-ac37-d68557cce200")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 422.91 31.75 180)
 		(unit 1)
@@ -33610,7 +33441,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 160.02 0)
+		(at 38.1 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33618,7 +33449,7 @@
 		(dnp no)
 		(uuid "a421411c-e4a0-4a5b-b3ae-12e8f9ef0c49")
 		(property "Reference" "#PWR09"
-			(at 48.26 166.37 0)
+			(at 38.1 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33627,7 +33458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 162.56 90)
+			(at 38.1 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33636,7 +33467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 160.02 0)
+			(at 38.1 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33645,7 +33476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 160.02 0)
+			(at 38.1 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33654,7 +33485,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 160.02 0)
+			(at 38.1 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33830,72 +33661,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a71238f1-8a54-4755-b622-cfbd5eb7761d")
-		(property "Reference" "#PWR024"
-			(at 71.12 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94b2a0ac-eaa3-4818-bb6b-77ad3f8a4574")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -34287,109 +34052,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 76.2 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab49891c-8e20-42e1-b1a7-cbe388a28152")
-		(property "Reference" "H8"
-			(at 76.2 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 77.9022 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 76.2 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "N/A"
-			(at 76.2 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "N/A"
-			(at 76.2 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey#" "N/A"
-			(at 76.2 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "N/A"
-			(at 76.2 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e911693d-d819-46cb-8e14-bbb5d5838c80")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -35073,15 +34735,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 81.28 157.48 0)
+		(at 53.34 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b605a63a-d2a4-4682-95de-8920982a3c22")
-		(property "Reference" "H9"
-			(at 81.28 153.67 90)
+		(property "Reference" "H5"
+			(at 53.34 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35090,7 +34752,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 82.9822 153.67 90)
+			(at 55.0422 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35100,7 +34762,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 81.28 157.48 0)
+			(at 53.34 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35109,7 +34771,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 157.48 0)
+			(at 53.34 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35118,7 +34780,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 157.48 0)
+			(at 53.34 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35127,7 +34789,7 @@
 			)
 		)
 		(property "Manufacturer" "N/A"
-			(at 81.28 157.48 0)
+			(at 53.34 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35136,7 +34798,7 @@
 			)
 		)
 		(property "Part#" "N/A"
-			(at 81.28 157.48 0)
+			(at 53.34 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35145,7 +34807,7 @@
 			)
 		)
 		(property "DigiKey#" "N/A"
-			(at 81.28 157.48 0)
+			(at 53.34 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35154,7 +34816,7 @@
 			)
 		)
 		(property "LCSC#" "N/A"
-			(at 81.28 157.48 0)
+			(at 53.34 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35168,7 +34830,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "H9")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -35505,109 +35167,6 @@
 			(project ""
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 38.1 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9f01ffb-0e53-4395-b305-403e6fe3b963")
-		(property "Reference" "H2"
-			(at 38.1 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 39.8022 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 38.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "N/A"
-			(at 38.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "N/A"
-			(at 38.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey#" "N/A"
-			(at 38.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "N/A"
-			(at 38.1 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af945dd7-260a-4743-865d-6249f24a6630")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -37898,72 +37457,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 76.2 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4453bfa-38bb-437f-ac29-dc94799c4750")
-		(property "Reference" "#PWR037"
-			(at 76.2 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 76.2 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f472f7b-4b3d-40b0-af7a-a8087a43ae60")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+VSW")
 		(at 359.41 113.03 270)
 		(unit 1)
@@ -38032,7 +37525,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 160.02 0)
+		(at 58.42 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38040,7 +37533,7 @@
 		(dnp no)
 		(uuid "d451ccd7-b0ac-4ada-b3aa-324fbe1d9a49")
 		(property "Reference" "#PWR040"
-			(at 86.36 166.37 0)
+			(at 58.42 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38049,7 +37542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 162.56 90)
+			(at 58.42 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38058,7 +37551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 160.02 0)
+			(at 58.42 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38067,7 +37560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 160.02 0)
+			(at 58.42 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38076,7 +37569,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 160.02 0)
+			(at 58.42 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38327,72 +37820,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 38.1 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d797c8b9-fc3b-42f9-876d-a0bfb9dae181")
-		(property "Reference" "#PWR04"
-			(at 38.1 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 38.1 162.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "302e1532-4b62-4c7d-8794-5d5de3e0f894")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 60.96 31.75 90)
 		(unit 1)
@@ -38476,7 +37903,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 337.82 34.29 0)
 			(effects
 				(font
@@ -39389,15 +38816,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 58.42 157.48 0)
+		(at 48.26 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e41c501c-34fd-431a-a49c-051ba85da023")
-		(property "Reference" "H6"
-			(at 58.42 153.67 90)
+		(property "Reference" "H4"
+			(at 48.26 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39406,7 +38833,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 60.1222 153.67 90)
+			(at 49.9622 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39416,7 +38843,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 58.42 157.48 0)
+			(at 48.26 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39425,7 +38852,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 157.48 0)
+			(at 48.26 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39434,7 +38861,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 157.48 0)
+			(at 48.26 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39443,7 +38870,7 @@
 			)
 		)
 		(property "Manufacturer" "N/A"
-			(at 58.42 157.48 0)
+			(at 48.26 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39452,7 +38879,7 @@
 			)
 		)
 		(property "Part#" "N/A"
-			(at 58.42 157.48 0)
+			(at 48.26 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39461,7 +38888,7 @@
 			)
 		)
 		(property "DigiKey#" "N/A"
-			(at 58.42 157.48 0)
+			(at 48.26 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39470,7 +38897,7 @@
 			)
 		)
 		(property "LCSC#" "N/A"
-			(at 58.42 157.48 0)
+			(at 48.26 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39484,7 +38911,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "H6")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -39985,7 +39412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "high_current"
+		(property "Value" "high_current_2"
 			(at 217.17 87.6299 90)
 			(effects
 				(font
@@ -40028,109 +39455,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 43.18 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "e86b7752-04bd-45f2-9252-a4545f49f188")
-		(property "Reference" "H3"
-			(at 43.18 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 44.8822 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 43.18 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "N/A"
-			(at 43.18 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "N/A"
-			(at 43.18 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey#" "N/A"
-			(at 43.18 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "N/A"
-			(at 43.18 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d6d0be94-ce70-4380-8931-8e249ae02333")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -40557,7 +39881,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 337.82 49.53 0)
 			(effects
 				(font
@@ -40966,15 +40290,15 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 86.36 157.48 0)
+		(at 58.42 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "effd8665-64bb-4a8a-83f0-b67ffcb874ac")
-		(property "Reference" "H10"
-			(at 86.36 153.67 90)
+		(property "Reference" "H6"
+			(at 58.42 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40983,7 +40307,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 88.0622 153.67 90)
+			(at 60.1222 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40993,7 +40317,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 86.36 157.48 0)
+			(at 58.42 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41002,7 +40326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 157.48 0)
+			(at 58.42 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41011,7 +40335,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 157.48 0)
+			(at 58.42 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41020,7 +40344,7 @@
 			)
 		)
 		(property "Manufacturer" "N/A"
-			(at 86.36 157.48 0)
+			(at 58.42 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41029,7 +40353,7 @@
 			)
 		)
 		(property "Part#" "N/A"
-			(at 86.36 157.48 0)
+			(at 58.42 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41038,7 +40362,7 @@
 			)
 		)
 		(property "DigiKey#" "N/A"
-			(at 86.36 157.48 0)
+			(at 58.42 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41047,7 +40371,7 @@
 			)
 		)
 		(property "LCSC#" "N/A"
-			(at 86.36 157.48 0)
+			(at 58.42 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41061,7 +40385,7 @@
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "H10")
+					(reference "H6")
 					(unit 1)
 				)
 			)
