@@ -19846,7 +19846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Stigma:gps-board-outer-mounting-holes"
+		(property "Footprint" "Stigma:gps-board-only-inner-mounting-holes"
 			(at 162.56 43.18 0)
 			(effects
 				(font
@@ -28705,7 +28705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Stigma:core-board"
+		(property "Footprint" "Stigma:core-board-inner-mounting-holes"
 			(at 66.04 74.93 0)
 			(effects
 				(font
