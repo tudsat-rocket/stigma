@@ -3468,7 +3468,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 137.414 113.284 0)
 			(effects
 				(font
