@@ -11348,6 +11348,12 @@
 		(uuid "74972e4a-f17d-42ec-8ac0-6dfc0855705a")
 	)
 	(junction
+		(at 415.29 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "755ea483-5994-4979-b11d-2e51745a3999")
+	)
+	(junction
 		(at 185.42 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11528,6 +11534,12 @@
 		(uuid "b8a9983a-14fb-4c84-adb9-381faba38f44")
 	)
 	(junction
+		(at 415.29 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9538586-5253-4415-972e-63d358a0ee10")
+	)
+	(junction
 		(at 137.16 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11568,6 +11580,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfda892c-242c-4fc6-bd78-75af64f9c638")
+	)
+	(junction
+		(at 410.21 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a49a96-b2ad-48f3-84f1-cec5a290ff8b")
 	)
 	(junction
 		(at 147.32 130.81)
@@ -11808,6 +11826,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc7aab81-19c6-4600-bd75-26dbcff12e8c")
+	)
+	(junction
+		(at 410.21 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcdb2515-3048-425e-9def-1a468f2ca60a")
 	)
 	(junction
 		(at 440.69 71.12)
@@ -13649,6 +13673,16 @@
 	)
 	(wire
 		(pts
+			(xy 410.21 48.26) (xy 410.21 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5686b614-18e9-498d-8aba-e0e7226bb0ce")
+	)
+	(wire
+		(pts
 			(xy 205.74 294.64) (xy 207.01 294.64)
 		)
 		(stroke
@@ -15369,6 +15403,16 @@
 	)
 	(wire
 		(pts
+			(xy 410.21 78.74) (xy 415.29 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b7abf7-45c6-4dd2-8ec9-e7a6b3e20ed4")
+	)
+	(wire
+		(pts
 			(xy 102.87 289.56) (xy 110.49 289.56)
 		)
 		(stroke
@@ -15656,6 +15700,16 @@
 			(type default)
 		)
 		(uuid "bf6a5756-01e2-439f-8598-3c8fa155716b")
+	)
+	(wire
+		(pts
+			(xy 410.21 71.12) (xy 410.21 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e77a95-542d-4da2-8e99-8255297d109a")
 	)
 	(wire
 		(pts
@@ -16539,6 +16593,16 @@
 	)
 	(wire
 		(pts
+			(xy 410.21 54.61) (xy 410.21 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0b4e1d3-aa84-4315-acee-137d485614b8")
+	)
+	(wire
+		(pts
 			(xy 121.92 308.61) (xy 121.92 336.55)
 		)
 		(stroke
@@ -16749,6 +16813,16 @@
 	)
 	(wire
 		(pts
+			(xy 410.21 77.47) (xy 410.21 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa617757-dab5-4e13-90fd-69c43fc13162")
+	)
+	(wire
+		(pts
 			(xy 185.42 40.64) (xy 195.58 40.64)
 		)
 		(stroke
@@ -16806,6 +16880,16 @@
 			(type default)
 		)
 		(uuid "fd7dfd01-a37b-49be-87be-17893d500692")
+	)
+	(wire
+		(pts
+			(xy 410.21 55.88) (xy 415.29 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe01b215-605e-4b8f-bc34-dcd6254208f2")
 	)
 	(wire
 		(pts
@@ -22317,6 +22401,102 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 410.21 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "234f60cc-fc26-49e2-8615-9caef55af0a3")
+		(property "Reference" "C54"
+			(at 410.464 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 410.464 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 410.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 410.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 410.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2918486"
+			(at 410.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samwha Capacitor"
+			(at 410.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "CS1608X5R105K250NRB"
+			(at 410.21 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f5775c6-6bb8-4010-9f83-57afd0096727")
+		)
+		(pin "2"
+			(uuid "3c46752b-3a65-4000-a7de-38d5d9ee382a")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -40094,6 +40274,102 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 410.21 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e92c396c-c591-4d33-a2d5-9602063a4e3e")
+		(property "Reference" "C55"
+			(at 410.464 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 410.718 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 410.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 410.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 410.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2918486"
+			(at 410.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samwha Capacitor"
+			(at 410.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "CS1608X5R105K250NRB"
+			(at 410.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62296bda-aab4-4c9f-bb28-76072394136d")
+		)
+		(pin "2"
+			(uuid "a0701bc3-e863-4734-aefe-5deb9ef1d077")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "C55")
 					(unit 1)
 				)
 			)
