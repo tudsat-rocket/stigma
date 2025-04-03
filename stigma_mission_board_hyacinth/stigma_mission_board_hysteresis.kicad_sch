@@ -10307,7 +10307,7 @@
 	)
 	(text "Recovery Power"
 		(exclude_from_sim no)
-		(at 327.152 90.424 0)
+		(at 328.676 108.712 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11048,12 +11048,6 @@
 		(uuid "3301a858-0119-4998-9506-c4b64be7c515")
 	)
 	(junction
-		(at 347.98 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33051f3b-5f89-4c58-ac53-58027e036e79")
-	)
-	(junction
 		(at 518.16 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11178,12 +11172,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dcf6e42-9b66-42eb-b875-480e98dbcc90")
-	)
-	(junction
-		(at 422.91 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e3af4ee-b4e8-4738-a3da-5435d58ab54b")
 	)
 	(junction
 		(at 454.66 336.55)
@@ -11348,12 +11336,6 @@
 		(uuid "74972e4a-f17d-42ec-8ac0-6dfc0855705a")
 	)
 	(junction
-		(at 415.29 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "755ea483-5994-4979-b11d-2e51745a3999")
-	)
-	(junction
 		(at 185.42 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11364,12 +11346,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a1131b1-bdd6-4f5e-b14f-6997d41f4524")
-	)
-	(junction
-		(at 431.8 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dd052ee-2b5a-41c3-9feb-2a1756d6c9ea")
 	)
 	(junction
 		(at 266.7 46.99)
@@ -11430,18 +11406,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b2007c4-3684-4f37-859b-39b1edb9fde2")
-	)
-	(junction
-		(at 440.69 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ce26118-bc3b-4fb4-835a-98c38ee2a12d")
-	)
-	(junction
-		(at 415.29 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e091551-3e2e-460a-bd51-1a287782780b")
 	)
 	(junction
 		(at 440.69 55.88)
@@ -11540,22 +11504,10 @@
 		(uuid "b9538586-5253-4415-972e-63d358a0ee10")
 	)
 	(junction
-		(at 137.16 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9c52bda-7217-4540-b774-d11c0e3959dd")
-	)
-	(junction
 		(at 189.23 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb298144-fdcc-4e9b-a01a-207bd31661ed")
-	)
-	(junction
-		(at 328.93 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bc998ec3-a9ad-45fa-b2b4-fbe4389ce0bf")
 	)
 	(junction
 		(at 330.2 358.14)
@@ -11580,12 +11532,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfda892c-242c-4fc6-bd78-75af64f9c638")
-	)
-	(junction
-		(at 410.21 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3a49a96-b2ad-48f3-84f1-cec5a290ff8b")
 	)
 	(junction
 		(at 147.32 130.81)
@@ -11690,12 +11636,6 @@
 		(uuid "d3d793e0-23a3-490c-8bf8-df232baa5e44")
 	)
 	(junction
-		(at 137.16 247.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d449b15f-1470-4b80-b973-a2fbad08c662")
-	)
-	(junction
 		(at 181.61 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11798,18 +11738,6 @@
 		(uuid "f70af804-3e08-406e-a314-89e9b6354cb0")
 	)
 	(junction
-		(at 431.8 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7d32588-2da0-4bc4-8f0f-0334744c5cef")
-	)
-	(junction
-		(at 422.91 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9083fd6-429e-4fa5-b26a-6ef8ebcb8aeb")
-	)
-	(junction
 		(at 347.98 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11832,12 +11760,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcdb2515-3048-425e-9def-1a468f2ca60a")
-	)
-	(junction
-		(at 440.69 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ffc4f4b6-c972-4bb3-9a31-403c56877fdd")
 	)
 	(no_connect
 		(at 157.48 48.26)
@@ -11920,16 +11842,6 @@
 			(type default)
 		)
 		(uuid "01500390-ac6b-4926-bc5d-525dde97811d")
-	)
-	(wire
-		(pts
-			(xy 171.45 243.84) (xy 172.72 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "033e27ec-0f40-45a6-b92e-9e1556d85dcb")
 	)
 	(wire
 		(pts
@@ -12123,16 +12035,6 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 78.74) (xy 415.29 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bbfb810-8c6f-48a8-b962-e525f61a1e4d")
-	)
-	(wire
-		(pts
 			(xy 254 144.78) (xy 254 151.13)
 		)
 		(stroke
@@ -12283,16 +12185,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 220.98) (xy 173.99 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13bfe5e1-c95e-47ea-8d5f-b7248eb68914")
-	)
-	(wire
-		(pts
 			(xy 483.87 53.34) (xy 483.87 54.61)
 		)
 		(stroke
@@ -12423,16 +12315,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 93.98) (xy 359.41 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18b01e4f-54d4-4738-ad8a-feb97ae00f74")
-	)
-	(wire
-		(pts
 			(xy 294.64 118.11) (xy 294.64 115.57)
 		)
 		(stroke
@@ -12470,16 +12352,6 @@
 			(type default)
 		)
 		(uuid "1adbe6f4-5056-4cae-9496-13009b9f00b4")
-	)
-	(wire
-		(pts
-			(xy 422.91 77.47) (xy 422.91 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b1c3f1d-24dd-4e29-9f50-a8d9ce051515")
 	)
 	(wire
 		(pts
@@ -12673,16 +12545,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 96.52) (xy 347.98 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "254823c5-6ef7-4cf2-ad9c-6b0b88ebe855")
-	)
-	(wire
-		(pts
 			(xy 212.09 294.64) (xy 213.36 294.64)
 		)
 		(stroke
@@ -12750,16 +12612,6 @@
 			(type default)
 		)
 		(uuid "269dc7fe-3882-4c07-ba60-faedd5b4b5f2")
-	)
-	(wire
-		(pts
-			(xy 448.31 77.47) (xy 448.31 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "273582a3-314f-4fac-bfc0-c343f0be1ccf")
 	)
 	(wire
 		(pts
@@ -12913,16 +12765,6 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 78.74) (xy 422.91 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d2fd777-9535-41dc-aa94-1eb6a1e309a5")
-	)
-	(wire
-		(pts
 			(xy 275.59 113.03) (xy 275.59 111.76)
 		)
 		(stroke
@@ -13003,26 +12845,6 @@
 	)
 	(wire
 		(pts
-			(xy 440.69 71.12) (xy 448.31 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32309485-ccb4-4b22-abaa-7c5944b23c41")
-	)
-	(wire
-		(pts
-			(xy 137.16 247.65) (xy 172.72 247.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "327baf9f-0a9a-4cb8-85fe-bcc6761f25ea")
-	)
-	(wire
-		(pts
 			(xy 210.82 90.17) (xy 210.82 87.63)
 		)
 		(stroke
@@ -13090,16 +12912,6 @@
 			(type default)
 		)
 		(uuid "35211ec8-fb45-4f44-99cc-d9df2fb3c75e")
-	)
-	(wire
-		(pts
-			(xy 431.8 77.47) (xy 431.8 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3539a8ea-017f-47e4-a0e2-ee605659a52c")
 	)
 	(wire
 		(pts
@@ -13213,16 +13025,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 218.44) (xy 203.2 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b54a33a-a521-4ac4-b95f-2273e6ce0519")
-	)
-	(wire
-		(pts
 			(xy 73.66 303.53) (xy 73.66 308.61)
 		)
 		(stroke
@@ -13323,26 +13125,6 @@
 	)
 	(wire
 		(pts
-			(xy 440.69 72.39) (xy 440.69 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40bed2d8-575d-41df-bafd-1e289b87afb0")
-	)
-	(wire
-		(pts
-			(xy 431.8 72.39) (xy 431.8 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "419f18eb-db57-4b31-a0ca-67612f9eebf4")
-	)
-	(wire
-		(pts
 			(xy 342.9 386.08) (xy 342.9 384.81)
 		)
 		(stroke
@@ -13370,16 +13152,6 @@
 			(type default)
 		)
 		(uuid "42ea9ed6-fbcb-4084-9164-e8a3b18d5ee6")
-	)
-	(wire
-		(pts
-			(xy 422.91 71.12) (xy 415.29 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43ac6851-5d8c-48da-8ca2-67cf38c79683")
 	)
 	(wire
 		(pts
@@ -13463,16 +13235,6 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 78.74) (xy 440.69 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49a351bd-09ab-4d1e-a86a-5a6bc71f09ce")
-	)
-	(wire
-		(pts
 			(xy 204.47 294.64) (xy 205.74 294.64)
 		)
 		(stroke
@@ -13553,16 +13315,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 213.36) (xy 173.99 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d7f50c8-5a48-4a61-a152-21cecebf1dd4")
-	)
-	(wire
-		(pts
 			(xy 345.44 38.1) (xy 344.17 38.1)
 		)
 		(stroke
@@ -13580,16 +13332,6 @@
 			(type default)
 		)
 		(uuid "4ec74647-dde3-4af1-a6e9-7ac612f6ea70")
-	)
-	(wire
-		(pts
-			(xy 422.91 72.39) (xy 422.91 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ef7e664-b336-4b7f-b9d2-828166caebda")
 	)
 	(wire
 		(pts
@@ -13953,16 +13695,6 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 71.12) (xy 415.29 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63fff8ef-01d1-4876-90d0-cca132882ebf")
-	)
-	(wire
-		(pts
 			(xy 448.31 54.61) (xy 448.31 55.88)
 		)
 		(stroke
@@ -13990,16 +13722,6 @@
 			(type default)
 		)
 		(uuid "663b5343-32e6-46fd-b8aa-352acf23b3e7")
-	)
-	(wire
-		(pts
-			(xy 328.93 93.98) (xy 330.2 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "670fb547-4933-4a52-8ee1-05b5525ff7a6")
 	)
 	(wire
 		(pts
@@ -14110,16 +13832,6 @@
 			(type default)
 		)
 		(uuid "6b5b69de-bbf7-46f1-ae45-c7cc4eb3479b")
-	)
-	(wire
-		(pts
-			(xy 422.91 71.12) (xy 431.8 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b933fbf-8bc5-4cbd-8c1f-d464870efb0e")
 	)
 	(wire
 		(pts
@@ -14323,16 +14035,6 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 71.12) (xy 415.29 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77697af5-6546-4921-ba03-db32311ab664")
-	)
-	(wire
-		(pts
 			(xy 148.59 45.72) (xy 157.48 45.72)
 		)
 		(stroke
@@ -14533,16 +14235,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 96.52) (xy 330.2 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "804807a7-842b-4cf5-a950-872db6b7ef13")
-	)
-	(wire
-		(pts
 			(xy 327.66 113.03) (xy 328.93 113.03)
 		)
 		(stroke
@@ -14600,16 +14292,6 @@
 			(type default)
 		)
 		(uuid "82a80ad4-7868-449f-93e8-5412ad0698a5")
-	)
-	(wire
-		(pts
-			(xy 327.66 93.98) (xy 328.93 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83452976-e122-4760-9e71-813e9a89293f")
 	)
 	(wire
 		(pts
@@ -14800,16 +14482,6 @@
 			(type default)
 		)
 		(uuid "8c19fa0f-7409-4c68-924b-9711348aab55")
-	)
-	(wire
-		(pts
-			(xy 171.45 240.03) (xy 172.72 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c4e75be-d245-4b34-ac2a-d37fe00b5a63")
 	)
 	(wire
 		(pts
@@ -15153,16 +14825,6 @@
 	)
 	(wire
 		(pts
-			(xy 448.31 71.12) (xy 448.31 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1df56d2-7a3a-417f-9774-d3284a44e037")
-	)
-	(wire
-		(pts
 			(xy 546.1 113.03) (xy 549.91 113.03)
 		)
 		(stroke
@@ -15250,16 +14912,6 @@
 			(type default)
 		)
 		(uuid "a78b2f69-ce2d-47b3-8d3c-20f98c266572")
-	)
-	(wire
-		(pts
-			(xy 431.8 71.12) (xy 440.69 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a82dc851-2ac7-4089-9555-32a48f490f77")
 	)
 	(wire
 		(pts
@@ -15403,16 +15055,6 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 78.74) (xy 415.29 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0b7abf7-45c6-4dd2-8ec9-e7a6b3e20ed4")
-	)
-	(wire
-		(pts
 			(xy 102.87 289.56) (xy 110.49 289.56)
 		)
 		(stroke
@@ -15493,16 +15135,6 @@
 	)
 	(wire
 		(pts
-			(xy 422.91 78.74) (xy 431.8 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b33b4d82-13f9-44f9-9da8-c5d20c83d884")
-	)
-	(wire
-		(pts
 			(xy 355.6 40.64) (xy 358.14 40.64)
 		)
 		(stroke
@@ -15580,16 +15212,6 @@
 			(type default)
 		)
 		(uuid "b8c1c4df-0db9-4a5c-a406-a1572195ebd2")
-	)
-	(wire
-		(pts
-			(xy 172.72 217.17) (xy 173.99 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8cc407c-1a9b-43d3-8f46-02b3e7af3582")
 	)
 	(wire
 		(pts
@@ -15700,16 +15322,6 @@
 			(type default)
 		)
 		(uuid "bf6a5756-01e2-439f-8598-3c8fa155716b")
-	)
-	(wire
-		(pts
-			(xy 410.21 71.12) (xy 410.21 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0e77a95-542d-4da2-8e99-8255297d109a")
 	)
 	(wire
 		(pts
@@ -15873,16 +15485,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 93.98) (xy 328.93 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceea7f10-7eb3-45a3-8baf-368a37ad0d5d")
-	)
-	(wire
-		(pts
 			(xy 210.82 95.25) (xy 210.82 97.79)
 		)
 		(stroke
@@ -15920,16 +15522,6 @@
 			(type default)
 		)
 		(uuid "d2b24817-f1fc-4b78-92ef-e6b5c1e02ee2")
-	)
-	(wire
-		(pts
-			(xy 440.69 78.74) (xy 448.31 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d313c134-ed2d-4cab-b10f-710d2759b211")
 	)
 	(wire
 		(pts
@@ -16073,16 +15665,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 243.84) (xy 201.93 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d93c8fc4-e41c-4950-ac48-260e98f61458")
-	)
-	(wire
-		(pts
 			(xy 29.21 213.36) (xy 29.21 214.63)
 		)
 		(stroke
@@ -16103,16 +15685,6 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 78.74) (xy 431.8 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc55e7ad-9ac5-4327-880e-791f599f9df5")
-	)
-	(wire
-		(pts
 			(xy 66.04 297.18) (xy 77.47 297.18)
 		)
 		(stroke
@@ -16130,16 +15702,6 @@
 			(type default)
 		)
 		(uuid "dcae8438-5a17-43b0-b7c6-ac3ff4d62537")
-	)
-	(wire
-		(pts
-			(xy 342.9 93.98) (xy 347.98 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcce840f-8a85-45d8-a496-6999172fc070")
 	)
 	(wire
 		(pts
@@ -16483,16 +16045,6 @@
 	)
 	(wire
 		(pts
-			(xy 440.69 78.74) (xy 440.69 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eba281c7-f745-43d2-bb61-23d44c2d4b1c")
-	)
-	(wire
-		(pts
 			(xy 353.06 326.39) (xy 353.06 327.66)
 		)
 		(stroke
@@ -16813,16 +16365,6 @@
 	)
 	(wire
 		(pts
-			(xy 410.21 77.47) (xy 410.21 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa617757-dab5-4e13-90fd-69c43fc13162")
-	)
-	(wire
-		(pts
 			(xy 185.42 40.64) (xy 195.58 40.64)
 		)
 		(stroke
@@ -17069,28 +16611,6 @@
 			)
 		)
 	)
-	(global_label "ADC_RECOVERY_4_I"
-		(shape input)
-		(at 204.47 243.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "096a596e-7fd6-4d8d-b2e7-72380c27f94f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.4166 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_2_RX"
 		(shape input)
 		(at 425.45 336.55 180)
@@ -17307,28 +16827,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RECOVERY_2"
-		(shape input)
-		(at 171.45 213.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1cc74d33-fbe6-49cd-9f94-4f6070f7464f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.672 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17597,28 +17095,6 @@
 			)
 		)
 	)
-	(global_label "RECOVERY_4_CONT_CHECK"
-		(shape input)
-		(at 171.45 243.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "435a6d28-3440-4f20-837f-544f4c3635c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.5487 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_1_L"
 		(shape input)
 		(at 466.09 298.45 0)
@@ -17681,28 +17157,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RECOVERY_4"
-		(shape input)
-		(at 171.45 240.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "49787d87-00db-4bda-b515-6c745ca7c5a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.672 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17940,28 +17394,6 @@
 		(uuid "63bb12db-c3a5-4020-8e99-df2568dd30a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.5687 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RECOVERY_2_CONT_CHECK"
-		(shape input)
-		(at 172.72 217.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "66c24ae1-4250-42c7-b69a-b67534134cbd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.8187 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18671,28 +18103,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC_RECOVERY_2_I"
-		(shape input)
-		(at 205.74 218.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a461d651-8ef9-4738-b9d3-702f78a42586")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.6866 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -20574,73 +19984,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VSW")
-		(at 359.41 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07730fa9-7f96-4ffa-a3be-ef04fa483766")
-		(property "Reference" "#PWR0107"
-			(at 355.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "high_current_2"
-			(at 363.22 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 359.41 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 359.41 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 359.41 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "484e5ab2-ba0a-4e22-b5f5-a9617d8f1b16")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse_Small")
 		(at 38.1 243.84 90)
 		(unit 1)
@@ -20806,111 +20149,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 137.16 223.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "0bc65503-75b6-42ca-885d-e39b6db6b321")
-		(property "Reference" "F6"
-			(at 138.43 223.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10A"
-			(at 138.303 225.2222 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 137.16 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey#" ""
-			(at 137.16 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 137.16 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "0501010.WR1"
-			(at 137.16 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C207003"
-			(at 137.16 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0bde5a15-4d8d-416e-b6ae-4121c2821bb0")
-		)
-		(pin "2"
-			(uuid "7addeffa-4a24-4472-aca0-789f0e8833e5")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "F6")
 					(unit 1)
 				)
 			)
@@ -21810,73 +21048,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 347.98 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a3c0aee-1d16-4714-b8a2-e774a3404af9")
-		(property "Reference" "#FLG07"
-			(at 347.98 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 347.98 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 347.98 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 347.98 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 347.98 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8143dfe-e38e-4523-bbff-66d9f49ae86a")
-		)
-		(instances
-			(project ""
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#FLG07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 340.36 365.76 0)
 		(unit 1)
@@ -22401,102 +21572,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 410.21 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "234f60cc-fc26-49e2-8615-9caef55af0a3")
-		(property "Reference" "C54"
-			(at 410.464 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 410.464 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 410.21 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 410.21 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 410.21 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C2918486"
-			(at 410.21 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samwha Capacitor"
-			(at 410.21 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "CS1608X5R105K250NRB"
-			(at 410.21 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f5775c6-6bb8-4010-9f83-57afd0096727")
-		)
-		(pin "2"
-			(uuid "3c46752b-3a65-4000-a7de-38d5d9ee382a")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -23427,72 +22502,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VSW")
-		(at 137.16 252.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2be86fff-d625-4ce6-8d2c-31dee5601516")
-		(property "Reference" "#PWR049"
-			(at 137.16 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "high_current_2"
-			(at 137.16 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "327b9b6f-fe2d-4008-8644-7632bd13763d")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 298.45 294.64 270)
 		(unit 1)
@@ -24322,102 +23331,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 415.29 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "37af8764-fdc6-4f68-9599-4c47a316f098")
-		(property "Reference" "C37"
-			(at 415.798 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 416.052 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 415.29 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 415.29 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 415.29 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C2918486"
-			(at 415.29 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samwha Capacitor"
-			(at 415.29 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "CS1608X5R105K250NRB"
-			(at 415.29 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc201840-fc93-4740-acc3-cfe699f2a75a")
-		)
-		(pin "2"
-			(uuid "188c31c5-7921-4e4c-8b34-6c8b7ffe133b")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -26739,148 +25652,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS34")
-		(at 347.98 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "516e1eca-6c10-4cfb-abbd-3534897e8094")
-		(property "Reference" "D13"
-			(at 351.79 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34"
-			(at 352.298 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 352.425 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 347.98 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 347.98 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC #" "C466502"
-			(at 347.98 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54e5cd90-e8fa-4104-ba21-79c2e5372092")
-		)
-		(pin "2"
-			(uuid "b8d612f0-fcd7-4de9-a45d-ecacb3e67470")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 431.8 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "518484c8-00ea-4da4-9ee4-9f1a91f43f2e")
-		(property "Reference" "#PWR0167"
-			(at 431.8 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 431.8 86.9934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 431.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 431.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 431.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bdd1211b-4d8b-42b2-a68c-6d37062d7a28")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0167")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 284.48 128.27 0)
 		(unit 1)
@@ -27223,147 +25994,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 327.66 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "553b54bb-9be7-458f-b250-959e4f760260")
-		(property "Reference" "#PWR093"
-			(at 321.31 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 323.85 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 327.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 327.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 327.66 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "061d0ffe-469d-4074-b554-0586d13ac221")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Top_Bottom")
-		(at 335.28 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56c9594f-ca7d-42f9-9403-485280613ad0")
-		(property "Reference" "J3"
-			(at 336.296 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 335.026 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
-			(at 335.28 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 335.28 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 335.28 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "caa9060f-7970-44ff-8f5a-f9df8ee6d629")
-		)
-		(pin "2"
-			(uuid "ad28b33f-c5c5-4528-ba91-e1b2762bbc66")
-		)
-		(pin "4"
-			(uuid "c248e212-056b-43ed-8d45-d13049eabfac")
-		)
-		(pin "1"
-			(uuid "ffe406bd-c465-4918-94b2-af23f05fd05e")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -27719,102 +26349,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 431.8 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "589aee69-973b-4c45-8b52-d20d1bd0f069")
-		(property "Reference" "C39"
-			(at 432.562 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22u"
-			(at 432.562 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 431.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 431.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 431.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C513764"
-			(at 431.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samwha Capacitor"
-			(at 431.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "CS2012X5R226M250NRE"
-			(at 431.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "959e376d-0114-47fe-91e0-dfcc440743af")
-		)
-		(pin "2"
-			(uuid "920015ba-2215-4834-af2b-656176a3a981")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "C39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 60.96 105.41 270)
 		(unit 1)
@@ -27876,111 +26410,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 137.16 245.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c62e051-b752-4b97-b9ba-8e83d0be62ea")
-		(property "Reference" "F7"
-			(at 138.303 244.2753 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10A"
-			(at 138.43 246.126 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 137.16 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey#" ""
-			(at 137.16 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 137.16 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "0501010.WR1"
-			(at 137.16 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C207003"
-			(at 137.16 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff0d0c40-859c-4598-a845-855227ba0ff5")
-		)
-		(pin "2"
-			(uuid "3d39b60a-64d2-4f43-8e98-0946cf54f1e2")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "F7")
 					(unit 1)
 				)
 			)
@@ -28145,102 +26574,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 422.91 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d378172-2948-4268-8aa5-99834dc3b772")
-		(property "Reference" "C38"
-			(at 423.291 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 423.799 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 422.91 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 422.91 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 422.91 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C5189822"
-			(at 422.91 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 422.91 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "CS2012X7R106M100NRE"
-			(at 422.91 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ab01045-1320-4e37-8579-344e0583db5e")
-		)
-		(pin "2"
-			(uuid "cdb11081-69c0-48e3-a4c9-b3285ea2dd01")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -28938,138 +27271,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+VSW")
-		(at 137.16 242.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "641599be-b349-433c-bb45-a6fadf3722a5")
-		(property "Reference" "#PWR048"
-			(at 137.16 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "high_current"
-			(at 137.16 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d37d2213-167a-4831-9fff-8934b67ca01c")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+VSW")
-		(at 137.16 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64711e33-2156-4861-9b5d-065820a238d2")
-		(property "Reference" "#PWR046"
-			(at 137.16 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "high_current"
-			(at 137.16 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a521dba-aed5-48f2-a220-e1ace8da564c")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -30362,76 +28563,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 347.98 100.33 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6fc845c6-c461-4f6a-95c0-0de0400aeded")
-		(property "Reference" "JP1"
-			(at 350.52 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 350.52 101.5999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 347.98 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 347.98 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 347.98 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cc559a32-af27-4240-9b74-c6b91538465d")
-		)
-		(pin "1"
-			(uuid "bdf2cb11-5621-417e-a503-4bbec90c3c40")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+VSW")
 		(at 29.21 240.03 0)
 		(unit 1)
@@ -30950,102 +29081,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 440.69 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c72b363-d903-41b5-8a6f-b9799fd35fc4")
-		(property "Reference" "C41"
-			(at 441.452 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22u"
-			(at 441.452 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 440.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 440.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 440.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C513764"
-			(at 440.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samwha Capacitor"
-			(at 440.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "CS2012X5R226M250NRE"
-			(at 440.69 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b2ddd42-d2ab-4e64-ba64-9ce9181ed8b8")
-		)
-		(pin "2"
-			(uuid "700ede3e-eff3-4abe-910c-6fd814a28790")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -32488,73 +30523,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VSW")
-		(at 410.21 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9143da36-11b5-4347-8371-24e6bc77df41")
-		(property "Reference" "#PWR0166"
-			(at 414.02 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "high_current_2"
-			(at 406.4 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 410.21 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 410.21 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 410.21 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f3bd20d-2347-441c-9636-ad8431f9edc2")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR0166")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 60.96 95.25 270)
 		(unit 1)
@@ -33894,72 +31862,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR091")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+VSW")
-		(at 137.16 226.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1bf53cd-2b0e-45dd-8ad8-6fe10a853b7f")
-		(property "Reference" "#PWR047"
-			(at 137.16 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "high_current_2"
-			(at 137.16 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e6bfc99-09a4-401f-bb8e-4fe1177e0754")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -37168,102 +35070,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 448.31 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ca25f181-adbf-437c-9684-1152947f711a")
-		(property "Reference" "C53"
-			(at 449.072 73.406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "4u7"
-			(at 448.818 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 448.31 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 448.31 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 448.31 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C513766"
-			(at 448.31 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samwha Capacitor"
-			(at 448.31 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "CS2012X7R475K250NRE"
-			(at 448.31 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28bc1d84-07ad-4158-970e-e60b024a1ecd")
-		)
-		(pin "2"
-			(uuid "d5d2d622-27e5-4838-9b18-17a636984ba7")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "C53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 147.32 132.08 0)
 		(unit 1)
@@ -37936,111 +35742,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 137.16 250.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "d178adb1-62ab-4b39-a087-c0cd4db7a7e5")
-		(property "Reference" "F8"
-			(at 138.43 249.936 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10A"
-			(at 138.303 251.8922 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 137.16 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey#" ""
-			(at 137.16 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 137.16 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "0501010.WR1"
-			(at 137.16 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C207003"
-			(at 137.16 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b46b1750-9ccf-4d1c-806b-69bb2ef7a41e")
-		)
-		(pin "2"
-			(uuid "473eacf2-f7db-4c5d-9767-cd2af5de2de0")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "F8")
 					(unit 1)
 				)
 			)
@@ -41323,111 +39024,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 137.16 218.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f12bb58d-bbb7-479e-aba5-226381f9771f")
-		(property "Reference" "F5"
-			(at 138.303 217.6053 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10A"
-			(at 138.43 219.456 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 137.16 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 137.16 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey#" ""
-			(at 137.16 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Littelfuse"
-			(at 137.16 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "0501010.WR1"
-			(at 137.16 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C207003"
-			(at 137.16 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2d1de87-e262-4eac-8c5d-389eb0eb0149")
-		)
-		(pin "2"
-			(uuid "b59a99c1-8998-4c72-960d-be7f889acd15")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "F5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 294.64 158.75 90)
 		(unit 1)
@@ -42095,88 +39691,6 @@
 		)
 	)
 	(sheet
-		(at 173.99 209.55)
-		(size 29.21 13.97)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "1b0ab639-d420-4016-938c-453dcf1ed81d")
-		(property "Sheetname" "Recovery Output2"
-			(at 173.99 208.8384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "recovery_output.kicad_sch"
-			(at 173.99 224.1046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "cont_check" input
-			(at 173.99 217.17 180)
-			(uuid "9cf13146-a0c0-4c88-bcb1-434f90953cf9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_recovery" input
-			(at 173.99 213.36 180)
-			(uuid "90c91a8b-a289-47ed-b3dd-aac3dcc43caa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "adc_i_sense" output
-			(at 203.2 218.44 0)
-			(uuid "05f684fe-9ba7-472e-810c-02b489aa14fa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "high_current" input
-			(at 173.99 220.98 180)
-			(uuid "ec29a0a6-19af-4c7d-898e-5c9529e22888")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 72.39 236.22)
 		(size 29.21 14.732)
 		(exclude_from_sim no)
@@ -42336,87 +39850,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 172.72 236.474)
-		(size 29.21 14.986)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "9351aa18-d08f-4bdd-8577-c307d483b4c3")
-		(property "Sheetname" "Recovery Output 4"
-			(at 172.72 235.7624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "recovery_output.kicad_sch"
-			(at 172.72 252.222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "cont_check" input
-			(at 172.72 243.84 180)
-			(uuid "db5653f4-32fd-4a7a-b6be-5bcf41d5b6ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_recovery" input
-			(at 172.72 240.03 180)
-			(uuid "d8e10f79-8927-4f1a-adeb-51644705dfb8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "adc_i_sense" output
-			(at 201.93 243.84 0)
-			(uuid "bc13f74a-8a08-42c9-9e4c-02e5ee880df7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "high_current" input
-			(at 172.72 247.65 180)
-			(uuid "b3745945-5c7c-4a9f-87d8-7f09b5fdf476")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(page "4")
 				)
 			)
 		)
