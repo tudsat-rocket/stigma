@@ -1,4 +1,4 @@
-24793059305398996
+24803531238206310
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91924,12 +91924,33 @@ DF40GB-70DP-0.4V-plug
 74
 71
 Stigma
+Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43045-0400 (alternative finishes: 43045-040x), 2 Pins per row (https://www.molex.com/pdm_docs/sd/430450201_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+4
+4
+Stigma
+Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43045-0800 (alternative finishes: 43045-080x), 4 Pins per row (https://www.molex.com/pdm_docs/sd/430450201_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+8
+8
+Stigma
 RJ45-TH_MJ88B-B011-RVL11-P
 
 
 0
 14
 14
+Stigma
+SMA_Amphenol_901-143_Horizontal
+ Amphenol RF 901-143 https://www.amphenolrf.com/library/download/link/link_id/585682
+SMA THT Female Jack Horizontal
+0
+5
+2
 Stigma
 SolderJumper-3_Open_RoundedPad2x2mm
 SMD Solder 3-pad Jumper, 2mmx2mm high current pads, 0.3mm gap, open
@@ -99687,12 +99708,33 @@ DF40GB-70DP-0.4V-plug
 74
 71
 stigma
+Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43045-0400 (alternative finishes: 43045-040x), 2 Pins per row (https://www.molex.com/pdm_docs/sd/430450201_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+4
+4
+stigma
+Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal
+Molex Micro-Fit 3.0 Connector System, 43045-0800 (alternative finishes: 43045-080x), 4 Pins per row (https://www.molex.com/pdm_docs/sd/430450201_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 horizontal
+0
+8
+8
+stigma
 RJ45-TH_MJ88B-B011-RVL11-P
 
 
 0
 14
 14
+stigma
+SMA_Amphenol_901-143_Horizontal
+ Amphenol RF 901-143 https://www.amphenolrf.com/library/download/link/link_id/585682
+SMA THT Female Jack Horizontal
+0
+5
+2
 stigma
 SolderJumper-3_Open_RoundedPad2x2mm
 SMD Solder 3-pad Jumper, 2mmx2mm high current pads, 0.3mm gap, open

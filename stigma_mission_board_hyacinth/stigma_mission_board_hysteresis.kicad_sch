@@ -23794,7 +23794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
+		(property "Footprint" "stigma:SMA_Amphenol_901-143_Horizontal"
 			(at 349.25 299.72 0)
 			(effects
 				(font
@@ -23803,7 +23803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 349.25 299.72 0)
 			(effects
 				(font
@@ -36270,7 +36270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal"
+		(property "Footprint" "stigma:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal"
 			(at 336.55 40.64 0)
 			(effects
 				(font
@@ -36279,7 +36279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/430450800?display=pdf"
 			(at 336.55 40.64 0)
 			(effects
 				(font
@@ -36288,7 +36288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "43045-0800"
 			(at 336.55 40.64 0)
 			(effects
 				(font
@@ -37464,7 +37464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
+		(property "Footprint" "stigma:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
 			(at 335.28 113.03 0)
 			(effects
 				(font
@@ -37473,7 +37473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Molex/43045-0400?qs=UeCeOHRHQeaIqmxE9Bxdrw%3D%3D#:~:text=Datenblatt%3A,43045%2D0400%20Datenblatt"
 			(at 335.28 113.03 0)
 			(effects
 				(font
@@ -37482,7 +37482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "43045-0400"
 			(at 335.28 113.03 0)
 			(effects
 				(font
@@ -38440,7 +38440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal"
+		(property "Footprint" "stigma:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal"
 			(at 336.55 55.88 0)
 			(effects
 				(font
@@ -38449,7 +38449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/430450800?display=pdf"
 			(at 336.55 55.88 0)
 			(effects
 				(font
@@ -38458,7 +38458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "43045-0800"
 			(at 336.55 55.88 0)
 			(effects
 				(font
