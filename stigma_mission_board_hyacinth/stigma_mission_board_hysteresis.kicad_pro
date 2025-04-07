@@ -551,7 +551,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "stigma_mission_board_hysteresis.step",
       "svg": "",
       "vrml": ""
     },
