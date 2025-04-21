@@ -593,7 +593,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -602,21 +602,99 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey#",
+          "name": "DigiKey#",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC #",
+          "name": "LCSC #",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC#",
+          "name": "LCSC#",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Notes",
+          "name": "Notes",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Part#",
+          "name": "Part#",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referenz"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -672,12 +750,12 @@
       "Root"
     ],
     [
-      "1e21a0b4-3701-4fea-ae6f-c1650f6b51b3",
-      "Recovery Output 3 & 4"
+      "7e3624ee-6fcd-4a34-9db0-9dc6b080f272",
+      "Recovery Output Pair 1"
     ],
     [
-      "4924f453-debe-420b-955f-34707f20b488",
-      "Recovery Output 1 & 2"
+      "96cf4878-0e07-4ffd-b01c-b8925d9dde8e",
+      "Recovery Output Pair 2"
     ]
   ],
   "text_variables": {}
