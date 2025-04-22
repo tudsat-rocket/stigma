@@ -2826,7 +2826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-8_5.25x5.24mm_P1.27mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
 			(at 88.9 50.165 0)
 			(effects
 				(font
@@ -3116,7 +3116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-8_5.25x5.24mm_P1.27mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
 			(at 88.9 94.615 0)
 			(effects
 				(font
@@ -4757,7 +4757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical"
 			(at 99.06 68.58 0)
 			(effects
 				(font
