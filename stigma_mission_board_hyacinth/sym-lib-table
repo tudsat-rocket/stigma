@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "stigma")(type "KiCad")(uri "${KIPRJMOD}/../common/stigma.kicad_sym")(options "")(descr ""))
+)
