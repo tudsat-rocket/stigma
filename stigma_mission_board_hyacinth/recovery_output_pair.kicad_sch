@@ -1902,7 +1902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Toshiba"
+		(property "Manufacturer" ""
 			(at 83.82 48.26 0)
 			(effects
 				(font
@@ -1911,7 +1911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part#" "DMN2056U-7"
+		(property "Part#" ""
 			(at 83.82 48.26 0)
 			(effects
 				(font
@@ -1920,7 +1920,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C396039"
+		(property "LCSC" "C315567"
 			(at 90.17 50.7999 0)
 			(effects
 				(font
@@ -2107,7 +2107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Toshiba"
+		(property "Manufacturer" ""
 			(at 83.82 92.71 0)
 			(effects
 				(font
@@ -2116,7 +2116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part#" "DMN2056U-7"
+		(property "Part#" ""
 			(at 83.82 92.71 0)
 			(effects
 				(font
@@ -2125,7 +2125,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C396039"
+		(property "LCSC" "C315567"
 			(at 90.17 95.2499 0)
 			(effects
 				(font
