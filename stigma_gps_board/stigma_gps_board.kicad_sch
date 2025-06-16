@@ -7261,7 +7261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.mouser.de/datasheet/2/308/1/NCP115_D-3366525.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/308/1/NCP115_D-3366525.pdf"
 			(at 162.56 33.02 0)
 			(effects
 				(font
@@ -7271,6 +7271,15 @@
 			)
 		)
 		(property "Description" "300mA Low-Dropout Linear Regulators, 1.2V output voltage, LDO with low noise and enable pin, XDFN-4"
+			(at 162.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C603505"
 			(at 162.56 33.02 0)
 			(effects
 				(font
