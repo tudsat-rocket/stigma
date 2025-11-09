@@ -767,6 +767,10 @@
     [
       "96cf4878-0e07-4ffd-b01c-b8925d9dde8e",
       "Recovery Output Pair 2"
+    ],
+    [
+      "e95e9615-bb2f-4c9c-a29c-0b0b4e2cd4ba",
+      "voltage_regulator"
     ]
   ],
   "text_variables": {}
