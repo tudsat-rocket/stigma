@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "9327cffc-7a3b-415d-89e5-7d37bd09d58e")
 	(paper "A4")
+	(title_block
+		(date "2025-12-01")
+		(rev "2")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic_Shielded:Conn_02x35_Top_Bottom_Shielded"
 			(pin_names

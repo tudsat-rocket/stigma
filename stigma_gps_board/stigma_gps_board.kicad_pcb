@@ -5226,7 +5226,7 @@
 		(layer "Edge.Cuts")
 		(uuid "e8216dcf-11b9-4c28-b268-7aa75b2b764a")
 	)
-	(gr_text "rev 1"
+	(gr_text "rev 2"
 		(at 103.95 80.125 0)
 		(layer "F.Mask")
 		(uuid "6621f944-fb64-4212-a77e-c8d0a20844ec")
