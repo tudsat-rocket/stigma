@@ -10778,6 +10778,12 @@
 		(uuid "0e11f440-0093-4237-9b36-716813de0fab")
 	)
 	(junction
+		(at 63.5 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e4f6bf1-f549-47d4-9195-2237ca2db3be")
+	)
+	(junction
 		(at 200.66 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10854,6 +10860,12 @@
 		(diameter 0)
 		(color 106 106 106 1)
 		(uuid "379c37e0-2f22-41e3-a66b-f3c6571b4ab1")
+	)
+	(junction
+		(at 55.88 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a2827ef-89e3-4cc1-9821-83984df28a71")
 	)
 	(junction
 		(at 391.16 204.47)
@@ -12191,7 +12203,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 26.67) (xy 57.15 26.67)
+			(xy 52.07 26.67) (xy 63.5 26.67)
 		)
 		(stroke
 			(width 0.4)
@@ -12303,7 +12315,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 39.37) (xy 284.48 39.37)
+			(xy 284.48 40.64) (xy 288.29 40.64)
 		)
 		(stroke
 			(width 0)
@@ -12394,7 +12406,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 52.07) (xy 358.14 53.34)
+			(xy 363.22 49.53) (xy 363.22 53.34)
 		)
 		(stroke
 			(width 0)
@@ -12442,6 +12454,16 @@
 			(color 18 185 255 1)
 		)
 		(uuid "27075244-38be-4ecb-9890-071024b10c46")
+	)
+	(wire
+		(pts
+			(xy 63.5 24.13) (xy 63.5 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276b5a6b-d74a-4728-8044-c05e9e868244")
 	)
 	(wire
 		(pts
@@ -12657,6 +12679,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 53.34) (xy 358.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ecf89a1-7089-48a7-b85c-c80b81a03d0d")
+	)
+	(wire
+		(pts
 			(xy 391.16 27.94) (xy 391.16 29.21)
 		)
 		(stroke
@@ -12751,7 +12783,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 26.67) (xy 78.74 26.67)
+			(xy 72.39 26.67) (xy 78.74 26.67)
 		)
 		(stroke
 			(width 0.4)
@@ -13236,6 +13268,17 @@
 			(type default)
 		)
 		(uuid "520fd0cd-c916-4f4f-aec9-dc41b5e2e1b4")
+	)
+	(wire
+		(pts
+			(xy 63.5 26.67) (xy 67.31 26.67)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 10 0 1)
+		)
+		(uuid "52d1975b-f358-4112-a148-942818f28639")
 	)
 	(wire
 		(pts
@@ -14845,7 +14888,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 39.37) (xy 281.94 38.1)
+			(xy 284.48 40.64) (xy 284.48 38.1)
 		)
 		(stroke
 			(width 0)
@@ -15517,7 +15560,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 39.37) (xy 306.07 39.37)
+			(xy 307.34 40.64) (xy 309.88 40.64)
 		)
 		(stroke
 			(width 0)
@@ -15698,7 +15741,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 39.37) (xy 306.07 38.1)
+			(xy 309.88 40.64) (xy 309.88 39.37)
 		)
 		(stroke
 			(width 0)
@@ -20578,7 +20621,7 @@
 			)
 		)
 		(property "LCSC" "C8678"
-			(at 104.14 33.02 0)
+			(at 104.648 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21016,6 +21059,98 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS34")
+		(at 59.69 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09e592b0-7c6b-4f09-b2de-62d299270270")
+		(property "Reference" "D12"
+			(at 62.992 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 67.31 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 59.69 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 59.69 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 59.69 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey#" ""
+			(at 59.69 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8678"
+			(at 59.69 19.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f581648-edfd-4c86-acf8-f0bab7e21951")
+		)
+		(pin "2"
+			(uuid "6e815701-9d3c-4842-85cb-698df2f19d6a")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -21850,7 +21985,7 @@
 			)
 		)
 		(property "LCSC" "C8678"
-			(at 104.14 27.94 0)
+			(at 104.14 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27766,7 +27901,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 59.69 26.67 270)
+		(at 69.85 26.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27774,7 +27909,7 @@
 		(dnp no)
 		(uuid "5a7a84e7-0991-4264-9242-e331ceb4a28b")
 		(property "Reference" "F1"
-			(at 59.69 29.21 90)
+			(at 69.85 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27782,7 +27917,7 @@
 			)
 		)
 		(property "Value" "1.5A"
-			(at 59.69 30.988 90)
+			(at 69.85 30.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27790,7 +27925,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 54.61 27.94 0)
+			(at 64.77 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27800,7 +27935,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 26.67 0)
+			(at 69.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27809,7 +27944,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 26.67 0)
+			(at 69.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27817,7 +27952,7 @@
 			)
 		)
 		(property "DigiKey#" "507-1805-1-ND"
-			(at 59.69 26.67 90)
+			(at 69.85 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27826,7 +27961,7 @@
 			)
 		)
 		(property "Manufacturer" "Bel Fuse Inc."
-			(at 59.69 26.67 0)
+			(at 69.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27835,7 +27970,7 @@
 			)
 		)
 		(property "Part#" "0ZCJ0075AF2E"
-			(at 59.69 26.67 0)
+			(at 69.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31705,7 +31840,7 @@
 			)
 		)
 		(property "Value" "charging_voltage"
-			(at 57.404 21.082 0)
+			(at 56.896 16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35660,7 +35795,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 93.98 49.53 0)
+			(at 85.09 49.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35931,7 +36066,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 93.98 44.45 0)
+			(at 85.09 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36483,7 +36618,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 99.06 49.53 0)
+			(at 106.934 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38237,7 +38372,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 99.06 44.45 0)
+			(at 107.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38261,7 +38396,7 @@
 	)
 	(symbol
 		(lib_id "power:+VSW")
-		(at 281.94 38.1 0)
+		(at 284.48 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38269,7 +38404,7 @@
 		(dnp no)
 		(uuid "c7347b4a-b842-44d2-ab3a-944927675236")
 		(property "Reference" "#PWR0104"
-			(at 281.94 41.91 0)
+			(at 284.48 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38278,7 +38413,7 @@
 			)
 		)
 		(property "Value" "main"
-			(at 279.654 33.782 0)
+			(at 282.194 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38287,7 +38422,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 38.1 0)
+			(at 284.48 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38296,7 +38431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 38.1 0)
+			(at 284.48 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38305,7 +38440,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 38.1 0)
+			(at 284.48 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39439,7 +39574,7 @@
 	)
 	(symbol
 		(lib_id "power:+VSW")
-		(at 358.14 52.07 0)
+		(at 363.22 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39447,7 +39582,7 @@
 		(dnp no)
 		(uuid "d14b11e3-4d1d-4c12-812e-987984cf3081")
 		(property "Reference" "#PWR027"
-			(at 358.14 55.88 0)
+			(at 363.22 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39456,7 +39591,7 @@
 			)
 		)
 		(property "Value" "vdd_ethernet"
-			(at 358.14 47.752 0)
+			(at 363.22 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39464,7 +39599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 358.14 52.07 0)
+			(at 363.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39473,7 +39608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 52.07 0)
+			(at 363.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39482,7 +39617,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 358.14 52.07 0)
+			(at 363.22 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42063,7 +42198,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f3ae03ce-1f5e-4bb7-9a12-7f1e535a4d0e")
 		(property "Reference" "D9"
 			(at 258.1275 134.62 0)
@@ -42109,7 +42243,7 @@
 			)
 		)
 		(property "LCSC" "C8678"
-			(at 257.81 140.97 0)
+			(at 258.064 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42295,7 +42429,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 306.07 38.1 0)
+		(at 309.88 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42304,7 +42438,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7c893b7-cf46-4a9f-95b7-72d2fca5de46")
 		(property "Reference" "#PWR0105"
-			(at 306.07 41.91 0)
+			(at 309.88 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42313,7 +42447,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 306.07 34.5242 0)
+			(at 309.88 35.7942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42321,7 +42455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 38.1 0)
+			(at 309.88 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42330,7 +42464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 38.1 0)
+			(at 309.88 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42339,7 +42473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 306.07 38.1 0)
+			(at 309.88 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42927,7 +43061,7 @@
 		)
 	)
 	(sheet
-		(at 284.48 32.512)
+		(at 288.29 33.782)
 		(size 19.05 13.462)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42943,7 +43077,7 @@
 		)
 		(uuid "e95e9615-bb2f-4c9c-a29c-0b0b4e2cd4ba")
 		(property "Sheetname" "voltage_regulator"
-			(at 284.48 31.8004 0)
+			(at 288.29 33.0704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42952,7 +43086,7 @@
 			)
 		)
 		(property "Sheetfile" "voltage_regulator.kicad_sch"
-			(at 284.48 46.5586 0)
+			(at 288.29 47.8286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42961,7 +43095,7 @@
 			)
 		)
 		(pin "+5V" input
-			(at 303.53 39.37 0)
+			(at 307.34 40.64 0)
 			(uuid "5048fc9e-a8c4-4616-a3c3-4bd783de4ba7")
 			(effects
 				(font
@@ -42971,7 +43105,7 @@
 			)
 		)
 		(pin "main" input
-			(at 284.48 39.37 180)
+			(at 288.29 40.64 180)
 			(uuid "6ed98504-768f-40b2-bd93-a4cfa59111d3")
 			(effects
 				(font

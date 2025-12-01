@@ -3725,6 +3725,12 @@
 		(color 0 0 0 0)
 		(uuid "bb1c4f42-d1a9-4c2e-995b-adf6c482a918")
 	)
+	(junction
+		(at 149.86 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f09cb9af-7483-475f-94e2-05fa708f1f0e")
+	)
 	(no_connect
 		(at 246.38 54.61)
 		(uuid "12a16ba0-beee-43a8-a2cb-211e1426c6d2")
@@ -3914,10 +3920,6 @@
 		(uuid "e7978f50-5414-49e4-89af-c6c63a6940f7")
 	)
 	(no_connect
-		(at 152.4 35.56)
-		(uuid "eefeb52c-f84e-46f4-ad6f-a4f564524d88")
-	)
-	(no_connect
 		(at 85.09 71.12)
 		(uuid "f0a05839-e11d-48b5-aaf0-95807d8489ea")
 	)
@@ -4011,7 +4013,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 30.48) (xy 179.07 31.75)
+			(xy 179.07 30.48) (xy 179.07 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4081,7 +4083,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 30.48) (xy 152.4 30.48)
+			(xy 143.51 30.48) (xy 149.86 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4111,7 +4113,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 36.83) (xy 143.51 39.37)
+			(xy 143.51 38.1) (xy 143.51 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4121,7 +4123,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 30.48) (xy 143.51 31.75)
+			(xy 143.51 30.48) (xy 143.51 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4151,7 +4153,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 36.83) (xy 179.07 39.37)
+			(xy 179.07 38.1) (xy 179.07 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4221,6 +4223,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 35.56) (xy 149.86 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d91f08-fb2b-47d3-bec1-4321cac60e0a")
+	)
+	(wire
+		(pts
 			(xy 104.14 76.2) (xy 104.14 78.74)
 		)
 		(stroke
@@ -4261,6 +4273,26 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 35.56) (xy 152.4 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d78bc0-6614-4938-8ce9-8517c1e646aa")
+	)
+	(wire
+		(pts
+			(xy 172.72 36.83) (xy 172.72 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78085f1-3108-43a6-891a-f06b6b27c827")
+	)
+	(wire
+		(pts
 			(xy 102.87 83.82) (xy 104.14 83.82)
 		)
 		(stroke
@@ -4288,6 +4320,16 @@
 			(type default)
 		)
 		(uuid "e91adf81-4f9e-4a20-911e-7291c78e2d98")
+	)
+	(wire
+		(pts
+			(xy 149.86 30.48) (xy 152.4 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e996bfce-a188-4362-96db-e970b7efd517")
 	)
 	(wire
 		(pts
@@ -5183,7 +5225,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 179.07 34.29 180)
+		(at 179.07 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5192,7 +5234,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c0a6ceb-dea2-448c-94b9-1fc7f54050d5")
 		(property "Reference" "C2"
-			(at 181.61 33.0135 0)
+			(at 181.61 34.2835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,7 +5243,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 181.61 35.5535 0)
+			(at 181.61 36.8235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +5252,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 179.07 34.29 0)
+			(at 179.07 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +5261,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 34.29 0)
+			(at 179.07 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,7 +5270,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 34.29 0)
+			(at 179.07 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +5279,7 @@
 			)
 		)
 		(property "LCSC#" "C1591"
-			(at 179.07 34.29 0)
+			(at 179.07 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +5288,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 179.07 34.29 0)
+			(at 179.07 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +5297,7 @@
 			)
 		)
 		(property "Part#" "CL10B104KB8NNNC"
-			(at 179.07 34.29 0)
+			(at 179.07 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8662,17 +8704,82 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 143.51 34.29 180)
+		(lib_id "power:GND")
+		(at 172.72 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "f6fb41e3-8909-41e1-8ca0-7a75bb1a365a")
+		(property "Reference" "#PWR02"
+			(at 172.72 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "599c5728-6909-47c7-aca0-2b12b07cf07c")
+		)
+		(instances
+			(project "stigma_gps_board"
+				(path "/9327cffc-7a3b-415d-89e5-7d37bd09d58e"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 143.51 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "fb8b5fa4-6112-4bb1-abee-cf5a30024553")
 		(property "Reference" "C1"
-			(at 146.05 33.0135 0)
+			(at 144.018 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8681,7 +8788,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 146.05 35.5535 0)
+			(at 143.764 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8690,7 +8797,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 143.51 34.29 0)
+			(at 143.51 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8699,7 +8806,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 34.29 0)
+			(at 143.51 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8708,7 +8815,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 34.29 0)
+			(at 143.51 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8717,7 +8824,7 @@
 			)
 		)
 		(property "LCSC#" "C1591"
-			(at 143.51 34.29 0)
+			(at 143.51 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8726,7 +8833,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 143.51 34.29 0)
+			(at 143.51 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,7 +8842,7 @@
 			)
 		)
 		(property "Part#" "CL10B104KB8NNNC"
-			(at 143.51 34.29 0)
+			(at 143.51 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)

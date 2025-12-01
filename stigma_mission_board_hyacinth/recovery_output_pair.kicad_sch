@@ -1443,6 +1443,16 @@
 		)
 		(uuid "8e2baf13-c680-4f50-bfac-082af52190ae")
 	)
+	(text "@TODO: can be use the same diode here as everywhere else on the board?"
+		(exclude_from_sim no)
+		(at 156.21 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b26b78d1-87a7-41cc-abeb-876b1a19a337")
+	)
 	(junction
 		(at 115.57 41.91)
 		(diameter 0)
@@ -3046,7 +3056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 118.11 80.01 0)
 			(effects
 				(font
@@ -3084,6 +3094,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" "C8678"
+			(at 118.11 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +3490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 115.57 35.56 0)
 			(effects
 				(font
@@ -3509,6 +3528,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 115.57 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C8678"
+			(at 115.57 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
