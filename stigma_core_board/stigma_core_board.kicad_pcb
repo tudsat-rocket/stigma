@@ -4105,7 +4105,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2297"
+		(property "LCSC" "C965804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4802,7 +4802,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5463,7 +5463,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C52923"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6946,7 +6946,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C52923"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8026,7 +8026,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C52923"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10745,7 +10745,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C52923"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12271,7 +12271,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18900,7 +18900,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C52923"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19400,7 +19400,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2296"
+		(property "LCSC" "C72038"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20295,7 +20295,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "populated manually"
+		(property "Description" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20327,7 +20327,7 @@
 		(path "/9dca6ab9-a07e-4494-ad3d-0d3356dd56df")
 		(sheetname "/")
 		(sheetfile "stigma_core_board.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start 7.58 -0.875)
 			(end 7.58 0.875)

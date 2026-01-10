@@ -18462,7 +18462,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C52923"
 			(at 265.43 142.24 0)
 			(effects
 				(font
@@ -20234,7 +20234,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C52923"
 			(at 86.36 27.94 0)
 			(effects
 				(font
@@ -21074,7 +21074,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22"
 			(at 218.948 246.888 90)
 			(effects
 				(font
@@ -27693,7 +27693,7 @@
 		(at 356.87 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9dca6ab9-a07e-4494-ad3d-0d3356dd56df")
@@ -27734,7 +27734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "populated manually"
+		(property "Description" ""
 			(at 356.87 101.6 0)
 			(effects
 				(font
@@ -29048,7 +29048,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C52923"
 			(at 264.16 190.5 0)
 			(effects
 				(font
@@ -29280,7 +29280,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C52923"
 			(at 102.87 27.94 0)
 			(effects
 				(font
@@ -29536,7 +29536,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2297"
+		(property "LCSC" "C965804"
 			(at 39.37 274.32 0)
 			(effects
 				(font
@@ -30076,7 +30076,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C28323"
+		(property "LCSC" "C52923"
 			(at 186.69 156.21 0)
 			(effects
 				(font
@@ -30336,7 +30336,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22"
 			(at 217.424 242.062 90)
 			(effects
 				(font
@@ -32366,7 +32366,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2296"
+		(property "LCSC" "C72038"
 			(at 39.37 265.43 0)
 			(effects
 				(font
