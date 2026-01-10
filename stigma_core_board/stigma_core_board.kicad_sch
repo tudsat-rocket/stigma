@@ -10199,16 +10199,6 @@
 		)
 		(uuid 2d3f52f3-bb6e-427d-934a-2c51cfe9a10a)
 	)
-	(text "128 Mbit"
-		(exclude_from_sim no)
-		(at 328.676 201.168 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "64720330-f56d-4a7d-baaf-b1b1c83b71c4")
-	)
 	(text "Of the two USB peripherals, we use\nthis one, because PA11/PA12 are what\nthe bootloader uses for DFU."
 		(exclude_from_sim no)
 		(at 85.852 85.344 0)
@@ -20111,7 +20101,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q128JVP"
+		(property "Value" "W25Q256JVEIQ"
 			(at 360.172 229.108 0)
 			(effects
 				(font
@@ -20120,7 +20110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
 			(at 351.79 196.85 0)
 			(effects
 				(font
@@ -20147,7 +20137,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C190862"
+		(property "LCSC" "C97522"
 			(at 351.79 219.71 0)
 			(effects
 				(font
