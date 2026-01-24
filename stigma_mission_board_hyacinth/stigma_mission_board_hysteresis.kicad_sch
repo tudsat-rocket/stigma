@@ -10637,7 +10637,7 @@
 	)
 	(text "Vehicle Bus & Power Input"
 		(exclude_from_sim no)
-		(at 15.24 17.272 0)
+		(at 14.478 16.256 0)
 		(effects
 			(font
 				(size 2 2)
@@ -10692,6 +10692,16 @@
 			)
 		)
 		(uuid "a1d58ef0-2efd-4db8-8a6d-0a7ee02e5bb2")
+	)
+	(text "D12 allows powering the FC via the charging voltage. \nThis can be useful in situations where we like to power\nthe rocket does not use batteries."
+		(exclude_from_sim no)
+		(at 79.248 9.144 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "addc38bc-647e-49ce-9906-74795f119cf7")
 	)
 	(text "S"
 		(exclude_from_sim no)
@@ -10778,12 +10788,6 @@
 		(uuid "0e11f440-0093-4237-9b36-716813de0fab")
 	)
 	(junction
-		(at 63.5 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e4f6bf1-f549-47d4-9195-2237ca2db3be")
-	)
-	(junction
 		(at 200.66 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10860,12 +10864,6 @@
 		(diameter 0)
 		(color 106 106 106 1)
 		(uuid "379c37e0-2f22-41e3-a66b-f3c6571b4ab1")
-	)
-	(junction
-		(at 55.88 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a2827ef-89e3-4cc1-9821-83984df28a71")
 	)
 	(junction
 		(at 391.16 204.47)
@@ -11172,6 +11170,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82a4d5e0-6670-4cb1-8b65-914d435110b7")
+	)
+	(junction
+		(at 55.88 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "839d6f75-e4d5-4bbb-87b3-d3175bbdddc7")
 	)
 	(junction
 		(at 238.76 97.79)
@@ -12203,17 +12207,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 26.67) (xy 63.5 26.67)
-		)
-		(stroke
-			(width 0.4)
-			(type default)
-			(color 255 10 0 1)
-		)
-		(uuid "1bbfccd7-d2fa-4438-9299-4a5aa567d83c")
-	)
-	(wire
-		(pts
 			(xy 210.82 146.05) (xy 212.09 146.05)
 		)
 		(stroke
@@ -12454,16 +12447,6 @@
 			(color 18 185 255 1)
 		)
 		(uuid "27075244-38be-4ecb-9890-071024b10c46")
-	)
-	(wire
-		(pts
-			(xy 63.5 24.13) (xy 63.5 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "276b5a6b-d74a-4728-8044-c05e9e868244")
 	)
 	(wire
 		(pts
@@ -13271,7 +13254,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 26.67) (xy 67.31 26.67)
+			(xy 52.07 26.67) (xy 67.31 26.67)
 		)
 		(stroke
 			(width 0.4)
@@ -15089,6 +15072,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 19.05) (xy 111.76 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b585065e-1c88-466a-8f74-3f85897bb928")
+	)
+	(wire
+		(pts
 			(xy 130.81 208.28) (xy 149.86 208.28)
 		)
 		(stroke
@@ -15259,6 +15252,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 19.05) (xy 55.88 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd20a468-05ac-491d-81d4-8c439dc580de")
+	)
+	(wire
+		(pts
 			(xy 251.46 97.79) (xy 251.46 100.33)
 		)
 		(stroke
@@ -15328,6 +15331,16 @@
 			(type default)
 		)
 		(uuid "c14c1fbc-f91c-4eb8-a69a-b8cf0ec909b6")
+	)
+	(wire
+		(pts
+			(xy 130.81 27.94) (xy 111.76 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15a4dd2-919a-45a7-98a5-52e6c773b968")
 	)
 	(wire
 		(pts
@@ -15637,6 +15650,16 @@
 			(type default)
 		)
 		(uuid "d1b5df3e-395c-49f4-aebb-40a41fe95028")
+	)
+	(wire
+		(pts
+			(xy 111.76 19.05) (xy 111.76 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3166b56-26ae-4865-8fa7-96808b4d44f8")
 	)
 	(wire
 		(pts
@@ -16177,6 +16200,16 @@
 			(type default)
 		)
 		(uuid "ec5d740a-982a-4172-b1fa-063969ed06aa")
+	)
+	(wire
+		(pts
+			(xy 59.69 19.05) (xy 55.88 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecec3bda-3ce8-43b3-9ad5-8e21c75bbd04")
 	)
 	(wire
 		(pts
@@ -21066,15 +21099,15 @@
 	)
 	(symbol
 		(lib_id "Diode:SS34")
-		(at 59.69 24.13 180)
+		(at 63.5 19.05 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "09e592b0-7c6b-4f09-b2de-62d299270270")
 		(property "Reference" "D12"
-			(at 62.992 22.86 0)
+			(at 65.532 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21082,7 +21115,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 67.31 22.86 0)
+			(at 60.706 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21090,7 +21123,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 59.69 19.685 0)
+			(at 63.5 14.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21099,7 +21132,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 59.69 24.13 0)
+			(at 63.5 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21108,7 +21141,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 24.13 0)
+			(at 63.5 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21117,7 +21150,7 @@
 			)
 		)
 		(property "LCSC #" ""
-			(at 59.69 24.13 0)
+			(at 63.5 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21126,7 +21159,7 @@
 			)
 		)
 		(property "DigiKey#" ""
-			(at 59.69 24.13 0)
+			(at 63.5 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21134,7 +21167,7 @@
 			)
 		)
 		(property "LCSC" "C8678"
-			(at 59.69 19.558 0)
+			(at 63.246 14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22488,7 +22521,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 147.066 251.714 90)
+			(at 145.542 251.714 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22523,7 +22556,7 @@
 			)
 		)
 		(property "LCSC" "C25161"
-			(at 142.24 252.73 0)
+			(at 142.494 253.746 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26987,7 +27020,7 @@
 			)
 		)
 		(property "Value" "bus_main"
-			(at 78.994 19.304 0)
+			(at 78.74 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31823,7 +31856,7 @@
 	)
 	(symbol
 		(lib_id "power:+VSW")
-		(at 55.88 22.86 0)
+		(at 55.88 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31831,7 +31864,7 @@
 		(dnp no)
 		(uuid "82161870-2e88-4a6a-9647-6c7914f1743b")
 		(property "Reference" "#PWR01"
-			(at 55.88 26.67 0)
+			(at 55.88 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31840,7 +31873,7 @@
 			)
 		)
 		(property "Value" "charging_voltage"
-			(at 56.896 16.764 0)
+			(at 56.642 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31849,7 +31882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 22.86 0)
+			(at 55.88 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31858,7 +31891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 22.86 0)
+			(at 55.88 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31867,7 +31900,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 22.86 0)
+			(at 55.88 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37061,7 +37094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "bus_supply"
+		(property "Value" "charging_voltage"
 			(at 251.46 20.32 0)
 			(effects
 				(font
@@ -38077,7 +38110,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 149.86 217.17 0)
+			(at 149.606 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38952,7 +38985,7 @@
 			)
 		)
 		(property "Value" "recovery"
-			(at 95.504 19.304 0)
+			(at 94.742 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
