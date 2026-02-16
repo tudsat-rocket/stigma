@@ -23336,10 +23336,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "26c7df79-08ff-4ddd-a0e1-de0063f45006")
 		(property "Reference" "R21"
-			(at 245.1099 138.43 0)
+			(at 247.904 139.192 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23348,7 +23347,7 @@
 			)
 		)
 		(property "Value" "51"
-			(at 247.6499 138.43 0)
+			(at 250.19 139.192 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23411,7 +23410,7 @@
 			)
 		)
 		(property "LCSC" "C25125"
-			(at 246.38 140.97 0)
+			(at 247.904 142.748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23584,7 +23583,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "275c3d18-4c15-4d2d-8189-09a85c864134")
 		(property "Reference" "R16"
 			(at 213.5886 129.9753 0)
@@ -23659,7 +23657,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 212.09 130.81 0)
+			(at 208.026 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26787,10 +26785,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4dc414e2-2e14-4c70-ab1e-929c09a01ea2")
 		(property "Reference" "R19"
-			(at 290.83 135.8899 0)
+			(at 290.068 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26799,7 +26796,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 290.83 138.4299 0)
+			(at 290.068 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26835,7 +26832,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 288.29 137.16 0)
+			(at 283.464 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27181,7 +27178,7 @@
 		(dnp no)
 		(uuid "5196d850-2222-4165-b689-c8dec7eb20f6")
 		(property "Reference" "Q3"
-			(at 226.06 137.1601 0)
+			(at 223.774 139.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27256,7 +27253,7 @@
 			)
 		)
 		(property "LCSC" "C15127"
-			(at 219.71 135.89 0)
+			(at 216.408 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31586,10 +31583,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7e5d2472-8ee9-4947-8a6f-d985cbd35746")
 		(property "Reference" "R23"
-			(at 214.63 140.97 90)
+			(at 214.63 147.828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31597,7 +31593,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 214.63 143.51 90)
+			(at 214.884 144.272 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31659,7 +31655,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 214.63 146.05 0)
+			(at 220.98 147.066 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32631,10 +32627,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c480e3d-acbe-4b02-9775-a3e8312a40ef")
 		(property "Reference" "R20"
-			(at 240.0299 138.43 0)
+			(at 241.046 139.192 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32643,7 +32638,7 @@
 			)
 		)
 		(property "Value" "51"
-			(at 242.5699 138.43 0)
+			(at 243.586 139.192 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32679,7 +32674,7 @@
 			)
 		)
 		(property "LCSC" "C25125"
-			(at 241.3 140.97 0)
+			(at 239.776 142.748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34308,7 +34303,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9dd244df-4f75-4134-bdb0-38f9a910e346")
 		(property "Reference" "R18"
 			(at 207.01 130.81 90)
@@ -34381,7 +34375,7 @@
 			)
 		)
 		(property "LCSC" "C25079"
-			(at 207.01 135.89 0)
+			(at 206.502 137.668 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37318,10 +37312,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b929a8cb-31ab-4df6-bb05-0d800061c5e9")
 		(property "Reference" "D10"
-			(at 292.1 145.0974 90)
+			(at 290.322 143.002 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37330,7 +37323,7 @@
 			)
 		)
 		(property "Value" "yellow"
-			(at 292.1 147.6374 90)
+			(at 290.322 145.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37366,7 +37359,7 @@
 			)
 		)
 		(property "LCSC" "C2290"
-			(at 288.29 144.78 0)
+			(at 284.226 145.034 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40854,10 +40847,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e2a5e25e-6166-4b97-a024-ed559d926a38")
 		(property "Reference" "C31"
-			(at 213.36 148.5835 0)
+			(at 207.264 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40866,7 +40858,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 213.36 151.1235 0)
+			(at 211.074 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40902,7 +40894,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 210.82 149.86 0)
+			(at 205.994 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
