@@ -555,206 +555,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_3_Open"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_3_Open"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 3-pole, both open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_3_Open_0_0"
-				(circle
-					(center -3.302 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.302 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Open_0_1"
-				(arc
-					(start -3.048 1.016)
-					(mid -1.651 1.4992)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.651 1.4992)
-					(end 3.048 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Open_1_1"
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1256,16 +1056,16 @@
 		)
 	)
 	(junction
+		(at 106.68 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1daa314d-a0a8-498e-a065-32f0a3ad4595")
+	)
+	(junction
 		(at 106.68 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35203fbe-66c1-4db5-aaea-60c4a60cc880")
-	)
-	(junction
-		(at 106.68 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37361f3b-7ac5-4bc2-a0de-391fe42ab95e")
 	)
 	(junction
 		(at 106.68 29.21)
@@ -1329,16 +1129,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 73.66) (xy 106.68 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ae3181d-12ee-4f1f-8cdc-ef45c2ec0783")
-	)
-	(wire
-		(pts
 			(xy 66.04 92.71) (xy 67.31 92.71)
 		)
 		(stroke
@@ -1349,7 +1139,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 68.58) (xy 129.54 68.58)
+			(xy 106.68 68.58) (xy 129.54 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1376,26 +1166,6 @@
 			(type default)
 		)
 		(uuid "3da229f4-345c-4ba0-b5b0-cd81d6cc8db9")
-	)
-	(wire
-		(pts
-			(xy 99.06 72.39) (xy 99.06 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ec6e41c-03a0-497a-821f-28b2524f49d5")
-	)
-	(wire
-		(pts
-			(xy 73.66 68.58) (xy 92.71 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c4d6f03-333a-4ca6-b220-9a922be81a1d")
 	)
 	(wire
 		(pts
@@ -1446,6 +1216,16 @@
 			(type default)
 		)
 		(uuid "8b0bd1ad-8e41-44b1-b436-78b0f45f13d1")
+	)
+	(wire
+		(pts
+			(xy 106.68 68.58) (xy 106.68 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912cfbd1-0d11-4c2c-bab2-a661015b1893")
 	)
 	(wire
 		(pts
@@ -1586,16 +1366,6 @@
 			(type default)
 		)
 		(uuid "ebb6e2eb-e73c-458d-a8e6-2300a763659e")
-	)
-	(wire
-		(pts
-			(xy 73.66 92.71) (xy 73.66 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef5d3d65-ea17-4890-9c74-0984076b16f6")
 	)
 	(wire
 		(pts
@@ -3056,81 +2826,6 @@
 				)
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/96cf4878-0e07-4ffd-b01c-b8925d9dde8e"
 					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_3_Open")
-		(at 99.06 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f662f0ec-2a6f-4086-a34f-b6216f0637e7")
-		(property "Reference" "JP1"
-			(at 99.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_3_Open"
-			(at 99.06 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical"
-			(at 99.06 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d3feec15-cf76-4f1b-9cfd-0b5e91a641cd")
-		)
-		(pin "1"
-			(uuid "dcb4a4ae-ec88-450c-bb63-fe0b4449969c")
-		)
-		(pin "3"
-			(uuid "2066e8e9-08be-4d76-aafa-a940d4f28b69")
-		)
-		(instances
-			(project ""
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/7e3624ee-6fcd-4a34-9db0-9dc6b080f272"
-					(reference "JP1")
-					(unit 1)
-				)
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23/96cf4878-0e07-4ffd-b01c-b8925d9dde8e"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
