@@ -2117,6 +2117,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x04_Top_Bottom"
 			(pin_names
 				(offset 1.016)
@@ -10395,6 +10502,16 @@
 		)
 		(uuid "a1d58ef0-2efd-4db8-8a6d-0a7ee02e5bb2")
 	)
+	(text "@todo: \ncorrect fuse?!"
+		(exclude_from_sim no)
+		(at 69.088 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac184c8a-aede-4719-93a2-b3a219e1f7d3")
+	)
 	(text "D12 allows powering the FC via the charging voltage. \nThis can be useful in situations where we like to power\nthe rocket does not use batteries."
 		(exclude_from_sim no)
 		(at 79.248 9.144 0)
@@ -10415,6 +10532,16 @@
 		)
 		(uuid "cfeb7761-f354-4e32-b431-fa672f6d1e20")
 	)
+	(text "flyback?"
+		(exclude_from_sim no)
+		(at 397.764 122.428 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d1d24774-5d82-48ae-bf38-e0ac386fc6e8")
+	)
 	(text "The vehicle bus connects the FC to the rest of the rocket.\nThis is the main communication and power connection. \n\nIt features: \n- charging/supply voltage: not used on the FC but to charge other \n   boards in the rocket\n- main bus voltage: up to 12.6V from the main battery supply\n- CAN1 and CAN2 are the CAN buses. One for critical\n   communication and one for the rest"
 		(exclude_from_sim no)
 		(at 14.986 61.214 0)
@@ -10425,6 +10552,16 @@
 			(justify left)
 		)
 		(uuid "d52c891a-ecf5-4ed1-8c07-662138da0aec")
+	)
+	(text "changed to A2 -> higher gain"
+		(exclude_from_sim no)
+		(at 279.146 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dead2491-1a5f-4e56-bfbb-ae7ca1edae92")
 	)
 	(text "Buzzer & Misc. IO"
 		(exclude_from_sim no)
@@ -10438,6 +10575,16 @@
 			(justify right bottom)
 		)
 		(uuid "def408bd-c95b-4c5e-bf78-9c8b5664505f")
+	)
+	(text "changed to A3 -> higher gain"
+		(exclude_from_sim no)
+		(at 152.146 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e037370c-63a2-41e0-aaf7-56e92c3a8e8b")
 	)
 	(text "With internal 1.2V regulator"
 		(exclude_from_sim no)
@@ -10880,6 +11027,12 @@
 		(uuid "839d6f75-e4d5-4bbb-87b3-d3175bbdddc7")
 	)
 	(junction
+		(at 55.88 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8406338c-5ce2-4ed4-b141-0b75ee31a8f1")
+	)
+	(junction
 		(at 233.68 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10944,6 +11097,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a62957d3-cebb-4fbc-8d52-c0ed42015370")
+	)
+	(junction
+		(at 55.88 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6b84428-e992-48bd-9c12-88ae3796c1cd")
 	)
 	(junction
 		(at 175.26 185.42)
@@ -11148,6 +11307,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec85f2f8-c853-498c-96a5-ecd799300a5b")
+	)
+	(junction
+		(at 309.88 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eddfce1f-764c-47f3-9c72-fbf84e883c88")
 	)
 	(junction
 		(at 160.02 208.28)
@@ -11545,16 +11710,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 30.48) (xy 139.7 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "088901f4-4be0-45a3-b20a-8ffcbc0f151a")
-	)
-	(wire
-		(pts
 			(xy 396.24 196.85) (xy 391.16 196.85)
 		)
 		(stroke
@@ -11626,7 +11781,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 267.97) (xy 66.04 267.97)
+			(xy 64.77 267.97) (xy 66.04 267.97)
 		)
 		(stroke
 			(width 0)
@@ -11990,6 +12145,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 267.97) (xy 54.61 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2554b80e-3b79-413d-88ce-07d69fe05c1b")
+	)
+	(wire
+		(pts
 			(xy 147.32 264.16) (xy 148.59 264.16)
 		)
 		(stroke
@@ -12018,16 +12183,6 @@
 			(color 106 106 106 1)
 		)
 		(uuid "25fe0056-7963-43b6-92a4-14b7b6d06b81")
-	)
-	(wire
-		(pts
-			(xy 363.22 49.53) (xy 363.22 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2602dccd-87fc-498a-9cf4-db85f2af7d09")
 	)
 	(wire
 		(pts
@@ -12079,6 +12234,16 @@
 			(type default)
 		)
 		(uuid "2770eba3-26de-4ab5-9f91-ef95ca7c8b57")
+	)
+	(wire
+		(pts
+			(xy 57.15 267.97) (xy 55.88 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27760fa1-d848-4079-9342-3ef10fe15b5e")
 	)
 	(wire
 		(pts
@@ -12281,16 +12446,6 @@
 			(type default)
 		)
 		(uuid "2e9b2379-6b4b-4ab3-a490-e812105dc10f")
-	)
-	(wire
-		(pts
-			(xy 363.22 53.34) (xy 358.14 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ecf89a1-7089-48a7-b85c-c80b81a03d0d")
 	)
 	(wire
 		(pts
@@ -13172,6 +13327,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 53.34) (xy 359.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d7028a-e83f-4564-8529-06520e19a1ab")
+	)
+	(wire
+		(pts
 			(xy 139.7 27.94) (xy 154.94 27.94)
 		)
 		(stroke
@@ -13436,7 +13601,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 48.26) (xy 143.51 48.26)
+			(xy 132.08 48.26) (xy 143.51 48.26)
 		)
 		(stroke
 			(width 0)
@@ -13519,13 +13684,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 30.48) (xy 134.62 48.26)
+			(xy 57.15 270.51) (xy 55.88 270.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75bcab5f-4dbf-4c9d-b08d-b625b61cf5db")
+		(uuid "75af12d7-9dcd-4942-83a3-ebe84554b5d1")
 	)
 	(wire
 		(pts
@@ -13547,16 +13712,6 @@
 			(type default)
 		)
 		(uuid "7750bfa4-2f77-46b5-ac27-c31441d295bd")
-	)
-	(wire
-		(pts
-			(xy 134.62 30.48) (xy 132.08 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77582cee-4472-4114-b5ed-5ff82ab579b0")
 	)
 	(wire
 		(pts
@@ -13657,16 +13812,6 @@
 			(type default)
 		)
 		(uuid "802eada0-cdea-4166-a4c6-4d247059e0f4")
-	)
-	(wire
-		(pts
-			(xy 137.16 30.48) (xy 139.7 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "803a0cdd-c297-4f47-900d-5cec65a5d82c")
 	)
 	(wire
 		(pts
@@ -13790,7 +13935,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 30.48) (xy 137.16 53.34)
+			(xy 139.7 27.94) (xy 139.7 53.34)
 		)
 		(stroke
 			(width 0)
@@ -14461,6 +14606,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 49.53) (xy 358.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8d3fc8-be38-4352-88ff-a3e577283f31")
+	)
+	(wire
+		(pts
 			(xy 34.29 41.91) (xy 33.02 41.91)
 		)
 		(stroke
@@ -14539,6 +14694,16 @@
 			(type default)
 		)
 		(uuid "b1cdd11c-3350-45ef-8bfc-cbb546e4da92")
+	)
+	(wire
+		(pts
+			(xy 55.88 270.51) (xy 54.61 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1faeb87-b138-481f-99b2-374ff0422922")
 	)
 	(wire
 		(pts
@@ -15428,7 +15593,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 53.34) (xy 143.51 53.34)
+			(xy 139.7 53.34) (xy 143.51 53.34)
 		)
 		(stroke
 			(width 0)
@@ -15805,7 +15970,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 270.51) (xy 66.04 270.51)
+			(xy 64.77 270.51) (xy 66.04 270.51)
 		)
 		(stroke
 			(width 0)
@@ -16000,7 +16165,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 30.48) (xy 132.08 27.94)
+			(xy 132.08 27.94) (xy 132.08 48.26)
 		)
 		(stroke
 			(width 0)
@@ -21127,7 +21292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3v3 lora1"
 			(at 379.73 29.21 0)
 			(effects
 				(font
@@ -21487,6 +21652,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 55.88 270.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "176f8898-cd6d-4a7e-8241-512281780084")
+		(property "Reference" "TP1"
+			(at 54.102 275.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.8 275.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 50.8 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 55.88 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "691330d9-4ec1-48bc-a9cb-8416bbdb1c62")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_CAN_LIN:MCP2562-E-SN")
 		(at 139.7 104.14 0)
 		(unit 1)
@@ -21577,6 +21809,73 @@
 			(project ""
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 359.41 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18637287-68aa-4d72-9c5e-9097ed27a769")
+		(property "Reference" "TP4"
+			(at 365.252 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 364.744 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 359.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 359.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3be99daf-d566-4f79-8bb1-abdb984fbc10")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -21812,6 +22111,73 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 309.88 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ae7f103-891b-42fc-9401-420d68927f38")
+		(property "Reference" "TP3"
+			(at 318.008 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 315.214 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 309.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 309.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac9da13f-cb85-4bf4-a84b-db82a7506f2e")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -22673,6 +23039,73 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 391.16 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25d4f1b0-aaac-4fe7-9574-bf113311af0f")
+		(property "Reference" "TP5"
+			(at 397.002 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 396.494 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 391.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 391.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d29efd7d-f219-42d2-ace2-516168eec8a9")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -24556,6 +24989,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 55.88 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39e5971d-4887-49d3-9a01-593715068b26")
+		(property "Reference" "TP2"
+			(at 57.912 262.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 54.356 262.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 60.96 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 55.88 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "448e97c3-ad0a-40cf-bb4e-938ffd7c960e")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 266.7 264.16 0)
 		(unit 1)
@@ -25836,7 +26336,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 267.97 90)
+		(at 60.96 267.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25844,7 +26344,7 @@
 		(dnp no)
 		(uuid "47985ce9-4ebf-4f6a-8304-2e1f82526a90")
 		(property "Reference" "R51"
-			(at 60.452 267.97 90)
+			(at 62.992 267.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25853,7 +26353,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 63.754 266.954 90)
+			(at 66.294 266.954 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25862,7 +26362,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 58.42 269.748 90)
+			(at 60.96 269.748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25871,7 +26371,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 267.97 0)
+			(at 60.96 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25880,7 +26380,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 267.97 0)
+			(at 60.96 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25889,7 +26389,7 @@
 			)
 		)
 		(property "LCSC" "C25161"
-			(at 57.658 265.684 90)
+			(at 60.198 265.684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27072,7 +27572,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5A"
+		(property "Value" "3A"
 			(at 69.85 30.988 90)
 			(effects
 				(font
@@ -27080,7 +27580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 64.77 27.94 0)
 			(effects
 				(font
@@ -27107,26 +27607,26 @@
 				)
 			)
 		)
-		(property "DigiKey#" "507-1805-1-ND"
+		(property "Manufacturer" "Littelfuse"
+			(at 69.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "0467003.NRHF"
+			(at 69.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C99558"
 			(at 69.85 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bel Fuse Inc."
-			(at 69.85 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "0ZCJ0075AF2E"
-			(at 69.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27227,7 +27727,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c7c24b2-e147-4679-8740-56c3ea3e370e")
 		(property "Reference" "C44"
-			(at 398.5641 199.8189 0)
+			(at 398.78 198.1135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27236,7 +27736,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 398.5641 202.3558 0)
+			(at 398.78 200.6535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27299,11 +27799,12 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 396.24 200.66 0)
+			(at 398.78 203.1935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -28552,7 +29053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3v3"
 			(at 346.71 29.21 0)
 			(effects
 				(font
@@ -28946,7 +29447,7 @@
 				)
 			)
 		)
-		(property "Value" "INA181A1"
+		(property "Value" "INA181A2"
 			(at 284.734 109.982 0)
 			(effects
 				(font
@@ -28990,7 +29491,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2058943"
+		(property "LCSC" "C2058784"
 			(at 281.94 114.3 0)
 			(effects
 				(font
@@ -30476,7 +30977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3v3 ethernet"
 			(at 346.71 53.34 0)
 			(effects
 				(font
@@ -31161,7 +31662,7 @@
 			)
 		)
 		(property "LCSC" "C25125"
-			(at 208.28 217.17 0)
+			(at 208.28 216.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31228,7 +31729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3v3 lora2"
 			(at 379.73 53.34 0)
 			(effects
 				(font
@@ -33368,6 +33869,73 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 358.14 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f1898ae-3967-45fc-b8e4-a43750c7a9e8")
+		(property "Reference" "TP7"
+			(at 363.982 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 363.474 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 358.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 358.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 358.14 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16fcae38-5631-47fa-91a5-133c47a49986")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -36099,7 +36667,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "yellow"
+		(property "Value" "white"
 			(at 290.322 145.542 90)
 			(effects
 				(font
@@ -36542,6 +37110,73 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 391.16 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcf0ab8e-7d42-4565-8568-9eed6acfc699")
+		(property "Reference" "TP6"
+			(at 397.002 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 396.494 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 391.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 391.16 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0036203-6114-4080-bfab-7a0957560f30")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -37965,7 +38600,7 @@
 				)
 			)
 		)
-		(property "Value" "INA181A1"
+		(property "Value" "INA181A3"
 			(at 155.956 47.498 0)
 			(effects
 				(font
@@ -37982,7 +38617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina181.pdf?ts=1733985304466&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA181"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2058784.pdf?spm=wm.sxq.inf.ggs___wm.ssy.bg.0.xh&lcsc_vid=RgdYBQAFE1ZWUlJfElYIXwACT1VbUAEDQ1ZbVgJURgcxVlNRQ1NWUVBXQlZWXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVFbX11SRE8GEwkK"
 			(at 154.94 46.99 0)
 			(effects
 				(font
@@ -38000,7 +38635,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2058943"
+		(property "LCSC" "C2652255"
 			(at 151.13 50.8 0)
 			(effects
 				(font
@@ -38377,7 +39012,7 @@
 	)
 	(symbol
 		(lib_id "power:+VSW")
-		(at 363.22 49.53 0)
+		(at 358.14 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38385,7 +39020,7 @@
 		(dnp no)
 		(uuid "d14b11e3-4d1d-4c12-812e-987984cf3081")
 		(property "Reference" "#PWR027"
-			(at 363.22 53.34 0)
+			(at 358.14 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38394,7 +39029,7 @@
 			)
 		)
 		(property "Value" "vdd_ethernet"
-			(at 363.22 45.212 0)
+			(at 358.14 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38402,7 +39037,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 49.53 0)
+			(at 358.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38411,7 +39046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 49.53 0)
+			(at 358.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38420,7 +39055,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 363.22 49.53 0)
+			(at 358.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39410,7 +40045,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 270.51 90)
+		(at 60.96 270.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39418,7 +40053,7 @@
 		(dnp no)
 		(uuid "deaecc6b-b360-4655-be93-5ee4ccc46ceb")
 		(property "Reference" "R52"
-			(at 60.452 270.51 90)
+			(at 62.992 270.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39427,7 +40062,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 63.754 269.494 90)
+			(at 66.294 269.494 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39436,7 +40071,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 58.42 272.288 90)
+			(at 60.96 272.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39445,7 +40080,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 270.51 0)
+			(at 60.96 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39454,7 +40089,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 270.51 0)
+			(at 60.96 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39463,7 +40098,7 @@
 			)
 		)
 		(property "LCSC" "C25161"
-			(at 58.166 272.796 90)
+			(at 60.706 272.796 90)
 			(effects
 				(font
 					(size 1.27 1.27)

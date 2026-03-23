@@ -1309,16 +1309,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "@todo: Diode können wir weglassen oder?"
-		(exclude_from_sim no)
-		(at 213.106 83.312 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0afa40f8-e06a-4c5e-bc0c-842bf90ec432")
-	)
 	(text "Enable input to the converter.\nDriving EN high or leaving this\npin floating enable the converter.\n(Datasheet page 3)"
 		(exclude_from_sim no)
 		(at 130.302 96.266 0)
@@ -1340,26 +1330,6 @@
 			(justify right)
 		)
 		(uuid "1a84b800-320d-476c-8ed3-8e5b7e43b539")
-	)
-	(text "@todo: check inductor"
-		(exclude_from_sim no)
-		(at 179.324 86.868 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3b20d3bc-d9dd-4d8f-b014-70fdc156b2d0")
-	)
-	(text "@todo: use 0402 resistor to decrease loop"
-		(exclude_from_sim no)
-		(at 162.56 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "71b5d713-5c5a-4b17-b388-4f4ce305daa4")
 	)
 	(text "@todo: use high quality capacitors with sufficient voltage rating"
 		(exclude_from_sim no)
@@ -5117,6 +5087,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f555877c-752b-4004-8903-298e03d24ff1")
 		)
@@ -5186,6 +5165,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C45783"
+			(at 189.23 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1a8a03f5-5589-441f-ba5a-a5084c6aa317")
 		)
@@ -5247,6 +5235,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 123.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7419416"
 			(at 123.19 109.22 0)
 			(effects
 				(font
@@ -5590,7 +5587,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC #" "C21189"
+		(property "LCSC #" "C106231"
 			(at 156.21 91.44 90)
 			(effects
 				(font
@@ -6274,6 +6271,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 199.39 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45783"
 			(at 199.39 95.25 0)
 			(effects
 				(font
