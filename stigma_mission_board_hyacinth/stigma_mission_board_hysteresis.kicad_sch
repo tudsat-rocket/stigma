@@ -10502,16 +10502,6 @@
 		)
 		(uuid "a1d58ef0-2efd-4db8-8a6d-0a7ee02e5bb2")
 	)
-	(text "@todo: \ncorrect fuse?!"
-		(exclude_from_sim no)
-		(at 69.088 36.322 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ac184c8a-aede-4719-93a2-b3a219e1f7d3")
-	)
 	(text "D12 allows powering the FC via the charging voltage. \nThis can be useful in situations where we like to power\nthe rocket does not use batteries."
 		(exclude_from_sim no)
 		(at 79.248 9.144 0)
@@ -24434,7 +24424,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "341fd5d2-8416-43ce-9224-934b4614da5c")
 		(property "Reference" "J7"
@@ -25271,7 +25261,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3d836880-bcfc-4641-9115-bd9d552b9666")
 		(property "Reference" "J8"
@@ -25440,7 +25430,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3f7ca0c1-3b70-4f2e-94ab-28199bf8c87f")
 		(property "Reference" "J6"
@@ -35806,7 +35796,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b016dbb2-136b-407e-8541-e0d167371730")
 		(property "Reference" "J5"
 			(at 373.38 121.412 0)
@@ -39443,7 +39433,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d8287ee7-2753-4ceb-bc83-b6a291ae0283")
 		(property "Reference" "J3"
 			(at 40.64 21.336 0)
@@ -41048,7 +41038,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "eb6d8238-ab13-4b2d-bc6e-6a9983c7df62")
 		(property "Reference" "J4"
 			(at 40.64 36.576 0)
