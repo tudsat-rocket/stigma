@@ -5,9 +5,9 @@
 	(uuid "34e067c7-b84e-477a-88f3-7322f422dd23")
 	(paper "A3")
 	(title_block
-		(title "Stigma mission board")
-		(date "2024-12-16")
-		(rev "v1")
+		(title "Zephyr mission board")
+		(date "2026-05-04")
+		(rev "v2")
 		(company "TUDSaT")
 	)
 	(lib_symbols
@@ -2107,6 +2107,113 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8215,148 +8322,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:L7805"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L7805"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.635 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 1.5A Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?252* TO?263* TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L7805_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "L7805_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:AO3400A"
 			(pin_names
 				(hide yes)
@@ -8598,304 +8563,6 @@
 				)
 			)
 			(symbol "AO3400A_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_FET:AO3401A"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AO3401A"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "P-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AO3401A_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AO3401A_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -10687,7 +10354,7 @@
 	)
 	(text "G"
 		(exclude_from_sim no)
-		(at 224.79 113.284 0)
+		(at 219.71 133.604 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10719,7 +10386,7 @@
 	)
 	(text "D"
 		(exclude_from_sim no)
-		(at 232.41 108.204 90)
+		(at 227.33 128.524 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10779,7 +10446,7 @@
 	)
 	(text "Vehicle Bus & Power Input"
 		(exclude_from_sim no)
-		(at 15.24 17.272 0)
+		(at 14.478 16.256 0)
 		(effects
 			(font
 				(size 2 2)
@@ -10805,7 +10472,7 @@
 	)
 	(text "D"
 		(exclude_from_sim no)
-		(at 252.73 109.982 90)
+		(at 247.65 130.302 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10827,7 +10494,7 @@
 	)
 	(text "S"
 		(exclude_from_sim no)
-		(at 252.73 100.584 90)
+		(at 247.65 120.904 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10835,15 +10502,35 @@
 		)
 		(uuid "a1d58ef0-2efd-4db8-8a6d-0a7ee02e5bb2")
 	)
+	(text "D12 allows powering the FC via the charging voltage. \nThis can be useful in situations where we like to power\nthe rocket does not use batteries."
+		(exclude_from_sim no)
+		(at 79.248 9.144 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "addc38bc-647e-49ce-9906-74795f119cf7")
+	)
 	(text "S"
 		(exclude_from_sim no)
-		(at 232.664 115.824 90)
+		(at 227.584 136.144 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "cfeb7761-f354-4e32-b431-fa672f6d1e20")
+	)
+	(text "flyback?"
+		(exclude_from_sim no)
+		(at 397.764 122.428 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d1d24774-5d82-48ae-bf38-e0ac386fc6e8")
 	)
 	(text "The vehicle bus connects the FC to the rest of the rocket.\nThis is the main communication and power connection. \n\nIt features: \n- charging/supply voltage: not used on the FC but to charge other \n   boards in the rocket\n- main bus voltage: up to 12.6V from the main battery supply\n- CAN1 and CAN2 are the CAN buses. One for critical\n   communication and one for the rest"
 		(exclude_from_sim no)
@@ -10855,6 +10542,16 @@
 			(justify left)
 		)
 		(uuid "d52c891a-ecf5-4ed1-8c07-662138da0aec")
+	)
+	(text "changed to A2 -> higher gain"
+		(exclude_from_sim no)
+		(at 279.146 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dead2491-1a5f-4e56-bfbb-ae7ca1edae92")
 	)
 	(text "Buzzer & Misc. IO"
 		(exclude_from_sim no)
@@ -10869,6 +10566,16 @@
 		)
 		(uuid "def408bd-c95b-4c5e-bf78-9c8b5664505f")
 	)
+	(text "changed to A3 -> higher gain"
+		(exclude_from_sim no)
+		(at 152.146 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e037370c-63a2-41e0-aaf7-56e92c3a8e8b")
+	)
 	(text "With internal 1.2V regulator"
 		(exclude_from_sim no)
 		(at 144.272 188.976 0)
@@ -10881,7 +10588,7 @@
 	)
 	(text "G"
 		(exclude_from_sim no)
-		(at 247.142 104.14 0)
+		(at 242.062 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10974,7 +10681,7 @@
 		(uuid "255ff504-c55b-45e8-96dc-59479d7d7ea4")
 	)
 	(junction
-		(at 238.76 105.41)
+		(at 233.68 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c2af942-22e0-4baa-aa38-3ee7add6a7dd")
@@ -11046,22 +10753,10 @@
 		(uuid "46b75e3d-793f-4525-a795-43444879bf41")
 	)
 	(junction
-		(at 284.48 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "481c499f-70e2-4d43-94c5-6b4d3d98c9b2")
-	)
-	(junction
 		(at 368.3 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4905aaf4-d119-4241-8e08-8f17bcfed31d")
-	)
-	(junction
-		(at 302.26 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4976af19-fc19-459f-b5d8-931f2ee4c499")
 	)
 	(junction
 		(at 154.94 240.03)
@@ -11092,12 +10787,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "527a0e59-78f7-4b6b-b52f-be6ff576c3f2")
-	)
-	(junction
-		(at 318.77 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52ba40af-7142-456f-a2fd-8a7dc826a7bc")
 	)
 	(junction
 		(at 152.4 242.57)
@@ -11232,12 +10921,6 @@
 		(uuid "6a3ef728-c361-4e24-8d26-6c2d0d5a07d3")
 	)
 	(junction
-		(at 293.37 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b9bfa76-3a2f-4958-81d1-7896335ab670")
-	)
-	(junction
 		(at 243.84 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11266,12 +10949,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "740ab037-25f4-4f24-b643-093e40b6b945")
-	)
-	(junction
-		(at 306.07 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "747c80bd-fdfa-4cd0-ba2a-39225f2618bb")
 	)
 	(junction
 		(at 143.51 185.42)
@@ -11322,18 +10999,6 @@
 		(uuid "7eccd347-03fa-4937-89f4-6278e98b9ec5")
 	)
 	(junction
-		(at 293.37 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f41e721-38d2-4721-aaa2-fa1ff3ecf797")
-	)
-	(junction
-		(at 302.26 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fd6fdb7-ff9d-446d-a44e-37f979dc9de5")
-	)
-	(junction
 		(at 269.24 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11346,7 +11011,19 @@
 		(uuid "82a4d5e0-6670-4cb1-8b65-914d435110b7")
 	)
 	(junction
-		(at 238.76 97.79)
+		(at 55.88 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "839d6f75-e4d5-4bbb-87b3-d3175bbdddc7")
+	)
+	(junction
+		(at 55.88 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8406338c-5ce2-4ed4-b141-0b75ee31a8f1")
+	)
+	(junction
+		(at 233.68 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8aeecb72-a43b-4f09-a1f2-df748b49bfb1")
@@ -11356,12 +11033,6 @@
 		(diameter 0)
 		(color 106 106 106 1)
 		(uuid "8bfd1fb8-4da0-44cf-804a-261aaa4e706b")
-	)
-	(junction
-		(at 212.09 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c80983d-35ff-4246-8daa-ade74a029a1f")
 	)
 	(junction
 		(at 167.64 185.42)
@@ -11418,6 +11089,12 @@
 		(uuid "a62957d3-cebb-4fbc-8d52-c0ed42015370")
 	)
 	(junction
+		(at 55.88 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6b84428-e992-48bd-9c12-88ae3796c1cd")
+	)
+	(junction
 		(at 175.26 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11428,12 +11105,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8d39d4d-0634-4253-8f21-601aec92a1f9")
-	)
-	(junction
-		(at 306.07 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa1603ca-0597-464c-b4a5-71c4250cee15")
 	)
 	(junction
 		(at 375.92 114.3)
@@ -11568,46 +11239,10 @@
 		(uuid "c97743b7-d263-4ac5-b57b-96cd280715a7")
 	)
 	(junction
-		(at 284.48 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cab17ef5-fa7c-4eaa-989a-4deee138f02e")
-	)
-	(junction
-		(at 212.09 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb4f78f6-ad44-44ba-b531-7390768f8533")
-	)
-	(junction
-		(at 222.25 111.76)
+		(at 217.17 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf5dd88e-bdb2-4c7e-94e3-88cc4dc1eff9")
-	)
-	(junction
-		(at 210.82 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3028e8c-9465-43fd-9d83-d8718b9d4125")
-	)
-	(junction
-		(at 251.46 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8c1ee1b-40fa-4a83-914e-1e4657144fa8")
-	)
-	(junction
-		(at 284.48 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbd47e01-cd01-46f1-8752-47bd58865e20")
-	)
-	(junction
-		(at 265.43 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc0fb229-9b40-4cd1-9dbc-8a58190aba71")
 	)
 	(junction
 		(at 368.3 29.21)
@@ -11662,6 +11297,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec85f2f8-c853-498c-96a5-ecd799300a5b")
+	)
+	(junction
+		(at 309.88 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eddfce1f-764c-47f3-9c72-fbf84e883c88")
 	)
 	(junction
 		(at 160.02 208.28)
@@ -11997,16 +11638,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 127) (xy 222.25 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "053e7955-c345-43af-a952-b724dab73e77")
-	)
-	(wire
-		(pts
 			(xy 152.4 208.28) (xy 152.4 214.63)
 		)
 		(stroke
@@ -12066,16 +11697,6 @@
 			(type default)
 		)
 		(uuid "085a093a-b8e0-4282-9722-2e3a227e1ee8")
-	)
-	(wire
-		(pts
-			(xy 139.7 30.48) (xy 139.7 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "088901f4-4be0-45a3-b20a-8ffcbc0f151a")
 	)
 	(wire
 		(pts
@@ -12150,7 +11771,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 267.97) (xy 66.04 267.97)
+			(xy 64.77 267.97) (xy 66.04 267.97)
 		)
 		(stroke
 			(width 0)
@@ -12322,26 +11943,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 135.89) (xy 212.09 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16a665be-2169-484a-9e49-769b7904836d")
-	)
-	(wire
-		(pts
-			(xy 302.26 60.96) (xy 293.37 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "177c23e5-6a4f-49b3-90cc-1995aafab415")
-	)
-	(wire
-		(pts
 			(xy 377.19 129.54) (xy 377.19 130.81)
 		)
 		(stroke
@@ -12403,27 +12004,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 26.67) (xy 57.15 26.67)
-		)
-		(stroke
-			(width 0.4)
-			(type default)
-			(color 255 10 0 1)
-		)
-		(uuid "1bbfccd7-d2fa-4438-9299-4a5aa567d83c")
-	)
-	(wire
-		(pts
-			(xy 210.82 146.05) (xy 212.09 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d0b1fd2-4a1a-469b-9e03-05b154ddf860")
-	)
-	(wire
-		(pts
 			(xy 154.94 208.28) (xy 157.48 208.28)
 		)
 		(stroke
@@ -12462,16 +12042,6 @@
 			(type default)
 		)
 		(uuid "1fb07f2b-70b6-4b33-9406-abe1927588f8")
-	)
-	(wire
-		(pts
-			(xy 212.09 127) (xy 222.25 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2088790e-2528-4ccb-8135-121175f971a2")
 	)
 	(wire
 		(pts
@@ -12515,6 +12085,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 40.64) (xy 288.29 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d3e589-4607-4c48-b50b-04d2ca79604e")
+	)
+	(wire
+		(pts
 			(xy 321.31 180.34) (xy 325.12 180.34)
 		)
 		(stroke
@@ -12555,6 +12135,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 267.97) (xy 54.61 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2554b80e-3b79-413d-88ce-07d69fe05c1b")
+	)
+	(wire
+		(pts
 			(xy 147.32 264.16) (xy 148.59 264.16)
 		)
 		(stroke
@@ -12562,16 +12152,6 @@
 			(type default)
 		)
 		(uuid "2560b64b-68dd-4ab7-ab99-52ea9c31df29")
-	)
-	(wire
-		(pts
-			(xy 222.25 140.97) (xy 238.76 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25866bb9-6cf4-4b6b-9e83-1b8d0bb6d1fa")
 	)
 	(wire
 		(pts
@@ -12593,16 +12173,6 @@
 			(color 106 106 106 1)
 		)
 		(uuid "25fe0056-7963-43b6-92a4-14b7b6d06b81")
-	)
-	(wire
-		(pts
-			(xy 358.14 52.07) (xy 358.14 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2602dccd-87fc-498a-9cf4-db85f2af7d09")
 	)
 	(wire
 		(pts
@@ -12636,7 +12206,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 111.76) (xy 265.43 132.08)
+			(xy 246.38 130.81) (xy 246.38 132.08)
 		)
 		(stroke
 			(width 0.4)
@@ -12654,6 +12224,16 @@
 			(type default)
 		)
 		(uuid "2770eba3-26de-4ab5-9f91-ef95ca7c8b57")
+	)
+	(wire
+		(pts
+			(xy 57.15 267.97) (xy 55.88 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27760fa1-d848-4079-9342-3ef10fe15b5e")
 	)
 	(wire
 		(pts
@@ -12755,16 +12335,6 @@
 			(type default)
 		)
 		(uuid "2bcf65c3-bbfe-4fd0-808a-5be382944038")
-	)
-	(wire
-		(pts
-			(xy 306.07 52.07) (xy 306.07 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c5f75e4-d00b-46f8-b515-07ba2aa149ea")
 	)
 	(wire
 		(pts
@@ -12879,16 +12449,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 133.35) (xy 212.09 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30398e20-6f14-4236-91de-36609cc0c0ba")
-	)
-	(wire
-		(pts
 			(xy 52.07 31.75) (xy 52.07 46.99)
 		)
 		(stroke
@@ -12896,16 +12456,6 @@
 			(type default)
 		)
 		(uuid "30443a59-8059-4ae7-8338-258667c94d6e")
-	)
-	(wire
-		(pts
-			(xy 284.48 26.67) (xy 284.48 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30a72668-bc32-440e-bce3-246c2ad03eb6")
 	)
 	(wire
 		(pts
@@ -12973,7 +12523,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 26.67) (xy 78.74 26.67)
+			(xy 72.39 26.67) (xy 78.74 26.67)
 		)
 		(stroke
 			(width 0.4)
@@ -12981,26 +12531,6 @@
 			(color 255 10 0 1)
 		)
 		(uuid "3395e1f8-314d-4594-902e-bdb70d14cfa4")
-	)
-	(wire
-		(pts
-			(xy 306.07 52.07) (xy 307.34 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33d287a8-c558-4a67-86fe-13ef56b96c75")
-	)
-	(wire
-		(pts
-			(xy 251.46 140.97) (xy 251.46 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33ead179-1e36-45d6-bf5f-d6345a77e599")
 	)
 	(wire
 		(pts
@@ -13187,7 +12717,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 111.76) (xy 223.52 111.76)
+			(xy 217.17 132.08) (xy 218.44 132.08)
 		)
 		(stroke
 			(width 0)
@@ -13451,26 +12981,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 52.07) (xy 302.26 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50295c48-a6de-43bf-ae95-e3b8bc692af1")
-	)
-	(wire
-		(pts
-			(xy 217.17 146.05) (xy 251.46 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50324dd0-ae74-4753-9c6c-022b78387624")
-	)
-	(wire
-		(pts
 			(xy 203.2 214.63) (xy 203.2 208.28)
 		)
 		(stroke
@@ -13478,6 +12988,17 @@
 			(type default)
 		)
 		(uuid "520fd0cd-c916-4f4f-aec9-dc41b5e2e1b4")
+	)
+	(wire
+		(pts
+			(xy 52.07 26.67) (xy 67.31 26.67)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 10 0 1)
+		)
+		(uuid "52d1975b-f358-4112-a148-942818f28639")
 	)
 	(wire
 		(pts
@@ -13491,7 +13012,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 132.08) (xy 269.24 132.08)
+			(xy 246.38 132.08) (xy 269.24 132.08)
 		)
 		(stroke
 			(width 0.4)
@@ -13675,16 +13196,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 146.05) (xy 210.82 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58eec7dc-ee6e-43cc-9bce-3057a18a0bc8")
-	)
-	(wire
-		(pts
 			(xy 368.3 52.07) (xy 368.3 53.34)
 		)
 		(stroke
@@ -13702,16 +13213,6 @@
 			(type default)
 		)
 		(uuid "59af1220-af8a-471a-b84d-67296539fb34")
-	)
-	(wire
-		(pts
-			(xy 306.07 29.21) (xy 313.69 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59ef7396-8966-459f-9797-e1051825c64d")
 	)
 	(wire
 		(pts
@@ -13742,16 +13243,6 @@
 			(type default)
 		)
 		(uuid "5c10341a-c089-46b8-937d-f8bc71a7508f")
-	)
-	(wire
-		(pts
-			(xy 210.82 146.05) (xy 210.82 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d2e9667-6697-4267-bd39-3cebea73a069")
 	)
 	(wire
 		(pts
@@ -13823,6 +13314,16 @@
 			(type default)
 		)
 		(uuid "60b91f5e-9f5c-47bb-ab8c-e579ef854f9c")
+	)
+	(wire
+		(pts
+			(xy 358.14 53.34) (xy 359.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d7028a-e83f-4564-8529-06520e19a1ab")
 	)
 	(wire
 		(pts
@@ -14000,16 +13501,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 26.67) (xy 302.26 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69148363-7bd6-42d7-8e93-b6dd7fc71520")
-	)
-	(wire
-		(pts
 			(xy 321.31 190.5) (xy 328.93 190.5)
 		)
 		(stroke
@@ -14080,16 +13571,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 59.69) (xy 293.37 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b5b69de-bbf7-46f1-ae45-c7cc4eb3479b")
-	)
-	(wire
-		(pts
 			(xy 389.89 243.84) (xy 384.81 243.84)
 		)
 		(stroke
@@ -14110,43 +13591,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 48.26) (xy 143.51 48.26)
+			(xy 132.08 48.26) (xy 143.51 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6e81b9f2-e994-48fc-beb5-996da6eae154")
-	)
-	(wire
-		(pts
-			(xy 316.23 52.07) (xy 316.23 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f7305d2-5669-4601-a399-f2ff69884d9e")
-	)
-	(wire
-		(pts
-			(xy 300.99 52.07) (xy 302.26 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fb02764-546a-4169-8fe0-136d50a23664")
-	)
-	(wire
-		(pts
-			(xy 248.92 140.97) (xy 251.46 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70a051d3-b34f-4358-b1ff-ca09288d1f42")
 	)
 	(wire
 		(pts
@@ -14158,16 +13609,6 @@
 			(color 255 10 0 1)
 		)
 		(uuid "70b09d3a-3382-49ce-8d7f-9042fcb54057")
-	)
-	(wire
-		(pts
-			(xy 284.48 35.56) (xy 284.48 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70b9ebb7-c1a5-4525-8ea4-02ccbe71dadc")
 	)
 	(wire
 		(pts
@@ -14222,16 +13663,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 60.96) (xy 284.48 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74d4ad67-2072-4f77-bfa2-21af29273919")
-	)
-	(wire
-		(pts
 			(xy 93.98 26.67) (xy 93.98 33.02)
 		)
 		(stroke
@@ -14243,33 +13674,13 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 54.61) (xy 313.69 54.61)
+			(xy 57.15 270.51) (xy 55.88 270.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75aa46f7-63a6-4976-bce9-ac15d2096a21")
-	)
-	(wire
-		(pts
-			(xy 293.37 60.96) (xy 293.37 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75bbc4d4-59eb-4d20-94a3-021460605817")
-	)
-	(wire
-		(pts
-			(xy 134.62 30.48) (xy 134.62 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75bcab5f-4dbf-4c9d-b08d-b625b61cf5db")
+		(uuid "75af12d7-9dcd-4942-83a3-ebe84554b5d1")
 	)
 	(wire
 		(pts
@@ -14294,16 +13705,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 30.48) (xy 132.08 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77582cee-4472-4114-b5ed-5ff82ab579b0")
-	)
-	(wire
-		(pts
 			(xy 276.86 129.54) (xy 276.86 132.08)
 		)
 		(stroke
@@ -14321,16 +13722,6 @@
 			(type default)
 		)
 		(uuid "7961ed96-e68b-420f-98b3-5749522080e7")
-	)
-	(wire
-		(pts
-			(xy 293.37 34.29) (xy 293.37 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bb51c0b-6dac-4299-947f-fcf5222eabb3")
 	)
 	(wire
 		(pts
@@ -14374,16 +13765,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 52.07) (xy 316.23 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e48b74b-8bc9-4d97-9f64-af6883409872")
-	)
-	(wire
-		(pts
 			(xy 53.34 44.45) (xy 50.8 44.45)
 		)
 		(stroke
@@ -14424,17 +13805,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 30.48) (xy 139.7 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "803a0cdd-c297-4f47-900d-5cec65a5d82c")
-	)
-	(wire
-		(pts
-			(xy 231.14 105.41) (xy 238.76 105.41)
+			(xy 226.06 125.73) (xy 233.68 125.73)
 		)
 		(stroke
 			(width 0)
@@ -14474,7 +13845,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 106.68) (xy 231.14 105.41)
+			(xy 226.06 127) (xy 226.06 125.73)
 		)
 		(stroke
 			(width 0)
@@ -14544,27 +13915,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 52.07) (xy 284.48 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85fa5103-63d7-4488-9544-9e4fb21e7bb6")
-	)
-	(wire
-		(pts
-			(xy 251.46 111.76) (xy 265.43 111.76)
-		)
-		(stroke
-			(width 0.4)
-			(type dash)
-			(color 18 185 255 1)
-		)
-		(uuid "8660aae0-7e7f-45b2-b6f8-1e963d5cd1e8")
-	)
-	(wire
-		(pts
 			(xy 148.59 58.42) (xy 148.59 59.69)
 		)
 		(stroke
@@ -14575,23 +13925,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 30.48) (xy 137.16 53.34)
+			(xy 139.7 27.94) (xy 139.7 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "86fffc5b-244d-4ca1-84d5-79bbf62c0fef")
-	)
-	(wire
-		(pts
-			(xy 302.26 35.56) (xy 293.37 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "873a5fa7-3a57-4aa8-a8cc-553cc43a1f05")
 	)
 	(wire
 		(pts
@@ -14818,16 +14158,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 26.67) (xy 307.34 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90e8b42c-8c29-4f51-8099-b49ef19c40a7")
-	)
-	(wire
-		(pts
 			(xy 226.06 217.17) (xy 226.06 234.95)
 		)
 		(stroke
@@ -14835,37 +14165,6 @@
 			(type default)
 		)
 		(uuid "910fb70a-3cef-4d4b-9203-05a74dbd2201")
-	)
-	(wire
-		(pts
-			(xy 300.99 26.67) (xy 302.26 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91d9580e-18b4-4dd2-844e-98bc9497ddd4")
-	)
-	(wire
-		(pts
-			(xy 302.26 26.67) (xy 306.07 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92425a76-f50e-40c9-aa4e-2e78f3610372")
-	)
-	(wire
-		(pts
-			(xy 251.46 110.49) (xy 251.46 111.76)
-		)
-		(stroke
-			(width 0.4)
-			(type dash)
-			(color 18 185 255 1)
-		)
-		(uuid "924424c0-ae10-4e2c-8399-290b7a82ea82")
 	)
 	(wire
 		(pts
@@ -14982,16 +14281,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 26.67) (xy 318.77 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a8c62fe-3998-4c6e-bc95-0608ad944ada")
-	)
-	(wire
-		(pts
 			(xy 190.5 193.04) (xy 198.12 193.04)
 		)
 		(stroke
@@ -15032,7 +14321,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 104.14) (xy 238.76 105.41)
+			(xy 233.68 124.46) (xy 233.68 125.73)
 		)
 		(stroke
 			(width 0)
@@ -15155,16 +14444,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 127) (xy 212.09 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1c602a0-0415-4cac-86dd-b90f76d46d4a")
-	)
-	(wire
-		(pts
 			(xy 347.98 90.17) (xy 351.79 90.17)
 		)
 		(stroke
@@ -15193,17 +14472,6 @@
 			(type default)
 		)
 		(uuid "a2beb58c-d02f-42fb-a07a-b51b8a332114")
-	)
-	(wire
-		(pts
-			(xy 285.75 52.07) (xy 284.48 52.07)
-		)
-		(stroke
-			(width 0.4)
-			(type default)
-			(color 255 10 0 1)
-		)
-		(uuid "a4349358-20d8-4acc-bc15-c62a1b808ffa")
 	)
 	(wire
 		(pts
@@ -15247,7 +14515,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 106.68) (xy 238.76 105.41)
+			(xy 233.68 127) (xy 233.68 125.73)
 		)
 		(stroke
 			(width 0)
@@ -15268,6 +14536,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 40.64) (xy 284.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a724840b-6bba-4285-9680-4415844d1306")
+	)
+	(wire
+		(pts
 			(xy 175.26 185.42) (xy 175.26 186.69)
 		)
 		(stroke
@@ -15285,26 +14563,6 @@
 			(type default)
 		)
 		(uuid "a912ef9c-5d6e-4992-87e3-571e7cba95d8")
-	)
-	(wire
-		(pts
-			(xy 306.07 26.67) (xy 306.07 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aab622c3-3c0f-4148-bedf-addddc4f7654")
-	)
-	(wire
-		(pts
-			(xy 261.62 140.97) (xy 265.43 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aac244d2-83af-4b87-87a7-53c9a8f07257")
 	)
 	(wire
 		(pts
@@ -15338,6 +14596,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 49.53) (xy 358.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab8d3fc8-be38-4352-88ff-a3e577283f31")
+	)
+	(wire
+		(pts
 			(xy 34.29 41.91) (xy 33.02 41.91)
 		)
 		(stroke
@@ -15349,16 +14617,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 52.07) (xy 306.07 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac50dbed-e86b-42e7-9d5a-5ad002e68666")
-	)
-	(wire
-		(pts
 			(xy 154.94 240.03) (xy 161.29 240.03)
 		)
 		(stroke
@@ -15366,16 +14624,6 @@
 			(type default)
 		)
 		(uuid "ac537439-db97-4f01-bc7b-bf97119790c7")
-	)
-	(wire
-		(pts
-			(xy 265.43 140.97) (xy 265.43 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad654f5a-6dc0-4bf3-97c0-0fe3137e8664")
 	)
 	(wire
 		(pts
@@ -15439,13 +14687,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 135.89) (xy 214.63 135.89)
+			(xy 55.88 270.51) (xy 54.61 270.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1ee3a8d-4e01-490d-afe4-3e2936555b1f")
+		(uuid "b1faeb87-b138-481f-99b2-374ff0422922")
 	)
 	(wire
 		(pts
@@ -15476,6 +14724,16 @@
 			(type default)
 		)
 		(uuid "b37f3059-c20c-4f4f-acbc-2c402c9648e3")
+	)
+	(wire
+		(pts
+			(xy 67.31 19.05) (xy 111.76 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b585065e-1c88-466a-8f74-3f85897bb928")
 	)
 	(wire
 		(pts
@@ -15556,17 +14814,6 @@
 			(type default)
 		)
 		(uuid "b7d54b4e-6ef4-444d-942b-41dc02330c89")
-	)
-	(wire
-		(pts
-			(xy 285.75 26.67) (xy 284.48 26.67)
-		)
-		(stroke
-			(width 0.4)
-			(type default)
-			(color 255 10 0 1)
-		)
-		(uuid "b8c1c4df-0db9-4a5c-a406-a1572195ebd2")
 	)
 	(wire
 		(pts
@@ -15660,7 +14907,17 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 97.79) (xy 251.46 100.33)
+			(xy 55.88 19.05) (xy 55.88 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd20a468-05ac-491d-81d4-8c439dc580de")
+	)
+	(wire
+		(pts
+			(xy 246.38 118.11) (xy 246.38 120.65)
 		)
 		(stroke
 			(width 0.4)
@@ -15712,7 +14969,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 111.76) (xy 222.25 113.03)
+			(xy 217.17 132.08) (xy 217.17 133.35)
 		)
 		(stroke
 			(width 0)
@@ -15729,6 +14986,16 @@
 			(type default)
 		)
 		(uuid "c14c1fbc-f91c-4eb8-a69a-b8cf0ec909b6")
+	)
+	(wire
+		(pts
+			(xy 130.81 27.94) (xy 111.76 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15a4dd2-919a-45a7-98a5-52e6c773b968")
 	)
 	(wire
 		(pts
@@ -15763,7 +15030,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 82.55) (xy 238.76 97.79)
+			(xy 233.68 82.55) (xy 233.68 118.11)
 		)
 		(stroke
 			(width 0.4)
@@ -15803,16 +15070,6 @@
 			(color 18 185 255 1)
 		)
 		(uuid "c55dec15-fda4-4424-9dcf-fe6ffdd6f4a1")
-	)
-	(wire
-		(pts
-			(xy 302.26 58.42) (xy 302.26 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c586f836-f4dc-4dc6-ab42-5d8dbfe71129")
 	)
 	(wire
 		(pts
@@ -15868,7 +15125,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 111.76) (xy 222.25 111.76)
+			(xy 215.9 132.08) (xy 217.17 132.08)
 		)
 		(stroke
 			(width 0)
@@ -15971,6 +15228,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 40.64) (xy 309.88 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1f5593-4580-4381-ae4f-ffbad52dbf65")
+	)
+	(wire
+		(pts
 			(xy 240.03 224.79) (xy 243.84 224.79)
 		)
 		(stroke
@@ -16011,16 +15278,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 26.67) (xy 318.77 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0cc6864-05f1-44e3-861b-8e6667290348")
-	)
-	(wire
-		(pts
 			(xy 160.02 232.41) (xy 161.29 232.41)
 		)
 		(stroke
@@ -16031,7 +15288,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 97.79) (xy 238.76 99.06)
+			(xy 233.68 118.11) (xy 233.68 119.38)
 		)
 		(stroke
 			(width 0)
@@ -16048,6 +15305,16 @@
 			(type default)
 		)
 		(uuid "d1b5df3e-395c-49f4-aebb-40a41fe95028")
+	)
+	(wire
+		(pts
+			(xy 111.76 19.05) (xy 111.76 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3166b56-26ae-4865-8fa7-96808b4d44f8")
 	)
 	(wire
 		(pts
@@ -16082,16 +15349,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 125.73) (xy 212.09 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4a695e7-dd4a-4a1b-be2c-d1e366b4da8b")
-	)
-	(wire
-		(pts
 			(xy 158.75 260.35) (xy 161.29 260.35)
 		)
 		(stroke
@@ -16109,17 +15366,6 @@
 			(type default)
 		)
 		(uuid "d59a780f-f43b-4d68-ba44-a6098828445c")
-	)
-	(wire
-		(pts
-			(xy 284.48 26.67) (xy 284.48 25.4)
-		)
-		(stroke
-			(width 0.4)
-			(type default)
-			(color 255 10 0 1)
-		)
-		(uuid "d5b2f356-09e4-4a5b-a2c2-52fa4146295d")
 	)
 	(wire
 		(pts
@@ -16163,6 +15409,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 40.64) (xy 309.88 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ca6cbd-6399-4447-b761-250fbd69c3b2")
+	)
+	(wire
+		(pts
 			(xy 231.14 229.87) (xy 243.84 229.87)
 		)
 		(stroke
@@ -16170,16 +15426,6 @@
 			(type default)
 		)
 		(uuid "d7ca93be-5dbc-4343-af38-da3e44ef5b29")
-	)
-	(wire
-		(pts
-			(xy 293.37 35.56) (xy 293.37 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7dc2980-6fd6-4be2-abb5-f698f703e3bd")
 	)
 	(wire
 		(pts
@@ -16264,6 +15510,17 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 82.55) (xy 238.76 82.55)
+		)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 18 185 255 1)
+		)
+		(uuid "de7bd494-fb69-44bb-b784-a8e82b76ef84")
+	)
+	(wire
+		(pts
 			(xy 288.29 252.73) (xy 288.29 237.49)
 		)
 		(stroke
@@ -16326,7 +15583,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 53.34) (xy 143.51 53.34)
+			(xy 139.7 53.34) (xy 143.51 53.34)
 		)
 		(stroke
 			(width 0)
@@ -16343,16 +15600,6 @@
 			(type default)
 		)
 		(uuid "e09c982f-24bc-4397-b391-763d79b16c98")
-	)
-	(wire
-		(pts
-			(xy 293.37 60.96) (xy 284.48 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1c2f329-c98b-4d14-8d20-d79e7466b8b8")
 	)
 	(wire
 		(pts
@@ -16386,17 +15633,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 52.07) (xy 284.48 50.8)
-		)
-		(stroke
-			(width 0.4)
-			(type default)
-			(color 255 10 0 1)
-		)
-		(uuid "e357e9ee-680e-4b7e-b394-49f704a2b46e")
-	)
-	(wire
-		(pts
 			(xy 377.19 114.3) (xy 375.92 114.3)
 		)
 		(stroke
@@ -16416,16 +15652,6 @@
 			(color 18 185 255 1)
 		)
 		(uuid "e3bbdfb8-3bff-49c5-8407-7ae041f05f00")
-	)
-	(wire
-		(pts
-			(xy 293.37 35.56) (xy 284.48 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3c6519c-701b-43f4-a530-7332eb7a1af2")
 	)
 	(wire
 		(pts
@@ -16633,6 +15859,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 19.05) (xy 55.88 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecec3bda-3ce8-43b3-9ad5-8e21c75bbd04")
+	)
+	(wire
+		(pts
 			(xy 199.39 229.87) (xy 203.2 229.87)
 		)
 		(stroke
@@ -16650,16 +15886,6 @@
 			(type default)
 		)
 		(uuid "ee36f570-0ea9-424d-b33e-88f9a5fa877e")
-	)
-	(wire
-		(pts
-			(xy 302.26 33.02) (xy 302.26 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee98c072-b2dd-4cd0-a558-861b63344bb3")
 	)
 	(wire
 		(pts
@@ -16734,7 +15960,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 270.51) (xy 66.04 270.51)
+			(xy 64.77 270.51) (xy 66.04 270.51)
 		)
 		(stroke
 			(width 0)
@@ -16755,7 +15981,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 97.79) (xy 251.46 97.79)
+			(xy 233.68 118.11) (xy 246.38 118.11)
 		)
 		(stroke
 			(width 0.4)
@@ -16766,7 +15992,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 105.41) (xy 243.84 105.41)
+			(xy 233.68 125.73) (xy 238.76 125.73)
 		)
 		(stroke
 			(width 0)
@@ -16814,16 +16040,6 @@
 			(type default)
 		)
 		(uuid "f3f8d9c8-9ea4-4bff-bb1f-01d82e93cf15")
-	)
-	(wire
-		(pts
-			(xy 251.46 140.97) (xy 254 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f41ecc07-1aea-4a53-90ac-6f883d7399c5")
 	)
 	(wire
 		(pts
@@ -16939,7 +16155,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 30.48) (xy 132.08 27.94)
+			(xy 132.08 27.94) (xy 132.08 48.26)
 		)
 		(stroke
 			(width 0)
@@ -17112,7 +16328,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 111.76) (xy 215.9 111.76)
+			(xy 209.55 132.08) (xy 210.82 132.08)
 		)
 		(stroke
 			(width 0)
@@ -19035,28 +18251,6 @@
 			)
 		)
 	)
-	(global_label "CONT_CHECK"
-		(shape input)
-		(at 204.47 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9199c3d9-7228-4d91-ad4d-2a1661ce627e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.3291 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ADC_RECOVERY_VOLTAGE"
 		(shape input)
 		(at 46.99 154.94 0)
@@ -19362,29 +18556,6 @@
 		(uuid "ace2621d-b315-4099-905e-300b45cc7448")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 65.2924 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC_CONT_CHECK"
-		(shape input)
-		(at 209.55 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 162 249 104 1)
-			)
-			(justify right)
-		)
-		(uuid "af3f1c0f-25eb-4b3f-8ca0-f2fe2850d25e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.8129 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19754,7 +18925,7 @@
 	)
 	(global_label "RECOVERY_HIGH"
 		(shape input)
-		(at 214.63 111.76 180)
+		(at 209.55 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19764,7 +18935,7 @@
 		)
 		(uuid "c3f27128-e8e1-499c-a009-ec26fa2ffbb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.5257 111.76 0)
+			(at 191.4457 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20264,7 +19435,7 @@
 			)
 		)
 		(property "LCSC" "C189895"
-			(at 71.12 245.11 0)
+			(at 75.692 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20300,10 +19471,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "00d3ef81-38c7-44f6-9b99-2aca4484ae99")
 		(property "Reference" "Q4"
-			(at 101.6 256.5399 0)
+			(at 99.314 255.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20312,7 +19482,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 101.6 259.0799 0)
+			(at 99.568 259.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20351,7 +19521,7 @@
 			)
 		)
 		(property "LCSC" "C20917"
-			(at 95.25 257.81 0)
+			(at 102.108 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21085,7 +20255,7 @@
 			)
 		)
 		(property "LCSC" "C8678"
-			(at 104.14 33.02 0)
+			(at 104.648 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21109,7 +20279,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 228.6 111.76 0)
+		(at 223.52 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21117,7 +20287,7 @@
 		(dnp no)
 		(uuid "0358f384-6c69-45b2-96c0-8c4085499e6b")
 		(property "Reference" "Q2"
-			(at 224.79 106.934 0)
+			(at 222.504 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21126,7 +20296,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 224.79 103.632 0)
+			(at 219.71 123.952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21135,7 +20305,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 233.68 113.665 0)
+			(at 228.6 133.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21146,7 +20316,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 233.68 115.57 0)
+			(at 228.6 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21156,7 +20326,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 228.6 111.76 0)
+			(at 223.52 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21165,7 +20335,7 @@
 			)
 		)
 		(property "LCSC" "C20917"
-			(at 228.6 111.76 0)
+			(at 219.964 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21523,6 +20693,98 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SS34")
+		(at 63.5 19.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "09e592b0-7c6b-4f09-b2de-62d299270270")
+		(property "Reference" "D12"
+			(at 65.532 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 60.706 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 63.5 14.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 63.5 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC #" ""
+			(at 63.5 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey#" ""
+			(at 63.5 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8678"
+			(at 63.246 14.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f581648-edfd-4c86-acf8-f0bab7e21951")
+		)
+		(pin "2"
+			(uuid "6e815701-9d3c-4842-85cb-698df2f19d6a")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -22020,7 +21282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3v3 lora1"
 			(at 379.73 29.21 0)
 			(effects
 				(font
@@ -22357,7 +21619,7 @@
 			)
 		)
 		(property "LCSC" "C8678"
-			(at 104.14 27.94 0)
+			(at 104.14 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22374,6 +21636,73 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 55.88 270.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "176f8898-cd6d-4a7e-8241-512281780084")
+		(property "Reference" "TP1"
+			(at 54.102 275.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.8 275.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 50.8 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 55.88 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "691330d9-4ec1-48bc-a9cb-8416bbdb1c62")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -22476,6 +21805,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 359.41 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18637287-68aa-4d72-9c5e-9097ed27a769")
+		(property "Reference" "TP4"
+			(at 365.252 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 364.744 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 359.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 359.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3be99daf-d566-4f79-8bb1-abdb984fbc10")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 148.59 43.18 0)
 		(unit 1)
@@ -22548,7 +21944,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "19429dfc-0470-403b-8677-23dadb729009")
 		(property "Reference" "C49"
 			(at 397.2941 239.1889 0)
@@ -22623,7 +22018,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 394.97 240.03 0)
+			(at 398.526 244.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22706,6 +22101,73 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 309.88 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ae7f103-891b-42fc-9401-420d68927f38")
+		(property "Reference" "TP3"
+			(at 318.008 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 315.214 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 309.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 309.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac9da13f-cb85-4bf4-a84b-db82a7506f2e")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -22861,7 +22323,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 147.066 251.714 90)
+			(at 145.542 251.714 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22896,7 +22358,7 @@
 			)
 		)
 		(property "LCSC" "C25161"
-			(at 142.24 252.73 0)
+			(at 142.494 253.746 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23573,6 +23035,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 391.16 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25d4f1b0-aaac-4fe7-9574-bf113311af0f")
+		(property "Reference" "TP5"
+			(at 397.002 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 396.494 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 391.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 391.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d29efd7d-f219-42d2-ace2-516168eec8a9")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Interface_CAN_LIN:MCP2562-E-SN")
 		(at 139.7 144.78 0)
 		(unit 1)
@@ -23663,111 +23192,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 246.38 140.97 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26c7df79-08ff-4ddd-a0e1-de0063f45006")
-		(property "Reference" "R21"
-			(at 245.1099 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "51"
-			(at 247.6499 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 246.38 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" ""
-			(at 246.38 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 246.38 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "RC0603FR-071KL"
-			(at 246.38 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25125"
-			(at 246.38 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a927e4f-9283-4008-8e94-beebfe7f964e")
-		)
-		(pin "2"
-			(uuid "c2c19da1-cbbf-4d33-92d4-08dff93f3555")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -23911,111 +23335,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 212.09 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "275c3d18-4c15-4d2d-8189-09a85c864134")
-		(property "Reference" "R16"
-			(at 213.5886 129.9753 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 213.5886 132.5122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 212.09 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" ""
-			(at 212.09 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 212.09 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "RC0603FR-071KL"
-			(at 212.09 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 212.09 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f405711a-66af-4eb4-8cb3-185ece6ce6a3")
-		)
-		(pin "2"
-			(uuid "7b9e61a0-bdda-480c-ba41-056e4892d67d")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -24892,7 +24211,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 222.25 115.57 0)
+		(at 217.17 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24900,7 +24219,7 @@
 		(dnp no)
 		(uuid "30449142-deb2-4677-a5e7-94c34e182be1")
 		(property "Reference" "R15"
-			(at 216.662 115.316 0)
+			(at 212.598 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24909,7 +24228,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 215.9 117.602 0)
+			(at 218.186 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24918,7 +24237,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 222.25 115.57 0)
+			(at 217.17 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24927,7 +24246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 115.57 0)
+			(at 217.17 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24936,7 +24255,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 115.57 0)
+			(at 217.17 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24945,7 +24264,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 222.25 115.57 0)
+			(at 220.726 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25105,7 +24424,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "341fd5d2-8416-43ce-9224-934b4614da5c")
 		(property "Reference" "J7"
@@ -25330,74 +24649,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 318.77 26.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35cd96fd-69b7-451b-93ba-438659c70ef7")
-		(property "Reference" "#FLG04"
-			(at 320.675 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 322.58 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 318.77 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 318.77 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 318.77 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82959c58-0619-46f3-b702-02d04cc609ae")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -25728,6 +24979,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 55.88 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39e5971d-4887-49d3-9a01-593715068b26")
+		(property "Reference" "TP2"
+			(at 57.912 262.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 54.356 262.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 60.96 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 55.88 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "448e97c3-ad0a-40cf-bb4e-938ffd7c960e")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 266.7 264.16 0)
 		(unit 1)
@@ -25943,7 +25261,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3d836880-bcfc-4641-9115-bd9d552b9666")
 		(property "Reference" "J8"
@@ -26112,7 +25430,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3f7ca0c1-3b70-4f2e-94ab-28199bf8c87f")
 		(property "Reference" "J6"
@@ -26760,111 +26078,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 284.48 30.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4605b8d1-505e-4624-9fa8-4afb487b7ef6")
-		(property "Reference" "C1"
-			(at 281.94 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330n"
-			(at 281.94 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 284.48 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 284.48 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 284.48 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" ""
-			(at 284.48 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 284.48 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 284.48 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1615"
-			(at 284.48 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8cac3e0d-1d0e-4c79-84f6-74b74aad6b90")
-		)
-		(pin "2"
-			(uuid "510b71a7-2fdd-4e97-8a15-a3333ae8c1d9")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 64.77 241.3 0)
 		(unit 1)
@@ -27113,7 +26326,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 267.97 90)
+		(at 60.96 267.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27121,7 +26334,7 @@
 		(dnp no)
 		(uuid "47985ce9-4ebf-4f6a-8304-2e1f82526a90")
 		(property "Reference" "R51"
-			(at 60.452 267.97 90)
+			(at 62.992 267.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27130,7 +26343,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 63.754 266.954 90)
+			(at 66.294 266.954 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27139,7 +26352,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 58.42 269.748 90)
+			(at 60.96 269.748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27148,7 +26361,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 267.97 0)
+			(at 60.96 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27157,7 +26370,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 267.97 0)
+			(at 60.96 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27166,7 +26379,7 @@
 			)
 		)
 		(property "LCSC" "C25161"
-			(at 58.42 267.97 0)
+			(at 60.198 265.684 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27300,10 +26513,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4dc414e2-2e14-4c70-ab1e-929c09a01ea2")
 		(property "Reference" "R19"
-			(at 290.83 135.8899 0)
+			(at 290.068 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27312,7 +26524,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 290.83 138.4299 0)
+			(at 290.068 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27348,7 +26560,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 288.29 137.16 0)
+			(at 283.464 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27533,7 +26745,7 @@
 			)
 		)
 		(property "Value" "bus_main"
-			(at 78.994 19.304 0)
+			(at 78.74 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27678,117 +26890,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 219.71 135.89 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5196d850-2222-4165-b689-c8dec7eb20f6")
-		(property "Reference" "Q3"
-			(at 226.06 137.1601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 226.06 134.6201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 224.79 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 224.79 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 219.71 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 219.71 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 219.71 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 219.71 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C15127"
-			(at 219.71 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "6d9a2faa-0269-4b9a-8276-bc60e3dda671")
-		)
-		(pin "1"
-			(uuid "c8526832-6340-4e04-8475-b1a4c5dcdb4d")
-		)
-		(pin "2"
-			(uuid "f30c000f-e7b8-4c4f-909e-c99a551d077e")
-		)
-		(instances
-			(project ""
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -28223,17 +27324,16 @@
 	)
 	(symbol
 		(lib_id "stigma:AON7423")
-		(at 248.92 105.41 0)
+		(at 243.84 125.73 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "588f97a7-d8a8-4754-a35a-9ef3fec34d23")
 		(property "Reference" "Q1"
-			(at 255.27 104.1399 0)
+			(at 248.412 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28242,7 +27342,7 @@
 			)
 		)
 		(property "Value" "AON7423"
-			(at 254.127 107.1122 0)
+			(at 248.666 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28251,7 +27351,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
-			(at 254 107.95 0)
+			(at 248.92 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28260,7 +27360,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588884378453741569"
-			(at 248.92 105.41 0)
+			(at 243.84 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28269,7 +27369,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 105.41 0)
+			(at 243.84 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28278,7 +27378,7 @@
 			)
 		)
 		(property "LCSC#" ""
-			(at 248.92 105.41 0)
+			(at 243.84 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28287,7 +27387,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 248.92 105.41 0)
+			(at 243.84 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28296,7 +27396,7 @@
 			)
 		)
 		(property "Part#" ""
-			(at 248.92 105.41 0)
+			(at 243.84 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28305,7 +27405,7 @@
 			)
 		)
 		(property "LCSC" "C99711"
-			(at 255.27 106.6799 0)
+			(at 249.428 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28447,7 +27547,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse_Small")
-		(at 59.69 26.67 270)
+		(at 69.85 26.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28455,23 +27555,23 @@
 		(dnp no)
 		(uuid "5a7a84e7-0991-4264-9242-e331ceb4a28b")
 		(property "Reference" "F1"
-			(at 59.69 29.21 90)
+			(at 69.85 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1.5A"
-			(at 59.69 30.988 90)
+		(property "Value" "3A"
+			(at 69.85 30.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 54.61 27.94 0)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+			(at 64.77 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28481,7 +27581,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 26.67 0)
+			(at 69.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28490,24 +27590,15 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 26.67 0)
+			(at 69.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "DigiKey#" "507-1805-1-ND"
-			(at 59.69 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bel Fuse Inc."
-			(at 59.69 26.67 0)
+		(property "Manufacturer" "Littelfuse"
+			(at 69.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28515,8 +27606,17 @@
 				(hide yes)
 			)
 		)
-		(property "Part#" "0ZCJ0075AF2E"
-			(at 59.69 26.67 0)
+		(property "Part#" "0467003.NRHF"
+			(at 69.85 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2838898"
+			(at 69.85 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28617,7 +27717,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c7c24b2-e147-4679-8740-56c3ea3e370e")
 		(property "Reference" "C44"
-			(at 398.5641 199.8189 0)
+			(at 398.78 198.1135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28626,7 +27726,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 398.5641 202.3558 0)
+			(at 398.78 200.6535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28689,11 +27789,12 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 396.24 200.66 0)
+			(at 398.78 203.1935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -28780,7 +27881,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 111.76 0)
+		(at 233.68 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28789,7 +27890,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d60b7ca-a34b-4ea9-911d-df1732c47e66")
 		(property "Reference" "#PWR099"
-			(at 238.76 118.11 0)
+			(at 233.68 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28798,7 +27899,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 116.2034 0)
+			(at 233.68 136.5234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28806,7 +27907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 111.76 0)
+			(at 233.68 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28815,7 +27916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 111.76 0)
+			(at 233.68 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28824,7 +27925,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 111.76 0)
+			(at 233.68 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29112,7 +28213,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 116.84 0)
+		(at 226.06 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29121,7 +28222,7 @@
 		(fields_autoplaced yes)
 		(uuid "62765c4d-01a1-4a89-b396-fcbd839107e1")
 		(property "Reference" "#PWR060"
-			(at 231.14 123.19 0)
+			(at 226.06 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29130,7 +28231,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 121.2834 0)
+			(at 226.06 141.6034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29138,7 +28239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 116.84 0)
+			(at 226.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29147,7 +28248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 116.84 0)
+			(at 226.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29156,7 +28257,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 116.84 0)
+			(at 226.06 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29282,16 +28383,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 218.44 111.76 90)
+		(at 213.36 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "634550b6-b87d-4ce2-9252-42a6375c6935")
 		(property "Reference" "R14"
-			(at 218.44 106.68 90)
+			(at 213.36 128.524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29299,7 +28399,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 218.44 109.22 90)
+			(at 213.36 130.302 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29307,7 +28407,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 218.44 111.76 0)
+			(at 213.36 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29316,7 +28416,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 111.76 0)
+			(at 213.36 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29325,7 +28425,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 111.76 0)
+			(at 213.36 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29334,7 +28434,7 @@
 			)
 		)
 		(property "LCSC#" ""
-			(at 218.44 111.76 0)
+			(at 213.36 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29343,7 +28443,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 218.44 111.76 0)
+			(at 213.36 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29352,7 +28452,7 @@
 			)
 		)
 		(property "Part#" "RC0603FR-071KL"
-			(at 218.44 111.76 0)
+			(at 213.36 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29361,7 +28461,7 @@
 			)
 		)
 		(property "LCSC" "C25079"
-			(at 218.44 111.76 0)
+			(at 212.852 133.858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29522,108 +28622,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 313.69 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63b8f667-61a7-4c5c-893c-60ff4391a05f")
-		(property "Reference" "R11"
-			(at 316.992 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k5"
-			(at 316.23 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 313.69 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 313.69 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 313.69 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" ""
-			(at 313.69 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 313.69 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "ESR03EZPJ221"
-			(at 313.69 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25867"
-			(at 313.69 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2fb392bd-72bd-4256-9797-913e9498822e")
-		)
-		(pin "2"
-			(uuid "d555eb4c-6a89-4df7-8c91-cd90619f60f2")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -30045,7 +29043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3v3"
 			(at 346.71 29.21 0)
 			(effects
 				(font
@@ -30423,178 +29421,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 284.48 26.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69cf5bfb-3f7c-4232-ab39-4b1a5af63717")
-		(property "Reference" "#FLG03"
-			(at 282.575 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 279.4 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 284.48 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 284.48 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 284.48 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c530964-b305-4934-84e9-094c763c5b8b")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 284.48 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69d0207a-3f29-4395-8ffb-e89a2d672ac3")
-		(property "Reference" "C12"
-			(at 281.94 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330n"
-			(at 281.94 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 284.48 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 284.48 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 284.48 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" ""
-			(at 284.48 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 284.48 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 284.48 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1615"
-			(at 284.48 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5faafef-c7b9-489c-8926-3635b1a18079")
-		)
-		(pin "2"
-			(uuid "4f2227f8-4dc9-4025-8b47-10ef0dbc6131")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Current:INA181")
 		(at 281.94 114.3 0)
 		(unit 1)
@@ -30611,7 +29437,7 @@
 				)
 			)
 		)
-		(property "Value" "INA181A1"
+		(property "Value" "INA181A2"
 			(at 284.734 109.982 0)
 			(effects
 				(font
@@ -30655,7 +29481,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2058943"
+		(property "LCSC" "C2058784"
 			(at 281.94 114.3 0)
 			(effects
 				(font
@@ -30966,7 +29792,7 @@
 			)
 		)
 		(property "LCSC" "C8678"
-			(at 93.98 248.92 0)
+			(at 89.154 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32007,7 +30833,7 @@
 			)
 		)
 		(property "LCSC" "C25079"
-			(at 85.09 257.81 0)
+			(at 84.328 261.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32141,7 +30967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3v3 ethernet"
 			(at 346.71 53.34 0)
 			(effects
 				(font
@@ -32366,109 +31192,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 214.63 146.05 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e5d2472-8ee9-4947-8a6f-d985cbd35746")
-		(property "Reference" "R23"
-			(at 214.63 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 214.63 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 214.63 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" ""
-			(at 214.63 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 214.63 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "RC0603FR-071KL"
-			(at 214.63 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 214.63 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd95b212-b716-4a9a-a026-0cb269838ec3")
-		)
-		(pin "2"
-			(uuid "6ba02fa0-4ff9-462a-b9e4-a5836d347714")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 358.14 34.29 180)
 		(unit 1)
@@ -32643,7 +31366,7 @@
 	)
 	(symbol
 		(lib_id "power:+VSW")
-		(at 55.88 22.86 0)
+		(at 55.88 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32651,7 +31374,7 @@
 		(dnp no)
 		(uuid "82161870-2e88-4a6a-9647-6c7914f1743b")
 		(property "Reference" "#PWR01"
-			(at 55.88 26.67 0)
+			(at 55.88 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32659,8 +31382,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "bus_supply"
-			(at 57.404 21.082 0)
+		(property "Value" "charging_voltage"
+			(at 56.642 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32669,7 +31392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 22.86 0)
+			(at 55.88 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32678,7 +31401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 22.86 0)
+			(at 55.88 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32687,7 +31410,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 22.86 0)
+			(at 55.88 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32875,98 +31598,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS34")
-		(at 311.15 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "860d82fa-62f9-4713-8730-03c381e18a8b")
-		(property "Reference" "D7"
-			(at 311.15 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34"
-			(at 311.404 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 311.15 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 311.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 311.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC #" ""
-			(at 311.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey#" ""
-			(at 311.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C8678"
-			(at 311.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "03577bbd-5bc2-425e-acc9-b7f02f27af8f")
-		)
-		(pin "2"
-			(uuid "e1b01fa2-3a85-4c77-9fa0-50914831c35d")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 208.28 217.17 0)
 		(unit 1)
@@ -33021,7 +31652,7 @@
 			)
 		)
 		(property "LCSC" "C25125"
-			(at 208.28 217.17 0)
+			(at 208.28 216.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33088,7 +31719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3v3 lora2"
 			(at 379.73 53.34 0)
 			(effects
 				(font
@@ -33503,84 +32134,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 241.3 140.97 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c480e3d-acbe-4b02-9775-a3e8312a40ef")
-		(property "Reference" "R20"
-			(at 240.0299 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "51"
-			(at 242.5699 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 241.3 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25125"
-			(at 241.3 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc42fe06-30b2-43b9-9099-7c88b85ebc3b")
-		)
-		(pin "2"
-			(uuid "58db9c6a-28e7-403e-ab24-d8abc859286b")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 227.33 213.36 0)
 		(unit 1)
@@ -33700,7 +32253,7 @@
 			)
 		)
 		(property "LCSC" "C25161"
-			(at 59.69 247.65 0)
+			(at 59.69 249.682 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33717,98 +32270,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SS34")
-		(at 311.15 26.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e7d6e9c-4abc-4076-b194-a9baec39bdfe")
-		(property "Reference" "D1"
-			(at 311.15 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34"
-			(at 311.404 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 311.15 22.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 311.15 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 311.15 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC #" ""
-			(at 311.15 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey#" ""
-			(at 311.15 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C8678"
-			(at 311.15 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30cc6e4d-5f89-4121-a328-2ac813393b74")
-		)
-		(pin "2"
-			(uuid "d5f18244-3232-403f-91d0-82864dcc78b7")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -33936,7 +32397,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 90.17 264.16 0)
+			(at 93.98 267.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35024,16 +33485,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 238.76 101.6 0)
+		(at 233.68 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9a6a9e7e-a8af-43c7-ab8b-036865c5b215")
 		(property "Reference" "R12"
-			(at 241.3 100.3299 0)
+			(at 236.22 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35042,7 +33502,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 241.3 102.8699 0)
+			(at 236.22 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35051,7 +33511,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 238.76 101.6 0)
+			(at 233.68 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35060,7 +33520,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 101.6 0)
+			(at 233.68 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35069,7 +33529,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 101.6 0)
+			(at 233.68 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35078,7 +33538,7 @@
 			)
 		)
 		(property "LCSC#" ""
-			(at 238.76 101.6 0)
+			(at 233.68 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35087,7 +33547,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 238.76 101.6 0)
+			(at 233.68 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35096,7 +33556,7 @@
 			)
 		)
 		(property "Part#" "RC0603FR-071KL"
-			(at 238.76 101.6 0)
+			(at 233.68 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35105,7 +33565,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 238.76 101.6 0)
+			(at 229.616 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35122,114 +33582,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:L7805")
-		(at 293.37 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9be9b963-f749-4b2e-a4a3-7de720d85d27")
-		(property "Reference" "U5"
-			(at 293.37 46.4652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L7805"
-			(at 293.37 49.0021 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 294.005 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-			(at 293.37 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 293.37 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" ""
-			(at 293.37 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 293.37 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "L7805CDT-TR"
-			(at 293.37 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C310413"
-			(at 293.37 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b30509ea-5210-4c3d-a5e0-92693c3c3d38")
-		)
-		(pin "2"
-			(uuid "86e95b15-f622-4c70-a0da-c6140bfbc02e")
-		)
-		(pin "3"
-			(uuid "31247693-6fc1-48d0-ba6b-2720c61c37ba")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -35297,72 +33649,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR0166")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 316.23 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cd8fcd7-e33b-46fb-bdd8-ec2502aa41f7")
-		(property "Reference" "#PWR025"
-			(at 316.23 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 316.23 47.2242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 316.23 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.23 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 316.23 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f375f869-9bfb-42f1-8dd5-20d7d5e29130")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -35440,109 +33726,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "R47")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 207.01 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9dd244df-4f75-4134-bdb0-38f9a910e346")
-		(property "Reference" "R18"
-			(at 207.01 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120"
-			(at 207.01 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 207.01 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 207.01 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" ""
-			(at 207.01 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 207.01 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "RC0603FR-071KL"
-			(at 207.01 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25079"
-			(at 207.01 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d63bf962-b3e9-449e-9387-663b993c8606")
-		)
-		(pin "2"
-			(uuid "7d023ce4-60f9-46c3-8fd6-fb9ac0a60875")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -35682,16 +33865,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+VSW")
-		(at 284.48 25.4 0)
+		(lib_id "Connector:TestPoint")
+		(at 358.14 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9ea52775-1d64-48b5-9bea-5beab864cba4")
-		(property "Reference" "#PWR05"
-			(at 284.48 29.21 0)
+		(uuid "9f1898ae-3967-45fc-b8e4-a43750c7a9e8")
+		(property "Reference" "TP7"
+			(at 363.982 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 363.474 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 358.14 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35699,17 +33901,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "main"
-			(at 282.194 21.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 284.48 25.4 0)
+		(property "Datasheet" "~"
+			(at 358.14 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35717,17 +33910,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 284.48 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 284.48 25.4 0)
+		(property "Description" "test point"
+			(at 358.14 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35736,12 +33920,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ccf77162-de76-446c-b4ab-e2d51fb8d80f")
+			(uuid "16fcae38-5631-47fa-91a5-133c47a49986")
 		)
 		(instances
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR05")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -36755,7 +34939,7 @@
 			)
 		)
 		(property "LCSC" "C25161"
-			(at 59.69 245.11 0)
+			(at 58.928 243.078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36779,16 +34963,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 238.76 109.22 0)
+		(at 233.68 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a90a5d0e-dac3-4836-8481-c58401e330df")
 		(property "Reference" "R56"
-			(at 241.3 107.9499 0)
+			(at 236.22 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36797,7 +34980,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 241.3 110.4899 0)
+			(at 236.22 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36806,7 +34989,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 238.76 109.22 0)
+			(at 233.68 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36815,7 +34998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 109.22 0)
+			(at 233.68 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36824,7 +35007,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 109.22 0)
+			(at 233.68 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36833,7 +35016,7 @@
 			)
 		)
 		(property "LCSC#" ""
-			(at 238.76 109.22 0)
+			(at 233.68 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36842,7 +35025,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 238.76 109.22 0)
+			(at 233.68 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36851,7 +35034,7 @@
 			)
 		)
 		(property "Part#" "RC0603FR-071KL"
-			(at 238.76 109.22 0)
+			(at 233.68 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36860,7 +35043,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 238.76 109.22 0)
+			(at 229.87 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36877,72 +35060,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 313.69 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9567573-d190-4e76-8a34-e55916297d3f")
-		(property "Reference" "#PWR038"
-			(at 313.69 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 313.69 69.2134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 313.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 313.69 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6685e58-ed07-47d9-a513-2734ef3f11ff")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -37105,7 +35222,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 93.98 49.53 0)
+			(at 85.09 49.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37226,110 +35343,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 302.26 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "acde3b12-6254-4063-991e-8f0403cbde6c")
-		(property "Reference" "C13"
-			(at 304.5079 56.7242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 304.546 58.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 302.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 302.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 302.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" ""
-			(at 302.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 302.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "CL10B104KB8NNNC"
-			(at 302.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 302.26 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cd756d97-9d3d-481b-8af4-1f750adfe3a6")
-		)
-		(pin "2"
-			(uuid "192bc7be-0c07-4445-9a6c-6200330585a4")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -37480,7 +35493,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 93.98 44.45 0)
+			(at 85.09 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37783,7 +35796,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b016dbb2-136b-407e-8541-e0d167371730")
 		(property "Reference" "J5"
 			(at 373.38 121.412 0)
@@ -38032,7 +36045,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 99.06 49.53 0)
+			(at 106.934 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38049,71 +36062,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 212.09 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b19727ea-4e43-42a9-b259-7dbd9c8e1872")
-		(property "Reference" "#PWR067"
-			(at 212.09 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 212.09 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9270f91-406d-4976-9429-0bd641799d66")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -38362,7 +36310,7 @@
 			)
 		)
 		(property "LCSC" "C189895"
-			(at 71.12 267.97 0)
+			(at 75.946 265.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38475,7 +36423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "bus_supply"
+		(property "Value" "charging_voltage"
 			(at 251.46 20.32 0)
 			(effects
 				(font
@@ -38517,114 +36465,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:L7805")
-		(at 293.37 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b730715a-80c5-4f04-9b3c-a71e7339c407")
-		(property "Reference" "U1"
-			(at 293.37 21.0652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L7805"
-			(at 293.37 23.6021 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 294.005 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-			(at 293.37 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 293.37 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" ""
-			(at 293.37 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "STMicroelectronics"
-			(at 293.37 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "L7805CDT-TR"
-			(at 293.37 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C310413"
-			(at 293.37 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c5742768-5923-471b-beaa-ef7cc26680bc")
-		)
-		(pin "2"
-			(uuid "4d89271d-b93b-4985-bc77-0b534775af87")
-		)
-		(pin "3"
-			(uuid "c7e3b998-82ce-45f4-a847-0fa7769c4713")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -38807,10 +36647,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b929a8cb-31ab-4df6-bb05-0d800061c5e9")
 		(property "Reference" "D10"
-			(at 292.1 145.0974 90)
+			(at 290.322 143.002 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38818,8 +36657,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "yellow"
-			(at 292.1 147.6374 90)
+		(property "Value" "white"
+			(at 290.322 145.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38855,7 +36694,7 @@
 			)
 		)
 		(property "LCSC" "C2290"
-			(at 288.29 144.78 0)
+			(at 284.226 145.034 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39202,7 +37041,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 118.11 0)
+		(at 217.17 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39211,7 +37050,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc566439-218f-4044-8b5c-4a1d938fd7ff")
 		(property "Reference" "#PWR061"
-			(at 222.25 124.46 0)
+			(at 217.17 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39220,7 +37059,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 122.5534 0)
+			(at 217.17 142.8734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39228,7 +37067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 118.11 0)
+			(at 217.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39237,7 +37076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 118.11 0)
+			(at 217.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39246,7 +37085,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 118.11 0)
+			(at 217.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39261,6 +37100,73 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 391.16 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcf0ab8e-7d42-4565-8568-9eed6acfc699")
+		(property "Reference" "TP6"
+			(at 397.002 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 396.494 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 391.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 391.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 391.16 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0036203-6114-4080-bfab-7a0957560f30")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -39545,120 +37451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 313.69 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1a40e2c-41f4-4221-8061-fc2cb9c9c01f")
-		(property "Reference" "D8"
-			(at 315.468 61.3318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "red"
-			(at 315.468 63.8687 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 313.69 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 313.69 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 313.69 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey#" ""
-			(at 313.69 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 313.69 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 313.69 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" ""
-			(at 313.69 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2286"
-			(at 313.69 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "562c26b4-f7eb-498f-8855-0fd18cb4f328")
-		)
-		(pin "2"
-			(uuid "d90cc43d-a453-48d1-bf0f-db1c6bc81dcb")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 149.86 217.17 180)
 		(unit 1)
@@ -39713,7 +37505,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 149.86 217.17 0)
+			(at 149.606 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39808,10 +37600,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c57daa68-e04c-458a-a92e-71cca06cb107")
 		(property "Reference" "BZ1"
-			(at 104.14 248.0853 0)
+			(at 103.632 245.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39901,7 +37692,7 @@
 			)
 		)
 		(property "LCSC" "C781886"
-			(at 100.33 248.92 0)
+			(at 105.156 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40009,7 +37800,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 99.06 44.45 0)
+			(at 107.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40026,6 +37817,72 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VSW")
+		(at 284.48 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7347b4a-b842-44d2-ab3a-944927675236")
+		(property "Reference" "#PWR0104"
+			(at 284.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "main"
+			(at 282.194 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c2fc39c-f847-4e96-ab33-3f3b7297eebe")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -40307,108 +38164,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 313.69 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9ee48f3-c97d-48cf-8af5-f53cdb0e4b6c")
-		(property "Reference" "R5"
-			(at 316.738 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k5"
-			(at 315.976 32.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 313.69 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 313.69 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 313.69 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" ""
-			(at 313.69 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 313.69 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "ESR03EZPJ221"
-			(at 313.69 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25867"
-			(at 313.69 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31da1ca4-9fbd-4f96-8093-3fa493c99987")
-		)
-		(pin "2"
-			(uuid "7bf5e0b6-bcc6-4f6e-8571-f8fb6e23f064")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 368.3 27.94 0)
 		(unit 1)
@@ -40625,7 +38380,7 @@
 			)
 		)
 		(property "Value" "recovery"
-			(at 95.504 19.304 0)
+			(at 94.742 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40835,7 +38590,7 @@
 				)
 			)
 		)
-		(property "Value" "INA181A1"
+		(property "Value" "INA181A3"
 			(at 155.956 47.498 0)
 			(effects
 				(font
@@ -40852,7 +38607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina181.pdf?ts=1733985304466&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FINA181"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2058784.pdf?spm=wm.sxq.inf.ggs___wm.ssy.bg.0.xh&lcsc_vid=RgdYBQAFE1ZWUlJfElYIXwACT1VbUAEDQ1ZbVgJURgcxVlNRQ1NWUVBXQlZWXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slRVFbX11SRE8GEwkK"
 			(at 154.94 46.99 0)
 			(effects
 				(font
@@ -40870,7 +38625,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2058943"
+		(property "LCSC" "C2652255"
 			(at 151.13 50.8 0)
 			(effects
 				(font
@@ -41247,7 +39002,7 @@
 	)
 	(symbol
 		(lib_id "power:+VSW")
-		(at 358.14 52.07 0)
+		(at 358.14 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41255,7 +39010,7 @@
 		(dnp no)
 		(uuid "d14b11e3-4d1d-4c12-812e-987984cf3081")
 		(property "Reference" "#PWR027"
-			(at 358.14 55.88 0)
+			(at 358.14 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41264,7 +39019,7 @@
 			)
 		)
 		(property "Value" "vdd_ethernet"
-			(at 358.14 47.752 0)
+			(at 358.14 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41272,7 +39027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 358.14 52.07 0)
+			(at 358.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41281,7 +39036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 52.07 0)
+			(at 358.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41290,7 +39045,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 358.14 52.07 0)
+			(at 358.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41305,73 +39060,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 284.48 35.56 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2a8da7c-2373-40cd-9c13-cc1e98b6eb73")
-		(property "Reference" "#FLG05"
-			(at 284.48 37.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 284.48 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 284.48 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 284.48 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 284.48 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d5b58e2-dcaf-4d8d-a552-c0658e839863")
-		)
-		(instances
-			(project ""
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -41672,110 +39360,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 302.26 30.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d70e0e92-10f0-4274-8228-b842d77d8af7")
-		(property "Reference" "C2"
-			(at 304.546 30.226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 304.5841 32.1758 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 302.26 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 302.26 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 302.26 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" ""
-			(at 302.26 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 302.26 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" "CL10B104KB8NNNC"
-			(at 302.26 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 302.26 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "89401f7e-e9e0-47e0-878a-3b0e429ca999")
-		)
-		(pin "2"
-			(uuid "a07e0520-8d67-4891-b5dc-7d163b8181c7")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 34.29 88.9 90)
 		(unit 1)
@@ -41849,7 +39433,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d8287ee7-2753-4ceb-bc83-b6a291ae0283")
 		(property "Reference" "J3"
 			(at 40.64 21.336 0)
@@ -41923,120 +39507,6 @@
 			(project ""
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 313.69 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9957950-0282-453d-9692-a01da628402e")
-		(property "Reference" "D4"
-			(at 315.468 35.9318 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "red"
-			(at 315.468 38.4687 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 313.69 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 313.69 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 313.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey#" ""
-			(at 313.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 313.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part#" ""
-			(at 313.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" ""
-			(at 313.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2286"
-			(at 313.69 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74a35d78-cbbc-49e7-b061-9b457cd0a5d1")
-		)
-		(pin "2"
-			(uuid "6eef9f0f-cb8a-4be5-894a-9976ace0b123")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -42272,72 +39742,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+VSW")
-		(at 284.48 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9c0533f-4582-495c-bf9e-54327058083b")
-		(property "Reference" "#PWR024"
-			(at 284.48 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "main"
-			(at 281.94 46.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 284.48 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 284.48 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 284.48 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "02e03816-f16a-417e-bdee-8c831a9aa80d")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -42631,7 +40035,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 270.51 90)
+		(at 60.96 270.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42639,7 +40043,7 @@
 		(dnp no)
 		(uuid "deaecc6b-b360-4655-be93-5ee4ccc46ceb")
 		(property "Reference" "R52"
-			(at 60.452 270.51 90)
+			(at 62.992 270.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42648,7 +40052,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 63.754 269.494 90)
+			(at 66.294 269.494 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42657,7 +40061,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 58.42 272.288 90)
+			(at 60.96 272.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42666,7 +40070,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 270.51 0)
+			(at 60.96 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42675,7 +40079,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 270.51 0)
+			(at 60.96 270.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42684,7 +40088,7 @@
 			)
 		)
 		(property "LCSC" "C25161"
-			(at 58.42 270.51 0)
+			(at 60.706 272.796 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42701,72 +40105,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 293.37 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfc6a58b-de12-4562-bac1-28ae0a18981a")
-		(property "Reference" "#PWR035"
-			(at 293.37 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 293.37 66.6734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 293.37 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 293.37 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76fe392c-a2d1-47d4-8e48-01c26f0f0e45")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -42904,84 +40242,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 210.82 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2a5e25e-6166-4b97-a024-ed559d926a38")
-		(property "Reference" "C31"
-			(at 213.36 148.5835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 213.36 151.1235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 210.82 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 210.82 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "147c739c-0e70-4703-bdf8-208c609f3ed8")
-		)
-		(pin "2"
-			(uuid "236972a2-f93c-4ab7-914a-36efd9dc6f30")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 156.21 85.09 0)
 		(unit 1)
@@ -43041,72 +40301,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 318.77 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3e51422-6d0b-4a56-b642-882bf5818d28")
-		(property "Reference" "#PWR06"
-			(at 318.77 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 318.77 21.8242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 318.77 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 318.77 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 318.77 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26ef714a-5939-4459-be39-eb15dfae4913")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -43844,7 +41038,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "eb6d8238-ab13-4b2d-bc6e-6a9983c7df62")
 		(property "Reference" "J4"
 			(at 40.64 36.576 0)
@@ -43918,72 +41112,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 210.82 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eca7eb30-36f6-4cc5-a6d9-827c1554cf0c")
-		(property "Reference" "#PWR079"
-			(at 210.82 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 156.8434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 210.82 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "199c747a-97ef-49ea-86cd-2d02b6e3fa9a")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -44347,148 +41475,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 313.69 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2a71d28-a6fb-48eb-84f5-7da7291a9b32")
-		(property "Reference" "#PWR017"
-			(at 313.69 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 313.69 43.8134 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 313.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 313.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 313.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f3ab767-91af-40e0-9685-09e57187a2cc")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SS34")
-		(at 257.81 140.97 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3ae03ce-1f5e-4bb7-9a12-7f1e535a4d0e")
-		(property "Reference" "D9"
-			(at 258.1275 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS34"
-			(at 258.1275 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 257.81 136.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 257.81 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C8678"
-			(at 257.81 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "efeac414-e0e9-415f-b18f-e5ca7c3cc569")
-		)
-		(pin "1"
-			(uuid "99305f5d-878f-48b3-ba28-629f88e1026e")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 368.3 58.42 180)
 		(unit 1)
@@ -44645,6 +41631,72 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 309.88 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7c893b7-cf46-4a9f-95b7-72d2fca5de46")
+		(property "Reference" "#PWR0105"
+			(at 309.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 309.88 35.7942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d55c8d8b-aae5-4608-909a-aacda1f6981e")
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -44855,72 +41907,6 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 293.37 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd52f336-efe7-4d6e-a720-cf8b08f614c1")
-		(property "Reference" "#PWR016"
-			(at 293.37 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 293.37 41.2734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 293.37 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 293.37 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "561ee2ef-3271-46cd-aab7-65a195b653ea")
-		)
-		(instances
-			(project "stigma_mission_board_hysteresis"
-				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -45279,6 +42265,68 @@
 			(project "stigma_mission_board_hysteresis"
 				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 288.29 33.782)
+		(size 19.05 13.462)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e95e9615-bb2f-4c9c-a29c-0b0b4e2cd4ba")
+		(property "Sheetname" "voltage_regulator"
+			(at 288.29 33.0704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voltage_regulator.kicad_sch"
+			(at 288.29 47.8286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 307.34 40.64 0)
+			(uuid "5048fc9e-a8c4-4616-a3c3-4bd783de4ba7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "main" input
+			(at 288.29 40.64 180)
+			(uuid "6ed98504-768f-40b2-bd93-a4cfa59111d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stigma_mission_board_hysteresis"
+				(path "/34e067c7-b84e-477a-88f3-7322f422dd23"
+					(page "4")
 				)
 			)
 		)
